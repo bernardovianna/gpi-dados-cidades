@@ -1,0 +1,1845 @@
+<!doctype html>
+<html lang="pt_BR">
+
+<head>
+  
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/5af416af23.js" crossorigin="anonymous"></script>
+  <!-- Bokeh -->
+  <script src="https://cdn.bokeh.org/bokeh/release/bokeh-1.4.0.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171485070-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-171485070-1');
+  </script>
+  <!-- Custom CSS -->
+  <style type="text/css">
+    @media (min-width: 1200px) {.container{max-width: 1400px;}}
+  </style>
+  
+</head>
+
+<body data-spy="scroll" data-target="#navbar1" data-offset="0" style="position: relative;" class="bg-warning">
+
+  <nav class="navbar navbar-expand-lg font-weight-bold bg-warning p-4 mx-auto shadow-sm">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerTop" aria-controls="navbarTogglerTop" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon text-dark p-2">Menu principal</span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerTop">
+    <ul class="navbar-nav mx-auto text-center">
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/">Início</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/panorama-municipal">Municípios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/politicas-publicas">Políticas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/transparencia-jornalismo-de-dados">Transparência</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/copia-impacto">Dados</a>
+      </li>      
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/as-regras-do-jogo">TSE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/integridade-noticiosa">Ética</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/checagem-e-verificacao">Checagem</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/copia-verificacao-e-checagem">Impacto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/sugestoes-de-pauta">Perguntas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/copia-impacto-1">Mais</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/sobre">Sobre</a>
+      </li>                        
+    </ul>
+    </div>
+  </nav>
+
+  
+  
+  
+  </div>
+  </div>
+  </div>
+
+  <div class="container">
+    
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Intro -->
+<div class="rounded p-5 bg-light">
+ 
+  <div class="mt-3">
+    <p><a class="text-muted" href="/"><< Retornar para selecionar outra cidade</a></p>
+    <p class="h1"><font class="font-weight-bold">Dores do Turvo - MG</font></p> 
+    <p class="h2">Confira o que encontramos ao buscar dados em algumas bases públicas.</p>
+  </div>
+
+  <div class="row mt-3">
+    <div class="col-sm">
+      <div class="card mb-3">
+        <div class="card-body bg-white"><font class="font-weight-bold">População:</font> 4.259
+                               <br><div class="small text-muted">População estimada - IBGE 2019</div></div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card mb-3">
+        <div class="card-body bg-white"><font class="font-weight-bold">PIB per capita:</font> R$ 10.279,47
+                               <br><div class="small text-muted">IBGE 2017</div></div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card mb-3">
+        <div class="card-body bg-white">
+          
+          <font class="font-weight-bold">IDHM:</font> 0,629
+          
+          <br><div class="small text-muted">IBGE 2010</div>
+      </div>
+      </div>
+    </div>
+  </div>  
+  
+
+  <p class="mt-3 lead">Acima estão alguns dados gerais sobre Dores do Turvo, mas podemos encontrar muito mais explorando bancos de dados públicos.</p> <p class="lead">Organizamos essas informações em categorias e, em cada uma delas, comparamos os valores dos indicadores com as <font class="font-weight-bold">respectivas médias</font> calculadas ao considerarmos municípios de mesmo porte habitacional (até 50 mil habitantes), municípios do mesmo estado (MG), municípios da mesma região (Sudeste) e todos os municípios brasileiros. Quando o valor do indicador de Dores do Turvo for melhor do que o valor médio dos municípios de todo o país, o número é mostrado em <font class="font-weight-bold text-success">verde</font>, quando for pior, é mostrado em <font class="font-weight-bold text-danger">vermelho</font>.</p> <p class="lead">Também comparamos alguns indicadores específicos com até outros cinco municípios com população e economia de tamanhos próximos -- confira na seção "Comparações".</p>
+
+</div>
+
+<!-- Nav tabs -->
+  <nav id="navbar1" class="navbar navbar-expand-lg navbar-light sticky-top rounded mt-3 mb-3" style="background-color: #fff6eb;">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerNav" aria-controls="navbarTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon nav-link text-dark"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerNav">
+    <nav class="nav nav-pills font-weight-bold mx-auto">
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="/">Outras cidades</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#comparacoes"><i class="fas fa-chart-bar fa-lg"></i> Comparações</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#educacao"><i class="fas fa-book-reader fa-lg"></i> Educação</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#habitacao"><i class="fas fa-home fa-lg"></i> Habitação</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#meioambiente"><i class="fas fa-leaf fa-lg"></i> Meio Ambiente</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#mobilidade"><i class="fas fa-bus fa-lg"></i> Mobilidade</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#saude"><i class="fas fa-heartbeat fa-lg"></i> Saúde</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#seguranca"><i class="fas fa-user-shield fa-lg"></i> Segurança</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#orcamento"><i class="fas fa-dollar-sign fa-lg"></i> Orçamento</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#sobre">Sobre os dados</a>
+    </nav>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+<!-- Comparações -->
+<div class="rounded p-5 bg-light">
+
+  <div class="row px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="comparacoes" style="padding-top: 100px; margin-top: -100px;">Comparações</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+
+  <div class="px-2 py-2 mt-3 rounded">
+    <p class="lead my-3">Como os indicadores de Dores do Turvo se comparam aos de outras cidades com porte populacional e econômico semelhante? Confira nos gráficos a seguir.</p>
+    <div class="row mt-5">
+      
+      <div class="col-sm">
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"c9e9cb21-2798-4486-a9a1-535509440b67":{"roots":{"references":[{"attributes":{"callback":null,"tooltips":[["Ideb 2017 - Anos Iniciais","@indicador{0.0}"]]},"id":"1916802","type":"HoverTool"},{"attributes":{"callback":null,"data":{"cidades":["Marli\\u00e9ria - MG","Acaiaca - MG","Capela Nova - MG","Couto de Magalh\\u00e3es de Minas - MG","Recursol\\u00e2ndia - TO","Dores do Turvo - MG"],"colors":["#08519c","#2171b5","#4292c6","#6baed6","#9ecae1","orange"],"indicador":[6.4,6.4,6.3,5.5,3.7,"NaN"]},"selected":{"id":"1916818","type":"Selection"},"selection_policy":{"id":"1916817","type":"UnionRenderers"}},"id":"1916805","type":"ColumnDataSource"},{"attributes":{"text":"Ideb 2017 - Anos Iniciais"},"id":"1916783","type":"Title"},{"attributes":{},"id":"1916818","type":"Selection"},{"attributes":{"ticker":{"id":"1916794","type":"CategoricalTicker"}},"id":"1916796","type":"Grid"},{"attributes":{"below":[{"id":"1916793","type":"CategoricalAxis"}],"center":[{"id":"1916796","type":"Grid"},{"id":"1916801","type":"Grid"}],"left":[{"id":"1916797","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"1916809","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"1916783","type":"Title"},"toolbar":{"id":"1916803","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"1916785","type":"FactorRange"},"x_scale":{"id":"1916789","type":"CategoricalScale"},"y_range":{"id":"1916811","type":"Range1d"},"y_scale":{"id":"1916791","type":"LinearScale"}},"id":"1916782","subtype":"Figure","type":"Plot"},{"attributes":{"fill_alpha":{"value":0.9},"fill_color":{"field":"colors"},"line_color":{"field":"colors"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"1916807","type":"VBar"},{"attributes":{},"id":"1916814","type":"BasicTickFormatter"},{"attributes":{"callback":null,"factors":["Marli\\u00e9ria - MG","Acaiaca - MG","Capela Nova - MG","Couto de Magalh\\u00e3es de Minas - MG","Recursol\\u00e2ndia - TO","Dores do Turvo - MG"]},"id":"1916785","type":"FactorRange"},{"attributes":{"source":{"id":"1916805","type":"ColumnDataSource"}},"id":"1916810","type":"CDSView"},{"attributes":{},"id":"1916798","type":"BasicTicker"},{"attributes":{},"id":"1916789","type":"CategoricalScale"},{"attributes":{},"id":"1916794","type":"CategoricalTicker"},{"attributes":{},"id":"1916817","type":"UnionRenderers"},{"attributes":{"data_source":{"id":"1916805","type":"ColumnDataSource"},"glyph":{"id":"1916807","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1916808","type":"VBar"},"selection_glyph":null,"view":{"id":"1916810","type":"CDSView"}},"id":"1916809","type":"GlyphRenderer"},{"attributes":{"formatter":{"id":"1916816","type":"CategoricalTickFormatter"},"major_label_orientation":45,"ticker":{"id":"1916794","type":"CategoricalTicker"}},"id":"1916793","type":"CategoricalAxis"},{"attributes":{"callback":null,"end":10},"id":"1916811","type":"Range1d"},{"attributes":{"formatter":{"id":"1916814","type":"BasicTickFormatter"},"ticker":{"id":"1916798","type":"BasicTicker"}},"id":"1916797","type":"LinearAxis"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1916802","type":"HoverTool"}]},"id":"1916803","type":"Toolbar"},{"attributes":{},"id":"1916791","type":"LinearScale"},{"attributes":{"dimension":1,"ticker":{"id":"1916798","type":"BasicTicker"}},"id":"1916801","type":"Grid"},{"attributes":{},"id":"1916816","type":"CategoricalTickFormatter"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"1916808","type":"VBar"}],"root_ids":["1916782"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"c9e9cb21-2798-4486-a9a1-535509440b67","roots":{"1916782":"dba76c72-c24c-42d7-af22-b4cb2ee0e916"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+        
+<div class="bk-root" id="dba76c72-c24c-42d7-af22-b4cb2ee0e916" data-root-id="1916782"></div> 
+        <div class="small">Elaboração: Insper. Dados: Inep - 2017.</div>
+      </div>
+      
+      
+      <div class="col-sm">
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"d3bd05e4-a8d0-421a-8254-15740d9cc05b":{"roots":{"references":[{"attributes":{},"id":"1916856","type":"LinearScale"},{"attributes":{"source":{"id":"1916870","type":"ColumnDataSource"}},"id":"1916875","type":"CDSView"},{"attributes":{"formatter":{"id":"1916879","type":"BasicTickFormatter"},"ticker":{"id":"1916863","type":"BasicTicker"}},"id":"1916862","type":"LinearAxis"},{"attributes":{"below":[{"id":"1916858","type":"CategoricalAxis"}],"center":[{"id":"1916861","type":"Grid"},{"id":"1916866","type":"Grid"}],"left":[{"id":"1916862","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"1916874","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"1916848","type":"Title"},"toolbar":{"id":"1916868","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"1916850","type":"FactorRange"},"x_scale":{"id":"1916854","type":"CategoricalScale"},"y_range":{"id":"1916876","type":"Range1d"},"y_scale":{"id":"1916856","type":"LinearScale"}},"id":"1916847","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1916854","type":"CategoricalScale"},{"attributes":{},"id":"1916879","type":"BasicTickFormatter"},{"attributes":{},"id":"1916859","type":"CategoricalTicker"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"1916873","type":"VBar"},{"attributes":{"data_source":{"id":"1916870","type":"ColumnDataSource"},"glyph":{"id":"1916872","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1916873","type":"VBar"},"selection_glyph":null,"view":{"id":"1916875","type":"CDSView"}},"id":"1916874","type":"GlyphRenderer"},{"attributes":{},"id":"1916883","type":"Selection"},{"attributes":{"dimension":1,"ticker":{"id":"1916863","type":"BasicTicker"}},"id":"1916866","type":"Grid"},{"attributes":{},"id":"1916863","type":"BasicTicker"},{"attributes":{},"id":"1916882","type":"UnionRenderers"},{"attributes":{"callback":null,"tooltips":[["\\u00ccndice de Desenvolvimento Humano Municipal","@indicador"]]},"id":"1916867","type":"HoverTool"},{"attributes":{},"id":"1916881","type":"CategoricalTickFormatter"},{"attributes":{"text":"\\u00ccndice de Desenvolvimento Humano Municipal"},"id":"1916848","type":"Title"},{"attributes":{"fill_alpha":{"value":0.9},"fill_color":{"field":"colors"},"line_color":{"field":"colors"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"1916872","type":"VBar"},{"attributes":{"formatter":{"id":"1916881","type":"CategoricalTickFormatter"},"major_label_orientation":45,"ticker":{"id":"1916859","type":"CategoricalTicker"}},"id":"1916858","type":"CategoricalAxis"},{"attributes":{"callback":null},"id":"1916876","type":"Range1d"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1916867","type":"HoverTool"}]},"id":"1916868","type":"Toolbar"},{"attributes":{"callback":null,"data":{"cidades":["Couto de Magalh\\u00e3es de Minas - MG","Marli\\u00e9ria - MG","Capela Nova - MG","Acaiaca - MG","Dores do Turvo - MG","Recursol\\u00e2ndia - TO"],"colors":["#08519c","#2171b5","#4292c6","#6baed6","orange","#c6dbef"],"indicador":[0.659,0.657,0.648,0.63,0.629,0.5]},"selected":{"id":"1916883","type":"Selection"},"selection_policy":{"id":"1916882","type":"UnionRenderers"}},"id":"1916870","type":"ColumnDataSource"},{"attributes":{"ticker":{"id":"1916859","type":"CategoricalTicker"}},"id":"1916861","type":"Grid"},{"attributes":{"callback":null,"factors":["Couto de Magalh\\u00e3es de Minas - MG","Marli\\u00e9ria - MG","Capela Nova - MG","Acaiaca - MG","Dores do Turvo - MG","Recursol\\u00e2ndia - TO"]},"id":"1916850","type":"FactorRange"}],"root_ids":["1916847"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"d3bd05e4-a8d0-421a-8254-15740d9cc05b","roots":{"1916847":"fc329823-66e2-4f37-b35d-72fbead5ddea"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+        
+<div class="bk-root" id="fc329823-66e2-4f37-b35d-72fbead5ddea" data-root-id="1916847"></div>
+        <div class="small">Elaboração: Insper. Dados: PNUD - 2010.</div> 
+      </div>
+          
+    </div>
+    <div class="row mt-5">
+      
+      <div class="col-sm">
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"b1a6da3c-1ac2-49ab-bc8b-1fdd0298a785":{"roots":{"references":[{"attributes":{"callback":null,"factors":["Couto de Magalh\\u00e3es de Minas - MG","Marli\\u00e9ria - MG","Acaiaca - MG","Recursol\\u00e2ndia - TO","Capela Nova - MG","Dores do Turvo - MG"]},"id":"1916915","type":"FactorRange"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1916932","type":"HoverTool"}]},"id":"1916933","type":"Toolbar"},{"attributes":{},"id":"1916948","type":"Selection"},{"attributes":{"text":"% da popula\\u00e7\\u00e3o com coleta e tratamento de esgoto"},"id":"1916913","type":"Title"},{"attributes":{"data_source":{"id":"1916935","type":"ColumnDataSource"},"glyph":{"id":"1916937","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1916938","type":"VBar"},"selection_glyph":null,"view":{"id":"1916940","type":"CDSView"}},"id":"1916939","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.9},"fill_color":{"field":"colors"},"line_color":{"field":"colors"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"1916937","type":"VBar"},{"attributes":{"callback":null,"tooltips":[["% da popula\\u00e7\\u00e3o com coleta e tratamento de esgoto","@indicador{0.0}%"]]},"id":"1916932","type":"HoverTool"},{"attributes":{},"id":"1916944","type":"BasicTickFormatter"},{"attributes":{},"id":"1916921","type":"LinearScale"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"1916938","type":"VBar"},{"attributes":{"source":{"id":"1916935","type":"ColumnDataSource"}},"id":"1916940","type":"CDSView"},{"attributes":{},"id":"1916919","type":"CategoricalScale"},{"attributes":{"ticker":{"id":"1916924","type":"CategoricalTicker"}},"id":"1916926","type":"Grid"},{"attributes":{"below":[{"id":"1916923","type":"CategoricalAxis"}],"center":[{"id":"1916926","type":"Grid"},{"id":"1916931","type":"Grid"}],"left":[{"id":"1916927","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"1916939","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"1916913","type":"Title"},"toolbar":{"id":"1916933","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"1916915","type":"FactorRange"},"x_scale":{"id":"1916919","type":"CategoricalScale"},"y_range":{"id":"1916941","type":"Range1d"},"y_scale":{"id":"1916921","type":"LinearScale"}},"id":"1916912","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1916946","type":"CategoricalTickFormatter"},{"attributes":{"callback":null,"data":{"cidades":["Couto de Magalh\\u00e3es de Minas - MG","Marli\\u00e9ria - MG","Acaiaca - MG","Recursol\\u00e2ndia - TO","Capela Nova - MG","Dores do Turvo - MG"],"colors":["#08519c","#2171b5","#4292c6","#6baed6","#9ecae1","orange"],"indicador":[0.0,0.0,0.0,0.0,0.0,0.0]},"selected":{"id":"1916948","type":"Selection"},"selection_policy":{"id":"1916947","type":"UnionRenderers"}},"id":"1916935","type":"ColumnDataSource"},{"attributes":{},"id":"1916947","type":"UnionRenderers"},{"attributes":{"dimension":1,"ticker":{"id":"1916928","type":"BasicTicker"}},"id":"1916931","type":"Grid"},{"attributes":{},"id":"1916924","type":"CategoricalTicker"},{"attributes":{"formatter":{"id":"1916946","type":"CategoricalTickFormatter"},"major_label_orientation":45,"ticker":{"id":"1916924","type":"CategoricalTicker"}},"id":"1916923","type":"CategoricalAxis"},{"attributes":{},"id":"1916928","type":"BasicTicker"},{"attributes":{"formatter":{"id":"1916944","type":"BasicTickFormatter"},"ticker":{"id":"1916928","type":"BasicTicker"}},"id":"1916927","type":"LinearAxis"},{"attributes":{"callback":null,"end":100},"id":"1916941","type":"Range1d"}],"root_ids":["1916912"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"b1a6da3c-1ac2-49ab-bc8b-1fdd0298a785","roots":{"1916912":"c41892b1-c2c6-4f49-8be4-04ad058f56a0"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+        
+<div class="bk-root" id="c41892b1-c2c6-4f49-8be4-04ad058f56a0" data-root-id="1916912"></div>
+        <div class="small">Elaboração: Insper. Dados: Snirh - 2013.</div> 
+      </div>
+      
+      
+      <div class="col-sm">
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"7a9ed46b-43d1-4f4d-9132-931a54cd9870":{"roots":{"references":[{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"1917003","type":"VBar"},{"attributes":{},"id":"1917011","type":"CategoricalTickFormatter"},{"attributes":{"fill_alpha":{"value":0.9},"fill_color":{"field":"colors"},"line_color":{"field":"colors"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"1917002","type":"VBar"},{"attributes":{},"id":"1916989","type":"CategoricalTicker"},{"attributes":{"dimension":1,"ticker":{"id":"1916993","type":"BasicTicker"}},"id":"1916996","type":"Grid"},{"attributes":{},"id":"1917009","type":"BasicTickFormatter"},{"attributes":{},"id":"1917012","type":"UnionRenderers"},{"attributes":{"formatter":{"id":"1917009","type":"BasicTickFormatter"},"ticker":{"id":"1916993","type":"BasicTicker"}},"id":"1916992","type":"LinearAxis"},{"attributes":{},"id":"1916993","type":"BasicTicker"},{"attributes":{"data_source":{"id":"1917000","type":"ColumnDataSource"},"glyph":{"id":"1917002","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1917003","type":"VBar"},"selection_glyph":null,"view":{"id":"1917005","type":"CDSView"}},"id":"1917004","type":"GlyphRenderer"},{"attributes":{"callback":null,"end":100},"id":"1917006","type":"Range1d"},{"attributes":{"callback":null,"data":{"cidades":["Acaiaca - MG","Dores do Turvo - MG","Capela Nova - MG","Couto de Magalh\\u00e3es de Minas - MG","Marli\\u00e9ria - MG","Recursol\\u00e2ndia - TO"],"colors":["#08519c","orange","#4292c6","#6baed6","#9ecae1","#c6dbef"],"indicador":[97.1,96.79,86.26,84.58,66.99,45.09]},"selected":{"id":"1917013","type":"Selection"},"selection_policy":{"id":"1917012","type":"UnionRenderers"}},"id":"1917000","type":"ColumnDataSource"},{"attributes":{},"id":"1916986","type":"LinearScale"},{"attributes":{"formatter":{"id":"1917011","type":"CategoricalTickFormatter"},"major_label_orientation":45,"ticker":{"id":"1916989","type":"CategoricalTicker"}},"id":"1916988","type":"CategoricalAxis"},{"attributes":{},"id":"1917013","type":"Selection"},{"attributes":{"below":[{"id":"1916988","type":"CategoricalAxis"}],"center":[{"id":"1916991","type":"Grid"},{"id":"1916996","type":"Grid"}],"left":[{"id":"1916992","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"1917004","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"1916978","type":"Title"},"toolbar":{"id":"1916998","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"1916980","type":"FactorRange"},"x_scale":{"id":"1916984","type":"CategoricalScale"},"y_range":{"id":"1917006","type":"Range1d"},"y_scale":{"id":"1916986","type":"LinearScale"}},"id":"1916977","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1916984","type":"CategoricalScale"},{"attributes":{"text":"% da popula\\u00e7\\u00e3o que vive em ruas pavimentadas"},"id":"1916978","type":"Title"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1916997","type":"HoverTool"}]},"id":"1916998","type":"Toolbar"},{"attributes":{"callback":null,"tooltips":[["% da popula\\u00e7\\u00e3o que vive em ruas pavimentadas","@indicador{0.0}%"]]},"id":"1916997","type":"HoverTool"},{"attributes":{"source":{"id":"1917000","type":"ColumnDataSource"}},"id":"1917005","type":"CDSView"},{"attributes":{"callback":null,"factors":["Acaiaca - MG","Dores do Turvo - MG","Capela Nova - MG","Couto de Magalh\\u00e3es de Minas - MG","Marli\\u00e9ria - MG","Recursol\\u00e2ndia - TO"]},"id":"1916980","type":"FactorRange"},{"attributes":{"ticker":{"id":"1916989","type":"CategoricalTicker"}},"id":"1916991","type":"Grid"}],"root_ids":["1916977"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"7a9ed46b-43d1-4f4d-9132-931a54cd9870","roots":{"1916977":"345730f1-f779-4b90-98f5-cb82d4401bf1"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+        
+<div class="bk-root" id="345730f1-f779-4b90-98f5-cb82d4401bf1" data-root-id="1916977"></div>
+        <div class="small">Elaboração: Insper. Dados: Ibge - 2017.</div> 
+      </div>    
+      
+    </div>
+  </div>
+
+  
+  <div class="px-2 py-2 mt-5 rounded ">
+    <p class="h3 font-weight-bold">Regiões de Influência das Cidades - REGIC</p>
+    <p class="lead my-3">Realizada pelo Ibge, a pesquisa <a href='https://www.ibge.gov.br/geociencias/cartas-e-mapas/redes-geograficas/15798-regioes-de-influencia-das-cidades.html' target='_blank'>Regiões de Influência das Cidades - REGIC</a> "define a hierarquia dos centros urbanos brasileiros e delimita as regiões de influência a eles associados". Além disso, a pesquisa identifica os fluxos de bens e serviços entre os municípios, permitindo identificar, por exemplo, se a população encontra atendimento médico em sua cidade ou se precisa se deslocar até outro centro urbano.</p>
+    <div class="table-responsive">
+      <table class="table table-striped mt-3">
+        
+        <thead>
+          <th>Atendimento em Saúde</th>
+          <th>Baixa e Média Complexidade</th>
+          <th>Alta Complexidade</th>
+        </thead>
+        <tr>
+          <td></td>
+          <td>Arranjo Populacional de Ubá/MG</td>
+          <td>Arranjo Populacional de Ubá/MG</td>
+        </tr>
+        <thead>
+          <th>Região de comércio</th>
+          <th>Vestuário e calçados</th>
+          <th>Móveis, eletrodomésticos, aparelhos eletrônicos e de informática</th>
+        </thead>
+        <tr>
+          <td></td>
+          <td>Arranjo Populacional de Ubá/MG</td>
+          <td>Arranjo Populacional de Ubá/MG</td>
+        </tr>        
+      </table>
+    </div>
+    <div class="small font-italic text-right">Elaboração: Insper. Dados: Ibge - Regic - 2018.</div>
+  </div>
+  
+
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Educação -->
+<div class="rounded p-5 bg-light">
+
+  <div class="row px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="educacao" style="padding-top: 100px; margin-top: -100px;">Educação</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+
+  <!-- Ideb 2017 -->
+    
+
+  <!-- Sinopse Estatística 2019 -->
+    
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Distribuição das redes de educação no município</p>
+    <p class="lead my-3">A partir da <a href="http://inep.gov.br/sinopses-estatisticas-da-educacao-basica">Sinopse Estatística da Educação Básica de 2019</a>, divulgada pelo Inep, é possível saber quantas matrículas, quantos docentes e quantas escolas há em Dores do Turvo nas redes de ensino públicas - municipal, estadual e federal - e na rede privada.</p>
+
+    
+    <p class="h5 mt-5 font-weight-bold">Número de matrículas por etapa e rede de ensino</p>
+    <div class="row">
+      <div class="col-sm">
+        <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead>
+            <th></th>
+            <th>municipal</th>
+            <th>estadual</th>
+            <th>federal</th>
+            <th>privada</th>
+            <th>total</th>
+          </thead>
+          <tr>
+            <td>Creche</td>
+            <td>44</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>44</td>
+          </tr>
+          <tr>
+            <td>Pré-Escola</td>
+            <td>80</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>80</td>
+          </tr>            
+          <tr>
+            <td>Fund I</td>
+            <td>297</td>
+            <td>0</td>
+            <td>0</td>
+            <td>5</td>
+            <td>302</td>
+          </tr>            
+          <tr>
+            <td>Fund II</td>
+            <td>0</td>
+            <td>241</td>
+            <td>0</td>
+            <td>0</td>
+            <td>241</td>
+          </tr>                                    
+        </table>
+        </div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2019.</div>
+      </div>
+      <div class="col-sm">
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"fea5cf39-acf4-44a5-92d4-3fc875b4b7cb":{"roots":{"references":[{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,241],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[44,80,297,0],"Privada":[0,0,5,0]},"selected":{"id":"1916132","type":"Selection"},"selection_policy":{"id":"1916131","type":"UnionRenderers"}},"id":"1916104","type":"ColumnDataSource"},{"attributes":{},"id":"1916164","type":"UnionRenderers"},{"attributes":{},"id":"1916077","type":"CategoricalTicker"},{"attributes":{"label":{"value":"Municipal"},"renderers":[{"id":"1916095","type":"GlyphRenderer"}]},"id":"1916103","type":"LegendItem"},{"attributes":{"fields":["Municipal","Estadual","Federal","Privada"]},"id":"1916090","type":"Stack"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1916080","type":"HoverTool"}]},"id":"1916081","type":"Toolbar"},{"attributes":{},"id":"1916132","type":"Selection"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"navy"},"height":{"value":0.8},"left":{"expr":{"id":"1916083","type":"Stack"}},"line_color":{"value":"navy"},"right":{"expr":{"id":"1916084","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916093","type":"HBar"},{"attributes":{"label":{"value":"Federal"},"renderers":[{"id":"1916122","type":"GlyphRenderer"}]},"id":"1916133","type":"LegendItem"},{"attributes":{"fields":["Municipal","Estadual"]},"id":"1916087","type":"Stack"},{"attributes":{},"id":"1916165","type":"Selection"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"1916089","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"1916090","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916137","type":"HBar"},{"attributes":{"fields":[]},"id":"1916083","type":"Stack"},{"attributes":{"callback":null,"start":0},"id":"1916063","type":"DataRange1d"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"purple"},"height":{"value":0.8},"left":{"expr":{"id":"1916087","type":"Stack"}},"line_color":{"value":"purple"},"right":{"expr":{"id":"1916088","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916120","type":"HBar"},{"attributes":{"source":{"id":"1916134","type":"ColumnDataSource"}},"id":"1916139","type":"CDSView"},{"attributes":{"fields":["Municipal"]},"id":"1916084","type":"Stack"},{"attributes":{},"id":"1916150","type":"Selection"},{"attributes":{"fields":["Municipal","Estadual","Federal"]},"id":"1916089","type":"Stack"},{"attributes":{},"id":"1916067","type":"LinearScale"},{"attributes":{"label":{"value":"Privada"},"renderers":[{"id":"1916138","type":"GlyphRenderer"}]},"id":"1916151","type":"LegendItem"},{"attributes":{"dimension":1,"grid_line_color":null,"ticker":{"id":"1916077","type":"CategoricalTicker"}},"id":"1916079","type":"Grid"},{"attributes":{"callback":null,"factors":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"range_padding":1},"id":"1916065","type":"FactorRange"},{"attributes":{"label":{"value":"Estadual"},"renderers":[{"id":"1916108","type":"GlyphRenderer"}]},"id":"1916117","type":"LegendItem"},{"attributes":{"source":{"id":"1916091","type":"ColumnDataSource"}},"id":"1916096","type":"CDSView"},{"attributes":{"fields":["Municipal"]},"id":"1916085","type":"Stack"},{"attributes":{},"id":"1916072","type":"BasicTicker"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"1916083","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"1916084","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916094","type":"HBar"},{"attributes":{"formatter":{"id":"1916099","type":"CategoricalTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"1916077","type":"CategoricalTicker"}},"id":"1916076","type":"CategoricalAxis"},{"attributes":{},"id":"1916149","type":"UnionRenderers"},{"attributes":{"text":"Matr\\u00edculas - Educa\\u00e7\\u00e3o Infantil e Ensino Fundamental"},"id":"1916061","type":"Title"},{"attributes":{"data_source":{"id":"1916134","type":"ColumnDataSource"},"glyph":{"id":"1916136","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Privada","nonselection_glyph":{"id":"1916137","type":"HBar"},"selection_glyph":null,"view":{"id":"1916139","type":"CDSView"}},"id":"1916138","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"1916085","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"1916086","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916107","type":"HBar"},{"attributes":{"callback":null,"tooltips":"Rede $name: @$name"},"id":"1916080","type":"HoverTool"},{"attributes":{"data_source":{"id":"1916118","type":"ColumnDataSource"},"glyph":{"id":"1916120","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Federal","nonselection_glyph":{"id":"1916121","type":"HBar"},"selection_glyph":null,"view":{"id":"1916123","type":"CDSView"}},"id":"1916122","type":"GlyphRenderer"},{"attributes":{},"id":"1916099","type":"CategoricalTickFormatter"},{"attributes":{"format":"0a"},"id":"1916152","type":"NumeralTickFormatter"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,241],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[44,80,297,0],"Privada":[0,0,5,0]},"selected":{"id":"1916116","type":"Selection"},"selection_policy":{"id":"1916115","type":"UnionRenderers"}},"id":"1916091","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"1916087","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"1916088","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916121","type":"HBar"},{"attributes":{"data_source":{"id":"1916091","type":"ColumnDataSource"},"glyph":{"id":"1916093","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Municipal","nonselection_glyph":{"id":"1916094","type":"HBar"},"selection_glyph":null,"view":{"id":"1916096","type":"CDSView"}},"id":"1916095","type":"GlyphRenderer"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,241],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[44,80,297,0],"Privada":[0,0,5,0]},"selected":{"id":"1916165","type":"Selection"},"selection_policy":{"id":"1916164","type":"UnionRenderers"}},"id":"1916134","type":"ColumnDataSource"},{"attributes":{},"id":"1916116","type":"Selection"},{"attributes":{"fields":["Municipal","Estadual"]},"id":"1916086","type":"Stack"},{"attributes":{},"id":"1916069","type":"CategoricalScale"},{"attributes":{},"id":"1916115","type":"UnionRenderers"},{"attributes":{"fields":["Municipal","Estadual","Federal"]},"id":"1916088","type":"Stack"},{"attributes":{"below":[{"id":"1916071","type":"LinearAxis"}],"center":[{"id":"1916075","type":"Grid"},{"id":"1916079","type":"Grid"},{"id":"1916102","type":"Legend"}],"left":[{"id":"1916076","type":"CategoricalAxis"}],"outline_line_color":{"value":null},"plot_height":400,"renderers":[{"id":"1916095","type":"GlyphRenderer"},{"id":"1916108","type":"GlyphRenderer"},{"id":"1916122","type":"GlyphRenderer"},{"id":"1916138","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"1916061","type":"Title"},"toolbar":{"id":"1916081","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"1916063","type":"DataRange1d"},"x_scale":{"id":"1916067","type":"LinearScale"},"y_range":{"id":"1916065","type":"FactorRange"},"y_scale":{"id":"1916069","type":"CategoricalScale"}},"id":"1916060","subtype":"Figure","type":"Plot"},{"attributes":{"formatter":{"id":"1916152","type":"NumeralTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"1916072","type":"BasicTicker"}},"id":"1916071","type":"LinearAxis"},{"attributes":{"items":[{"id":"1916103","type":"LegendItem"},{"id":"1916117","type":"LegendItem"},{"id":"1916133","type":"LegendItem"},{"id":"1916151","type":"LegendItem"}],"orientation":"horizontal"},"id":"1916102","type":"Legend"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"green"},"height":{"value":0.8},"left":{"expr":{"id":"1916085","type":"Stack"}},"line_color":{"value":"green"},"right":{"expr":{"id":"1916086","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916106","type":"HBar"},{"attributes":{"ticker":{"id":"1916072","type":"BasicTicker"}},"id":"1916075","type":"Grid"},{"attributes":{"source":{"id":"1916104","type":"ColumnDataSource"}},"id":"1916109","type":"CDSView"},{"attributes":{"source":{"id":"1916118","type":"ColumnDataSource"}},"id":"1916123","type":"CDSView"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,241],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[44,80,297,0],"Privada":[0,0,5,0]},"selected":{"id":"1916150","type":"Selection"},"selection_policy":{"id":"1916149","type":"UnionRenderers"}},"id":"1916118","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"red"},"height":{"value":0.8},"left":{"expr":{"id":"1916089","type":"Stack"}},"line_color":{"value":"red"},"right":{"expr":{"id":"1916090","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916136","type":"HBar"},{"attributes":{"data_source":{"id":"1916104","type":"ColumnDataSource"},"glyph":{"id":"1916106","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Estadual","nonselection_glyph":{"id":"1916107","type":"HBar"},"selection_glyph":null,"view":{"id":"1916109","type":"CDSView"}},"id":"1916108","type":"GlyphRenderer"},{"attributes":{},"id":"1916131","type":"UnionRenderers"}],"root_ids":["1916060"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"fea5cf39-acf4-44a5-92d4-3fc875b4b7cb","roots":{"1916060":"c780708a-d90f-48d5-a60e-53b7c29e5a7d"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+        
+<div class="bk-root" id="c780708a-d90f-48d5-a60e-53b7c29e5a7d" data-root-id="1916060"></div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2019.</div>
+      </div>        
+    </div>
+    
+
+    
+    <p class="h5 mt-5 font-weight-bold">Número de docentes por matrícula em cada etapa e rede de ensino</p>
+    <p>Atenção: este número não reflete a quantidade de alunos que cada professor têm em sala, uma vez que, no Ensino Fundamental, há mais de um professor por aluno. No entanto, é um termômetro da capacidade de cada rede de atender o público.</p>      
+    <div class="row">
+      <div class="col-sm">
+        <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead>
+            <th></th>
+            <th>municipal</th>
+            <th>estadual</th>
+            <th>federal</th>
+            <th>privada</th>
+            <th>total</th>
+          </thead>
+          <tr>
+            <td>Creche</td>
+            <td>5,5</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>5,5</td>
+          </tr>
+          <tr>
+            <td>Pré-Escola</td>
+            <td>8,89</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>8,89</td>
+          </tr>            
+          <tr>
+            <td>Fund I</td>
+            <td>9</td>
+            <td>0</td>
+            <td>0</td>
+            <td>2,5</td>
+            <td>8,63</td>
+          </tr>            
+          <tr>
+            <td>Fund II</td>
+            <td>0</td>
+            <td>12,05</td>
+            <td>0</td>
+            <td>0</td>
+            <td>10,48</td>
+          </tr>                                    
+        </table>
+        </div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2019.</div>
+      </div>
+      <div class="col-sm">
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"4be5de05-ad03-4f09-8606-298bf92b2c85":{"roots":{"references":[{"attributes":{"data_source":{"id":"1916272","type":"ColumnDataSource"},"glyph":{"id":"1916274","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Federal","nonselection_glyph":{"id":"1916275","type":"HBar"},"selection_glyph":null,"view":{"id":"1916277","type":"CDSView"}},"id":"1916276","type":"GlyphRenderer"},{"attributes":{"label":{"value":"Municipal"},"renderers":[{"id":"1916249","type":"GlyphRenderer"}]},"id":"1916257","type":"LegendItem"},{"attributes":{"text":"Alunos por docente - Educa\\u00e7\\u00e3o Infantil e Ensino Fundamental"},"id":"1916215","type":"Title"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"1916239","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"1916240","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916261","type":"HBar"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1916234","type":"HoverTool"}]},"id":"1916235","type":"Toolbar"},{"attributes":{},"id":"1916253","type":"CategoricalTickFormatter"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,12.05],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[5.5,8.89,9.0,0.0],"Privada":[0,0,2.5,0]},"selected":{"id":"1916304","type":"Selection"},"selection_policy":{"id":"1916303","type":"UnionRenderers"}},"id":"1916272","type":"ColumnDataSource"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,12.05],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[5.5,8.89,9.0,0.0],"Privada":[0,0,2.5,0]},"selected":{"id":"1916319","type":"Selection"},"selection_policy":{"id":"1916318","type":"UnionRenderers"}},"id":"1916288","type":"ColumnDataSource"},{"attributes":{"label":{"value":"Privada"},"renderers":[{"id":"1916292","type":"GlyphRenderer"}]},"id":"1916305","type":"LegendItem"},{"attributes":{"data_source":{"id":"1916258","type":"ColumnDataSource"},"glyph":{"id":"1916260","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Estadual","nonselection_glyph":{"id":"1916261","type":"HBar"},"selection_glyph":null,"view":{"id":"1916263","type":"CDSView"}},"id":"1916262","type":"GlyphRenderer"},{"attributes":{"fields":[]},"id":"1916237","type":"Stack"},{"attributes":{},"id":"1916226","type":"BasicTicker"},{"attributes":{},"id":"1916269","type":"UnionRenderers"},{"attributes":{"fields":["Municipal","Estadual"]},"id":"1916240","type":"Stack"},{"attributes":{"items":[{"id":"1916257","type":"LegendItem"},{"id":"1916271","type":"LegendItem"},{"id":"1916287","type":"LegendItem"},{"id":"1916305","type":"LegendItem"}],"orientation":"horizontal"},"id":"1916256","type":"Legend"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"1916241","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"1916242","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916275","type":"HBar"},{"attributes":{"data_source":{"id":"1916288","type":"ColumnDataSource"},"glyph":{"id":"1916290","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Privada","nonselection_glyph":{"id":"1916291","type":"HBar"},"selection_glyph":null,"view":{"id":"1916293","type":"CDSView"}},"id":"1916292","type":"GlyphRenderer"},{"attributes":{},"id":"1916221","type":"LinearScale"},{"attributes":{"callback":null,"start":0},"id":"1916217","type":"DataRange1d"},{"attributes":{},"id":"1916223","type":"CategoricalScale"},{"attributes":{"formatter":{"id":"1916253","type":"CategoricalTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"1916231","type":"CategoricalTicker"}},"id":"1916230","type":"CategoricalAxis"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"1916237","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"1916238","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916248","type":"HBar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"1916243","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"1916244","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916291","type":"HBar"},{"attributes":{"callback":null,"tooltips":"Rede $name: @$name"},"id":"1916234","type":"HoverTool"},{"attributes":{"source":{"id":"1916258","type":"ColumnDataSource"}},"id":"1916263","type":"CDSView"},{"attributes":{"callback":null,"factors":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"range_padding":1},"id":"1916219","type":"FactorRange"},{"attributes":{},"id":"1916303","type":"UnionRenderers"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,12.05],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[5.5,8.89,9.0,0.0],"Privada":[0,0,2.5,0]},"selected":{"id":"1916270","type":"Selection"},"selection_policy":{"id":"1916269","type":"UnionRenderers"}},"id":"1916245","type":"ColumnDataSource"},{"attributes":{"format":"0a"},"id":"1916306","type":"NumeralTickFormatter"},{"attributes":{"label":{"value":"Estadual"},"renderers":[{"id":"1916262","type":"GlyphRenderer"}]},"id":"1916271","type":"LegendItem"},{"attributes":{},"id":"1916285","type":"UnionRenderers"},{"attributes":{"fields":["Municipal","Estadual"]},"id":"1916241","type":"Stack"},{"attributes":{"ticker":{"id":"1916226","type":"BasicTicker"}},"id":"1916229","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"green"},"height":{"value":0.8},"left":{"expr":{"id":"1916239","type":"Stack"}},"line_color":{"value":"green"},"right":{"expr":{"id":"1916240","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916260","type":"HBar"},{"attributes":{"data_source":{"id":"1916245","type":"ColumnDataSource"},"glyph":{"id":"1916247","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Municipal","nonselection_glyph":{"id":"1916248","type":"HBar"},"selection_glyph":null,"view":{"id":"1916250","type":"CDSView"}},"id":"1916249","type":"GlyphRenderer"},{"attributes":{},"id":"1916286","type":"Selection"},{"attributes":{"fields":["Municipal","Estadual","Federal","Privada"]},"id":"1916244","type":"Stack"},{"attributes":{"formatter":{"id":"1916306","type":"NumeralTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"1916226","type":"BasicTicker"}},"id":"1916225","type":"LinearAxis"},{"attributes":{},"id":"1916319","type":"Selection"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,12.05],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[5.5,8.89,9.0,0.0],"Privada":[0,0,2.5,0]},"selected":{"id":"1916286","type":"Selection"},"selection_policy":{"id":"1916285","type":"UnionRenderers"}},"id":"1916258","type":"ColumnDataSource"},{"attributes":{"source":{"id":"1916272","type":"ColumnDataSource"}},"id":"1916277","type":"CDSView"},{"attributes":{"fields":["Municipal"]},"id":"1916238","type":"Stack"},{"attributes":{},"id":"1916304","type":"Selection"},{"attributes":{"fields":["Municipal","Estadual","Federal"]},"id":"1916242","type":"Stack"},{"attributes":{},"id":"1916231","type":"CategoricalTicker"},{"attributes":{"below":[{"id":"1916225","type":"LinearAxis"}],"center":[{"id":"1916229","type":"Grid"},{"id":"1916233","type":"Grid"},{"id":"1916256","type":"Legend"}],"left":[{"id":"1916230","type":"CategoricalAxis"}],"outline_line_color":{"value":null},"plot_height":400,"renderers":[{"id":"1916249","type":"GlyphRenderer"},{"id":"1916262","type":"GlyphRenderer"},{"id":"1916276","type":"GlyphRenderer"},{"id":"1916292","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"1916215","type":"Title"},"toolbar":{"id":"1916235","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"1916217","type":"DataRange1d"},"x_scale":{"id":"1916221","type":"LinearScale"},"y_range":{"id":"1916219","type":"FactorRange"},"y_scale":{"id":"1916223","type":"CategoricalScale"}},"id":"1916214","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1916270","type":"Selection"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"red"},"height":{"value":0.8},"left":{"expr":{"id":"1916243","type":"Stack"}},"line_color":{"value":"red"},"right":{"expr":{"id":"1916244","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916290","type":"HBar"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"purple"},"height":{"value":0.8},"left":{"expr":{"id":"1916241","type":"Stack"}},"line_color":{"value":"purple"},"right":{"expr":{"id":"1916242","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916274","type":"HBar"},{"attributes":{},"id":"1916318","type":"UnionRenderers"},{"attributes":{"source":{"id":"1916288","type":"ColumnDataSource"}},"id":"1916293","type":"CDSView"},{"attributes":{"fields":["Municipal"]},"id":"1916239","type":"Stack"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"navy"},"height":{"value":0.8},"left":{"expr":{"id":"1916237","type":"Stack"}},"line_color":{"value":"navy"},"right":{"expr":{"id":"1916238","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916247","type":"HBar"},{"attributes":{"source":{"id":"1916245","type":"ColumnDataSource"}},"id":"1916250","type":"CDSView"},{"attributes":{"fields":["Municipal","Estadual","Federal"]},"id":"1916243","type":"Stack"},{"attributes":{"label":{"value":"Federal"},"renderers":[{"id":"1916276","type":"GlyphRenderer"}]},"id":"1916287","type":"LegendItem"},{"attributes":{"dimension":1,"grid_line_color":null,"ticker":{"id":"1916231","type":"CategoricalTicker"}},"id":"1916233","type":"Grid"}],"root_ids":["1916214"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"4be5de05-ad03-4f09-8606-298bf92b2c85","roots":{"1916214":"aaa61149-3795-451e-85a1-36e9300039cc"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+        
+<div class="bk-root" id="aaa61149-3795-451e-85a1-36e9300039cc" data-root-id="1916214"></div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2019.</div>
+      </div>
+    </div>
+        
+
+    
+    <p class="h5 mt-5 font-weight-bold">Número de escolas por etapa e por rede de ensino</p>
+    <div class="row">
+      <div class="col-sm">
+        <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead>
+            <th></th>
+            <th>municipal</th>
+            <th>estadual</th>
+            <th>federal</th>
+            <th>privada</th>
+            <th>total</th>
+          </thead>
+          <tr>
+            <td>Creche</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Pré-Escola</td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>2</td>
+          </tr>            
+          <tr>
+            <td>Fund I</td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>3</td>
+          </tr>            
+          <tr>
+            <td>Fund II</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+          </tr>                                    
+        </table>   
+        </div>       
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2019.</div>
+      </div>
+      <div class="col-sm">
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"3074f839-f15c-4fc8-95f6-d52bd79b677a":{"roots":{"references":[{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,1],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[1,2,2,0],"Privada":[0,0,1,0]},"selected":{"id":"1916424","type":"Selection"},"selection_policy":{"id":"1916423","type":"UnionRenderers"}},"id":"1916399","type":"ColumnDataSource"},{"attributes":{"fields":["Municipal"]},"id":"1916393","type":"Stack"},{"attributes":{"label":{"value":"Privada"},"renderers":[{"id":"1916446","type":"GlyphRenderer"}]},"id":"1916459","type":"LegendItem"},{"attributes":{},"id":"1916440","type":"Selection"},{"attributes":{"below":[{"id":"1916379","type":"LinearAxis"}],"center":[{"id":"1916383","type":"Grid"},{"id":"1916387","type":"Grid"},{"id":"1916410","type":"Legend"}],"left":[{"id":"1916384","type":"CategoricalAxis"}],"outline_line_color":{"value":null},"plot_height":400,"renderers":[{"id":"1916403","type":"GlyphRenderer"},{"id":"1916416","type":"GlyphRenderer"},{"id":"1916430","type":"GlyphRenderer"},{"id":"1916446","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"1916369","type":"Title"},"toolbar":{"id":"1916389","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"1916371","type":"DataRange1d"},"x_scale":{"id":"1916375","type":"LinearScale"},"y_range":{"id":"1916373","type":"FactorRange"},"y_scale":{"id":"1916377","type":"CategoricalScale"}},"id":"1916368","subtype":"Figure","type":"Plot"},{"attributes":{"fields":["Municipal","Estadual"]},"id":"1916395","type":"Stack"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"1916397","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"1916398","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916445","type":"HBar"},{"attributes":{"source":{"id":"1916399","type":"ColumnDataSource"}},"id":"1916404","type":"CDSView"},{"attributes":{"fields":["Municipal","Estadual"]},"id":"1916394","type":"Stack"},{"attributes":{},"id":"1916472","type":"UnionRenderers"},{"attributes":{},"id":"1916377","type":"CategoricalScale"},{"attributes":{"data_source":{"id":"1916442","type":"ColumnDataSource"},"glyph":{"id":"1916444","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Privada","nonselection_glyph":{"id":"1916445","type":"HBar"},"selection_glyph":null,"view":{"id":"1916447","type":"CDSView"}},"id":"1916446","type":"GlyphRenderer"},{"attributes":{},"id":"1916407","type":"CategoricalTickFormatter"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"purple"},"height":{"value":0.8},"left":{"expr":{"id":"1916395","type":"Stack"}},"line_color":{"value":"purple"},"right":{"expr":{"id":"1916396","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916428","type":"HBar"},{"attributes":{"label":{"value":"Estadual"},"renderers":[{"id":"1916416","type":"GlyphRenderer"}]},"id":"1916425","type":"LegendItem"},{"attributes":{"fields":["Municipal","Estadual","Federal","Privada"]},"id":"1916398","type":"Stack"},{"attributes":{},"id":"1916375","type":"LinearScale"},{"attributes":{},"id":"1916458","type":"Selection"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1916388","type":"HoverTool"}]},"id":"1916389","type":"Toolbar"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"navy"},"height":{"value":0.8},"left":{"expr":{"id":"1916391","type":"Stack"}},"line_color":{"value":"navy"},"right":{"expr":{"id":"1916392","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916401","type":"HBar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"1916395","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"1916396","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916429","type":"HBar"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"green"},"height":{"value":0.8},"left":{"expr":{"id":"1916393","type":"Stack"}},"line_color":{"value":"green"},"right":{"expr":{"id":"1916394","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916414","type":"HBar"},{"attributes":{"fields":[]},"id":"1916391","type":"Stack"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,1],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[1,2,2,0],"Privada":[0,0,1,0]},"selected":{"id":"1916473","type":"Selection"},"selection_policy":{"id":"1916472","type":"UnionRenderers"}},"id":"1916442","type":"ColumnDataSource"},{"attributes":{},"id":"1916457","type":"UnionRenderers"},{"attributes":{},"id":"1916385","type":"CategoricalTicker"},{"attributes":{},"id":"1916380","type":"BasicTicker"},{"attributes":{"callback":null,"tooltips":"Rede $name: @$name"},"id":"1916388","type":"HoverTool"},{"attributes":{},"id":"1916473","type":"Selection"},{"attributes":{"data_source":{"id":"1916399","type":"ColumnDataSource"},"glyph":{"id":"1916401","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Municipal","nonselection_glyph":{"id":"1916402","type":"HBar"},"selection_glyph":null,"view":{"id":"1916404","type":"CDSView"}},"id":"1916403","type":"GlyphRenderer"},{"attributes":{"fields":["Municipal"]},"id":"1916392","type":"Stack"},{"attributes":{"format":"0a"},"id":"1916460","type":"NumeralTickFormatter"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"1916391","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"1916392","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916402","type":"HBar"},{"attributes":{"label":{"value":"Municipal"},"renderers":[{"id":"1916403","type":"GlyphRenderer"}]},"id":"1916411","type":"LegendItem"},{"attributes":{"fields":["Municipal","Estadual","Federal"]},"id":"1916397","type":"Stack"},{"attributes":{"source":{"id":"1916442","type":"ColumnDataSource"}},"id":"1916447","type":"CDSView"},{"attributes":{},"id":"1916423","type":"UnionRenderers"},{"attributes":{"ticker":{"id":"1916380","type":"BasicTicker"}},"id":"1916383","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"1916393","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"1916394","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916415","type":"HBar"},{"attributes":{"source":{"id":"1916426","type":"ColumnDataSource"}},"id":"1916431","type":"CDSView"},{"attributes":{"items":[{"id":"1916411","type":"LegendItem"},{"id":"1916425","type":"LegendItem"},{"id":"1916441","type":"LegendItem"},{"id":"1916459","type":"LegendItem"}],"orientation":"horizontal"},"id":"1916410","type":"Legend"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,1],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[1,2,2,0],"Privada":[0,0,1,0]},"selected":{"id":"1916440","type":"Selection"},"selection_policy":{"id":"1916439","type":"UnionRenderers"}},"id":"1916412","type":"ColumnDataSource"},{"attributes":{"fields":["Municipal","Estadual","Federal"]},"id":"1916396","type":"Stack"},{"attributes":{"data_source":{"id":"1916426","type":"ColumnDataSource"},"glyph":{"id":"1916428","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Federal","nonselection_glyph":{"id":"1916429","type":"HBar"},"selection_glyph":null,"view":{"id":"1916431","type":"CDSView"}},"id":"1916430","type":"GlyphRenderer"},{"attributes":{"formatter":{"id":"1916407","type":"CategoricalTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"1916385","type":"CategoricalTicker"}},"id":"1916384","type":"CategoricalAxis"},{"attributes":{},"id":"1916424","type":"Selection"},{"attributes":{"data_source":{"id":"1916412","type":"ColumnDataSource"},"glyph":{"id":"1916414","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Estadual","nonselection_glyph":{"id":"1916415","type":"HBar"},"selection_glyph":null,"view":{"id":"1916417","type":"CDSView"}},"id":"1916416","type":"GlyphRenderer"},{"attributes":{"source":{"id":"1916412","type":"ColumnDataSource"}},"id":"1916417","type":"CDSView"},{"attributes":{"label":{"value":"Federal"},"renderers":[{"id":"1916430","type":"GlyphRenderer"}]},"id":"1916441","type":"LegendItem"},{"attributes":{"callback":null,"start":0},"id":"1916371","type":"DataRange1d"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,1],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[1,2,2,0],"Privada":[0,0,1,0]},"selected":{"id":"1916458","type":"Selection"},"selection_policy":{"id":"1916457","type":"UnionRenderers"}},"id":"1916426","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"red"},"height":{"value":0.8},"left":{"expr":{"id":"1916397","type":"Stack"}},"line_color":{"value":"red"},"right":{"expr":{"id":"1916398","type":"Stack"}},"y":{"field":"Etapas"}},"id":"1916444","type":"HBar"},{"attributes":{"text":"Escolas - Educa\\u00e7\\u00e3o Infantil e Ensino Fundamental"},"id":"1916369","type":"Title"},{"attributes":{"formatter":{"id":"1916460","type":"NumeralTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"1916380","type":"BasicTicker"}},"id":"1916379","type":"LinearAxis"},{"attributes":{"callback":null,"factors":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"range_padding":1},"id":"1916373","type":"FactorRange"},{"attributes":{"dimension":1,"grid_line_color":null,"ticker":{"id":"1916385","type":"CategoricalTicker"}},"id":"1916387","type":"Grid"},{"attributes":{},"id":"1916439","type":"UnionRenderers"}],"root_ids":["1916368"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"3074f839-f15c-4fc8-95f6-d52bd79b677a","roots":{"1916368":"7392a2de-180c-489b-97df-8437242c62ff"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+        
+<div class="bk-root" id="7392a2de-180c-489b-97df-8437242c62ff" data-root-id="1916368"></div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2019.</div>
+      </div>
+    </div>
+     
+    
+    
+    <p class="h5 mt-5 font-weight-bold">Número de escolas ao longo dos anos por etapa de ensino</p>
+    <div class="row mt-3">
+      <div class="col-sm"> 
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"a1741861-75fd-4152-a288-82ff59f17eb2":{"roots":{"references":[{"attributes":{},"id":"1916558","type":"Selection"},{"attributes":{},"id":"1916557","type":"UnionRenderers"},{"attributes":{"callback":null,"data":{"anos":["2019"],"escolas":[1]},"selected":{"id":"1916558","type":"Selection"},"selection_policy":{"id":"1916557","type":"UnionRenderers"}},"id":"1916545","type":"ColumnDataSource"},{"attributes":{},"id":"1916556","type":"CategoricalTickFormatter"},{"attributes":{"data_source":{"id":"1916545","type":"ColumnDataSource"},"glyph":{"id":"1916547","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1916548","type":"Line"},"selection_glyph":null,"view":{"id":"1916550","type":"CDSView"}},"id":"1916549","type":"GlyphRenderer"},{"attributes":{"below":[{"id":"1916533","type":"CategoricalAxis"}],"center":[{"id":"1916536","type":"Grid"},{"id":"1916541","type":"Grid"}],"left":[{"id":"1916537","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"1916549","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"1916523","type":"Title"},"toolbar":{"id":"1916543","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"1916525","type":"FactorRange"},"x_scale":{"id":"1916529","type":"CategoricalScale"},"y_range":{"id":"1916551","type":"Range1d"},"y_scale":{"id":"1916531","type":"LinearScale"}},"id":"1916522","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1916534","type":"CategoricalTicker"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"1916548","type":"Line"},{"attributes":{"line_alpha":0.8,"line_color":"navy","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"1916547","type":"Line"},{"attributes":{},"id":"1916531","type":"LinearScale"},{"attributes":{},"id":"1916554","type":"BasicTickFormatter"},{"attributes":{"formatter":{"id":"1916556","type":"CategoricalTickFormatter"},"ticker":{"id":"1916534","type":"CategoricalTicker"}},"id":"1916533","type":"CategoricalAxis"},{"attributes":{"dimension":1,"ticker":{"id":"1916538","type":"BasicTicker"}},"id":"1916541","type":"Grid"},{"attributes":{"callback":null,"end":1.5},"id":"1916551","type":"Range1d"},{"attributes":{"text":"N\\u00famero de escola por ano - Creche"},"id":"1916523","type":"Title"},{"attributes":{"callback":null,"factors":["2019"]},"id":"1916525","type":"FactorRange"},{"attributes":{"ticker":{"id":"1916534","type":"CategoricalTicker"}},"id":"1916536","type":"Grid"},{"attributes":{},"id":"1916529","type":"CategoricalScale"},{"attributes":{"formatter":{"id":"1916554","type":"BasicTickFormatter"},"ticker":{"id":"1916538","type":"BasicTicker"}},"id":"1916537","type":"LinearAxis"},{"attributes":{},"id":"1916538","type":"BasicTicker"},{"attributes":{"callback":null,"tooltips":[["Escolas","@escolas"]]},"id":"1916542","type":"HoverTool"},{"attributes":{"source":{"id":"1916545","type":"ColumnDataSource"}},"id":"1916550","type":"CDSView"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1916542","type":"HoverTool"}]},"id":"1916543","type":"Toolbar"}],"root_ids":["1916522"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"a1741861-75fd-4152-a288-82ff59f17eb2","roots":{"1916522":"86f7146e-6f19-426a-b837-15dbfcd0143c"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+<div class="bk-root" id="86f7146e-6f19-426a-b837-15dbfcd0143c" data-root-id="1916522"></div> 
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2008/2019.</div>
+      </div>
+      <div class="col-sm"> 
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"d77f911e-e780-4f21-a5bc-d651b7351201":{"roots":{"references":[{"attributes":{"callback":null,"data":{"anos":["2008","2010","2012","2014","2016","2018","2019"],"escolas":[2,2,3,4,4,3,2]},"selected":{"id":"1916623","type":"Selection"},"selection_policy":{"id":"1916622","type":"UnionRenderers"}},"id":"1916610","type":"ColumnDataSource"},{"attributes":{},"id":"1916596","type":"LinearScale"},{"attributes":{},"id":"1916621","type":"CategoricalTickFormatter"},{"attributes":{"callback":null,"factors":["2008","2010","2012","2014","2016","2018","2019"]},"id":"1916590","type":"FactorRange"},{"attributes":{"ticker":{"id":"1916599","type":"CategoricalTicker"}},"id":"1916601","type":"Grid"},{"attributes":{},"id":"1916619","type":"BasicTickFormatter"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"1916613","type":"Line"},{"attributes":{"callback":null,"end":6.0},"id":"1916616","type":"Range1d"},{"attributes":{},"id":"1916622","type":"UnionRenderers"},{"attributes":{"text":"N\\u00famero de escola por ano - Pr\\u00e9-Escola"},"id":"1916588","type":"Title"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1916607","type":"HoverTool"}]},"id":"1916608","type":"Toolbar"},{"attributes":{},"id":"1916594","type":"CategoricalScale"},{"attributes":{"source":{"id":"1916610","type":"ColumnDataSource"}},"id":"1916615","type":"CDSView"},{"attributes":{"data_source":{"id":"1916610","type":"ColumnDataSource"},"glyph":{"id":"1916612","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1916613","type":"Line"},"selection_glyph":null,"view":{"id":"1916615","type":"CDSView"}},"id":"1916614","type":"GlyphRenderer"},{"attributes":{"dimension":1,"ticker":{"id":"1916603","type":"BasicTicker"}},"id":"1916606","type":"Grid"},{"attributes":{"below":[{"id":"1916598","type":"CategoricalAxis"}],"center":[{"id":"1916601","type":"Grid"},{"id":"1916606","type":"Grid"}],"left":[{"id":"1916602","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"1916614","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"1916588","type":"Title"},"toolbar":{"id":"1916608","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"1916590","type":"FactorRange"},"x_scale":{"id":"1916594","type":"CategoricalScale"},"y_range":{"id":"1916616","type":"Range1d"},"y_scale":{"id":"1916596","type":"LinearScale"}},"id":"1916587","subtype":"Figure","type":"Plot"},{"attributes":{"formatter":{"id":"1916621","type":"CategoricalTickFormatter"},"ticker":{"id":"1916599","type":"CategoricalTicker"}},"id":"1916598","type":"CategoricalAxis"},{"attributes":{},"id":"1916623","type":"Selection"},{"attributes":{"callback":null,"tooltips":[["Escolas","@escolas"]]},"id":"1916607","type":"HoverTool"},{"attributes":{},"id":"1916599","type":"CategoricalTicker"},{"attributes":{},"id":"1916603","type":"BasicTicker"},{"attributes":{"line_alpha":0.8,"line_color":"navy","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"1916612","type":"Line"},{"attributes":{"formatter":{"id":"1916619","type":"BasicTickFormatter"},"ticker":{"id":"1916603","type":"BasicTicker"}},"id":"1916602","type":"LinearAxis"}],"root_ids":["1916587"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"d77f911e-e780-4f21-a5bc-d651b7351201","roots":{"1916587":"24f0249d-0b0a-48d4-a1cb-c45420fe92b8"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+<div class="bk-root" id="24f0249d-0b0a-48d4-a1cb-c45420fe92b8" data-root-id="1916587"></div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2008/2019.</div>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-sm"> 
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"66af34e5-b471-42d8-a041-6325f8ad77a9":{"roots":{"references":[{"attributes":{"dimension":1,"ticker":{"id":"1916668","type":"BasicTicker"}},"id":"1916671","type":"Grid"},{"attributes":{"data_source":{"id":"1916675","type":"ColumnDataSource"},"glyph":{"id":"1916677","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1916678","type":"Line"},"selection_glyph":null,"view":{"id":"1916680","type":"CDSView"}},"id":"1916679","type":"GlyphRenderer"},{"attributes":{},"id":"1916668","type":"BasicTicker"},{"attributes":{"formatter":{"id":"1916684","type":"BasicTickFormatter"},"ticker":{"id":"1916668","type":"BasicTicker"}},"id":"1916667","type":"LinearAxis"},{"attributes":{},"id":"1916686","type":"CategoricalTickFormatter"},{"attributes":{"formatter":{"id":"1916686","type":"CategoricalTickFormatter"},"ticker":{"id":"1916664","type":"CategoricalTicker"}},"id":"1916663","type":"CategoricalAxis"},{"attributes":{},"id":"1916687","type":"UnionRenderers"},{"attributes":{"below":[{"id":"1916663","type":"CategoricalAxis"}],"center":[{"id":"1916666","type":"Grid"},{"id":"1916671","type":"Grid"}],"left":[{"id":"1916667","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"1916679","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"1916653","type":"Title"},"toolbar":{"id":"1916673","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"1916655","type":"FactorRange"},"x_scale":{"id":"1916659","type":"CategoricalScale"},"y_range":{"id":"1916681","type":"Range1d"},"y_scale":{"id":"1916661","type":"LinearScale"}},"id":"1916652","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1916659","type":"CategoricalScale"},{"attributes":{"callback":null,"factors":["2008","2010","2012","2014","2016","2018","2019"]},"id":"1916655","type":"FactorRange"},{"attributes":{"callback":null,"tooltips":[["Escolas","@escolas"]]},"id":"1916672","type":"HoverTool"},{"attributes":{"callback":null,"end":9.0},"id":"1916681","type":"Range1d"},{"attributes":{},"id":"1916684","type":"BasicTickFormatter"},{"attributes":{"callback":null,"data":{"anos":["2008","2010","2012","2014","2016","2018","2019"],"escolas":[6,5,5,4,4,4,3]},"selected":{"id":"1916688","type":"Selection"},"selection_policy":{"id":"1916687","type":"UnionRenderers"}},"id":"1916675","type":"ColumnDataSource"},{"attributes":{},"id":"1916688","type":"Selection"},{"attributes":{"text":"N\\u00famero de escola por ano - Fundamental I"},"id":"1916653","type":"Title"},{"attributes":{},"id":"1916661","type":"LinearScale"},{"attributes":{"line_alpha":0.8,"line_color":"navy","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"1916677","type":"Line"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1916672","type":"HoverTool"}]},"id":"1916673","type":"Toolbar"},{"attributes":{"source":{"id":"1916675","type":"ColumnDataSource"}},"id":"1916680","type":"CDSView"},{"attributes":{},"id":"1916664","type":"CategoricalTicker"},{"attributes":{"ticker":{"id":"1916664","type":"CategoricalTicker"}},"id":"1916666","type":"Grid"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"1916678","type":"Line"}],"root_ids":["1916652"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"66af34e5-b471-42d8-a041-6325f8ad77a9","roots":{"1916652":"fd495bd5-e92a-4e00-a601-349f50d83974"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+<div class="bk-root" id="fd495bd5-e92a-4e00-a601-349f50d83974" data-root-id="1916652"></div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2008/2019.</div>
+      </div>
+      <div class="col-sm"> 
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"ee3cfe41-c91e-475e-8e1e-363f9af029b1":{"roots":{"references":[{"attributes":{},"id":"1916733","type":"BasicTicker"},{"attributes":{},"id":"1916724","type":"CategoricalScale"},{"attributes":{"line_alpha":0.8,"line_color":"navy","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"1916742","type":"Line"},{"attributes":{},"id":"1916749","type":"BasicTickFormatter"},{"attributes":{"dimension":1,"ticker":{"id":"1916733","type":"BasicTicker"}},"id":"1916736","type":"Grid"},{"attributes":{"formatter":{"id":"1916749","type":"BasicTickFormatter"},"ticker":{"id":"1916733","type":"BasicTicker"}},"id":"1916732","type":"LinearAxis"},{"attributes":{"callback":null,"data":{"anos":["2008","2010","2012","2014","2016","2018","2019"],"escolas":[1,1,1,2,1,1,1]},"selected":{"id":"1916753","type":"Selection"},"selection_policy":{"id":"1916752","type":"UnionRenderers"}},"id":"1916740","type":"ColumnDataSource"},{"attributes":{"callback":null,"factors":["2008","2010","2012","2014","2016","2018","2019"]},"id":"1916720","type":"FactorRange"},{"attributes":{"source":{"id":"1916740","type":"ColumnDataSource"}},"id":"1916745","type":"CDSView"},{"attributes":{},"id":"1916752","type":"UnionRenderers"},{"attributes":{"callback":null,"end":3.0},"id":"1916746","type":"Range1d"},{"attributes":{"formatter":{"id":"1916751","type":"CategoricalTickFormatter"},"ticker":{"id":"1916729","type":"CategoricalTicker"}},"id":"1916728","type":"CategoricalAxis"},{"attributes":{"below":[{"id":"1916728","type":"CategoricalAxis"}],"center":[{"id":"1916731","type":"Grid"},{"id":"1916736","type":"Grid"}],"left":[{"id":"1916732","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"1916744","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"1916718","type":"Title"},"toolbar":{"id":"1916738","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"1916720","type":"FactorRange"},"x_scale":{"id":"1916724","type":"CategoricalScale"},"y_range":{"id":"1916746","type":"Range1d"},"y_scale":{"id":"1916726","type":"LinearScale"}},"id":"1916717","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1916729","type":"CategoricalTicker"},{"attributes":{},"id":"1916726","type":"LinearScale"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1916737","type":"HoverTool"}]},"id":"1916738","type":"Toolbar"},{"attributes":{"text":"N\\u00famero de escola por ano - Fundamental I"},"id":"1916718","type":"Title"},{"attributes":{},"id":"1916751","type":"CategoricalTickFormatter"},{"attributes":{"data_source":{"id":"1916740","type":"ColumnDataSource"},"glyph":{"id":"1916742","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1916743","type":"Line"},"selection_glyph":null,"view":{"id":"1916745","type":"CDSView"}},"id":"1916744","type":"GlyphRenderer"},{"attributes":{"ticker":{"id":"1916729","type":"CategoricalTicker"}},"id":"1916731","type":"Grid"},{"attributes":{},"id":"1916753","type":"Selection"},{"attributes":{"callback":null,"tooltips":[["Escolas","@escolas"]]},"id":"1916737","type":"HoverTool"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"1916743","type":"Line"}],"root_ids":["1916717"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"ee3cfe41-c91e-475e-8e1e-363f9af029b1","roots":{"1916717":"2025876d-9526-4c15-9c49-4488077139bd"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+<div class="bk-root" id="2025876d-9526-4c15-9c49-4488077139bd" data-root-id="1916717"></div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2008/2019.</div>
+      </div>
+    </div>
+    </div> 
+     
+
+    
+
+  <!-- Distorção idade-série -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Distorção idade-série</p>
+    <p class="lead my-3">Entre os alunos frequentando os anos iniciais do Ensino Fundamental na rede municipal de Dores do Turvo, 1,3% apresentavam <a href="https://academia.qedu.org.br/censo-escolar/distorcao-idade-serie/" target="_blank">distorção idade-série</a> em <font class="font-weight-bold">2019</font>, ou seja, estavam mais de dois anos atrasados em relação à série adequada à sua idade. Os dados são do <a href="http://portal.inep.gov.br/web/guest/indicadores-educacionais" target="_blank"><b>Inep</b></a>.</p> 
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Fundamental - anos iniciais</th>
+        <th>Fundamental - anos finais</th>
+      </thead>
+      <thead>
+        <th>Dores do Turvo</th>
+        <th><div class="text-success">1,3%</div></th>        
+        <th><div class="text-danger">NaN</div></th>                          
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>10,9%</td>
+        <td>29,95%</td>
+      </tr>
+      <tr>
+        <td>da região Sudeste</td>
+        <td>5,77%</td>
+        <td>20,33%</td>          
+      </tr>
+      <tr>
+        <td>do estado (MG)</td>
+        <td>4,27%</td>
+        <td>19,07%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>10,79%</td>
+        <td>30,22%</td>          
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: Inep - 2019.</div>
+    </div>
+    
+
+  <!-- Taxas de aprovação, repetência, evasão e migração para EJA -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Taxas de transição</p>
+    <p class="lead my-3">Divulgadas pelo <a href="http://portal.inep.gov.br/web/guest/indicadores-educacionais" target="_blank"><b>Inep</b></a>, as taxas de transição indicam o percentual de alunos aprovados, reprovados, que abandonaram a escola ou que migraram para a EJA de um ano para o outro. As taxas a seguir consideram as transições dos alunos do Ensino Fundamental matrículados na rede pública de <font class="font-weight-bold">2016 para 2017</font>.</p> 
+    
+    
+    
+    
+    
+    <div class="table-responsive">
+      <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th></th>
+        <th colspan="2">Aprovação</th>
+        <th colspan="2">Repetência</th>
+        <th colspan="2">Evasão</th>
+        <th colspan="2">Migração para EJA</th>
+      </thead>
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Fund I</th>
+        <th>Fund II</th>
+        <th>Fund I</th>
+        <th>Fund II</th>
+        <th>Fund I</th>
+        <th>Fund II</th>
+        <th>Fund I</th>
+        <th>Fund II</th>
+      </thead>
+      <thead>
+        <th>Dores do Turvo</th>
+        <th><div class="text-success">98,2%</div></th>        
+        <th><div class="text-success">88,6%</div></th>
+        <th><div class="text-success">1,1%</div></th>        
+        <th><div class="text-success">7,4%</div></th>
+        <th><div class="text-success">0,7%</div></th>        
+        <th><div class="text-success">2,8%</div></th>                  
+        <th><div class="text-success">0%</div></th>        
+        <th><div class="text-success">1,2%</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>90,7%</td>
+        <td>80,99%</td>
+        <td>7,9%</td>
+        <td>11,82%</td>
+        <td>1,18%</td>
+        <td>4,52%</td>
+        <td>0,22%</td>
+        <td>2,68%</td>
+      </tr>
+      <tr>
+        <td>da região Sudeste</td>
+        <td>95,48%</td>
+        <td>86,66%</td>
+        <td>3,92%</td>
+        <td>8,57%</td>
+        <td>0,56%</td>
+        <td>3,52%</td>
+        <td>0,04%</td>
+        <td>1,25%</td>
+      </tr>
+      <tr>
+        <td>do estado (MG)</td>
+        <td>96,23%</td>
+        <td>84,37%</td>
+        <td>3,11%</td>
+        <td>10,43%</td>
+        <td>0,63%</td>
+        <td>3,94%</td>
+        <td>0,03%</td>
+        <td>1,26%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional<br> (até 50 mil habitantes)</td>
+        <td>90,66%</td>
+        <td>80,95%</td>
+        <td>7,93%</td>
+        <td>11,87%</td>
+        <td>1,18%</td>
+        <td>4,53%</td>
+        <td>0,23%</td>
+        <td>2,64%</td>
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: Inep - 2016-2017.</div>
+    </div>
+    
+
+    
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Habitação -->
+<div class="rounded p-5 bg-light">
+
+  <div class="row  px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="habitacao" style="padding-top: 100px; margin-top: -100px;">Habitação</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+
+  <!-- Aglomerados subnormais -->    
+    
+
+  <!-- Energia elétrica -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">População que vive em domicílios com energia elétrica</p>
+    <p class="lead my-3">Em Dores do Turvo, 99,3% da população vivia em domicílios com energia elétrica <font class="font-weight-bold">em 2010</font>. Os dados são do <a href="http://atlasbrasil.org.br/" target="_blank">Atlas do Desenvolvimento Humano no Brasil</a>.</p> 
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Vive em domicílio com energia elétrica</th>
+      </thead>
+      <thead>
+        <th>Dores do Turvo</th>
+        <th><div class="text-success">99,3%</div></th>        
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>97,19%</td>
+      </tr>
+      <tr>
+        <td>da região Sudeste</td>
+        <td>99,24%</td>
+      </tr>
+      <tr>
+        <td>do estado (MG)</td>
+        <td>98,74%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>97,01%</td>
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: IBGE - Censo Demográfico 2010.</div>
+    </div>
+    
+
+          
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Meio Ambiente -->
+<div class="rounded p-5 bg-light">
+  <div class="row  px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="meioambiente" style="padding-top: 100px; margin-top: -100px;">Meio Ambiente</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+
+  <!-- Incremento de área desmatada-->
+    
+
+  <!-- Esgotamento sanitário -->
+
+    
+
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Esgotamento sanitário</p>
+    <p class="lead my-3">O <a href="http://www.snirh.gov.br/portal/snirh/snirh-1/atlas-esgotos">Sistema Nacional de Informações sobre Recursos Hídricos (Snirh)</a> disponibiliza informações sobre a cobertura da rede de coleta e tratamento de esgoto de cada cidade do país. Com isso, podemos saber, proporcionalmente, quantas pessoas têm esgoto coletado e tratado; quantas tem esgoto coletado, mas despejado sem tratamento no meio ambiente; quantas dependem de soluções individuais, como fossas sépticas; e quantas não são atendidas pelo serviço de esgotamento sanitário de forma alguma. Os dados mais recentes disponíveis no Snirh são de <font class="font-weight-bold">2013</font>, mas é possível que a respectiva empresa prestadora de serviços de água e esgoto de seu município tenha dados mais atualizados.</p> 
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Vive em domicílio sem coleta e sem tratamento de esgoto</th>
+        <th>Depende de solução individual</th>
+        <th>Esgoto coletado, mas não tratado</th>
+        <th>Esgoto coletado e tratado</th>
+      </thead>
+      <thead>
+        <th>Dores do Turvo</th>
+        <th><div class="text-success">35,2%</div></th>
+        <th><div class="text-success">0,2%</div></th>
+        <th><div class="text-danger">64,6%</div></th>
+        <th><div class="text-danger">0%</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>46,61%</td>
+        <td>13,59%</td>
+        <td>20,73%</td>
+        <td>19,09%</td>
+      </tr>
+      <tr>
+        <td>da região Sudeste</td>
+        <td>15,71%</td>
+        <td>3,83%</td>
+        <td>39,64%</td>
+        <td>40,84%</td>
+      </tr>
+      <tr>
+        <td>do estado (MG)</td>
+        <td>20,84%</td>
+        <td>3,26%</td>
+        <td>58,59%</td>
+        <td>17,32%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>48,76%</td>
+        <td>13,35%</td>
+        <td>21,1%</td>
+        <td>16,81%</td>
+      </tr>
+    </table>
+    </div>  
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: Snirh - 2013.</div>
+    </div>
+        
+
+  <!-- Coleta de lixo -->
+      
+
+                
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Mobilidade -->
+<div class="rounded p-5 bg-light">
+  <div class="row  px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="mobilidade" style="padding-top: 100px; margin-top: -100px;">Mobilidade</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+  <!-- Tempo de deslocamento -->    
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Deslocamento médio</p>
+    <p class="lead my-3">Em Dores do Turvo, uma pessoa leva, em média, 23 minutos para se deslocar de casa para o trabalho. Dessas viagens, 1,27% duram mais de uma hora. Os dados são do último Censo do IBGE, realizado <font class="font-weight-bold">em 2010</font>.</p>  
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Tempo médio de deslocamento (minutos)</th>
+        <th>Deslocamentos que duram mais de 1h</th>
+      </thead>
+      <thead>
+        <th>Dores do Turvo</th>
+        <th><div class="text-danger">23</div></th>
+        <th>1,27%</th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>22 minutos</td>
+        <td>5,22%</td>
+      </tr>
+      <tr>
+        <td>da região Sudeste</td>
+        <td>24 minutos</td>
+        <td>6,09%</td>        
+      </tr>
+      <tr>
+        <td>do estado (MG)</td>
+        <td>23 minutos</td>
+        <td>5,12%</td>       
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>21 minutos</td>
+        <td>4,8%</td> 
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: IBGE - Censo Demográfico 2010.</div>
+    </div>
+    
+
+  <!-- Taxa de motorização -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Veículos motorizados</p>
+    <p class="lead my-3">A frota de veículos motorizados de Dores do Turvo, de acordo com dados do Denatran de <font class="font-weight-bold">2018</font>, é formada por 2.694 carros, motos e demais automotivos. Isso equivale a uma taxa de motorização de 0,63 veículo por habitante.</p>  
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Frota</th>
+        <th>Taxa de motorização</th>
+      </thead>
+      <thead>
+        <th>Dores do Turvo</th>
+        <th>2.694</th>
+        <th>0,63</th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>16.744</td>
+        <td>0,37</td>
+      </tr>
+      <tr>
+        <td>da região Sudeste</td>
+        <td>27.381</td>
+        <td>0,44</td> 
+      </tr>
+      <tr>
+        <td>do estado (MG)</td>
+        <td>12.101</td>
+        <td>0,39</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>4.687</td>
+        <td>0,36</td>        
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: Mobilidados - Denatram - 2018.</div>
+    </div>
+       
+
+  <!-- Pavimentação -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Pavimentação de ruas, calçadas e rampas para cadeirantes</p>
+    <p class="lead my-3">Em Dores do Turvo, 96,79% da população mora em ruas pavimentadas, 82,1% da população mora em ruas com calçadas e 0,2% da população conta com rampas para cadeirantes próximas de suas casas. Os dados são do último Censo do IBGE, realizado <font class="font-weight-bold">em 2010</font>.</p>  
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Vive em ruas pavimentadas</th>
+        <th>Tem calçadas diante de suas casas</th>
+        <th>Conta com rampas para cadeirantes</th>
+      </thead>
+      <thead>
+        <th>Dores do Turvo</th>
+        <th><div class="text-success">96,79%</div></th>
+        <th><div class="text-success">82,1%</div></th>
+        <th><div class="text-danger">0,2%</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>72,35%</td>
+        <td>50,5%</td>
+        <td>3,16%</td>
+      </tr>
+      <tr>
+        <td>da região Sudeste</td>
+        <td>85,44%</td>
+        <td>67,73%</td>
+        <td>2,78%</td>
+      </tr>
+      <tr>
+        <td>do estado (MG)</td>
+        <td>82,28%</td>
+        <td>60,36%</td>
+        <td>2,59%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>72,15%</td>
+        <td>49,15%</td>
+        <td>3,29%</td>
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: IBGE - Censo Demográfico 2010.</div>
+    </div>
+     
+
+                
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Saúde -->
+<div class="rounded p-5 bg-light">
+  <div class="row  px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="saude" style="padding-top: 100px; margin-top: -100px;">Saúde</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+
+  <!-- Quantidade de UBSs -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Número de Unidades Básicas de Saúde municipais</p>
+    <p class="lead my-3">Por meio do DataSUS, podemos consultar os dados do <a href="http://cnes.datasus.gov.br/" target=_blank>Cadastro Nacional de Estabelecimentos de Saúde - CNES</a> para verificar o número de Unidades Básicas de Saúde mantidas pela gestão municipal de Dores do Turvo. Os dados são de <font class="font-weight-bold">maio de 2020</font>.</p> 
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Quantidade de UBSs</th>
+      </thead>
+      <thead>
+        <th>Dores do Turvo</th>
+        <th><div class="text-danger">2</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>6,94</td>
+      </tr>
+      <tr>
+        <td>da região Sudeste</td>
+        <td>7,47</td>
+      </tr>
+      <tr>
+        <td>do estado (MG)</td>
+        <td>5,8</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>4,34</td>
+      </tr>
+    </table>
+    </div> 
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: DataSUS - CNES - maio de 2020.</div>
+    </div>
+    
+
+
+  <!-- Leitos hospitalares -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Número de leitos hospitalares</p>
+    <p class="lead my-3">Consultando o DataSUS, sabemos quantos leitos hospitalares estão disponíveis em Dores do Turvo nas redes SUS e não SUS e quais os tipos de leitos disponíveis.  Os dados são de <font class="font-weight-bold">maio de 2020</font>.</p> 
+    <p class="h5 font-weight-bold">Número de leitos hospitalares por rede</p>
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Leitos de internação SUS</th>
+        <th>Leitos de internação não SUS</th>
+        <th>Leitos complementares SUS</th>
+        <th>Leitos complementares não SUS</th>
+      </thead>
+      <thead>
+        <th>Dores do Turvo</th>
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">0</div></th>                                            
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>56,5</td>
+        <td>23,66</td>
+        <td>7,27</td>
+        <td>6,94</td>
+      </tr>
+      <tr>
+        <td>da região Sudeste</td>
+        <td>68,52</td>
+        <td>40,06</td>
+        <td>10,56</td>
+        <td>13,07</td>
+      </tr>
+      <tr>
+        <td>do estado (MG)</td>
+        <td>33,11</td>
+        <td>16,49</td>
+        <td>4,61</td>
+        <td>3,89</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>18,84</td>
+        <td>3,39</td>
+        <td>0,63</td>
+        <td>0,31</td>
+      </tr>
+    </table>
+    </div> 
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: DataSUS - CNES - maio de 2020.</div>
+    </div>
+    
+    <p class="h5 font-weight-bold">Número de leitos hospitalares por tipo</p>
+    <p class="h6 font-weight-bold">Número de leitos de internação</p>
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Cirúrgicos</th>
+        <th>Clínicos</th>
+        <th>Obstétricos</th>
+        <th>Pediátricos</th>
+        <th>Outras especialidades</th>
+        <th>Hospital-dia</th>
+        <th>Total</th>
+      </thead>
+      <thead>
+        <th>Dores do Turvo</th>
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">0</div></th>        
+        <th><div class="text-danger">0</div></th>        
+        <th><div class="text-danger">0</div></th>        
+        <th><div class="text-danger">0</div></th>                                                                                                  
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>20,1</td>
+        <td>31,78</td>
+        <td>9,23</td>
+        <td>8,62</td>
+        <td>8,52</td>
+        <td>1,91</td>
+        <td>80,16</td>            
+      </tr>
+      <tr>
+        <td>da região Sudeste</td>
+        <td>27,73</td>
+        <td>42,77</td>
+        <td>10,68</td>
+        <td>9,58</td>
+        <td>14,67</td>
+        <td>3,15</td>
+        <td>108,58</td>
+      </tr>
+      <tr>
+        <td>do estado (MG)</td>
+        <td>12,75</td>
+        <td>21,58</td>
+        <td>5,06</td>
+        <td>4,86</td>
+        <td>4,39</td>
+        <td>0,97</td>
+        <td>49,59</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>3,58</td>
+        <td>10,08</td>
+        <td>3,43</td>
+        <td>3,48</td>
+        <td>1,54</td>
+        <td>0,11</td>
+        <td>22,23</td>
+      </tr>
+    </table>
+    </div> 
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: DataSUS - CNES - maio de 2020.</div>
+
+    <p class="h6 font-weight-bold">Número de leitos complementares</p>
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>UTI - COVID - Pediátrica</th>
+        <th>UTI - COVID - Adulto</th>
+        <th>UTI - Neonatal</th>
+        <th>UTI - Pediátrica</th>
+        <th>UTI - Adulto</th>
+        <th>UTI - Coronariana</th>
+        <th>UTI - Queimados</th>
+        <th>Unid. de isolamento</th>
+        <th>UCI - Neonatal</th>
+        <th>UCI - Pediátrica</th>
+        <th>UCI - Adulto</th>
+        <th>Total</th>
+      </thead>
+      <thead>
+        <th>Dores do Turvo</th>
+
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">0</div></th>                  
+
+
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">0</div></th>        
+        <th><div class="text-danger">0</div></th>        
+        <th><div class="text-danger">0</div></th>       
+        <th><div class="text-danger">0</div></th>       
+        <th><div class="text-danger">0</div></th>       
+        <th><div class="text-danger">0</div></th>                                                                                
+        <th><div class="text-danger">0</div></th>                                                                                                  
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+
+        <td>0,14</td>
+        <td>2,91</td>
+
+        <td>1,65</td>
+        <td>0,88</td>
+        <td>5,63</td>
+        <td>0,19</td>
+        <td>0,04</td>
+        <td>1,01</td>
+        <td>1,17</td> 
+        <td>0,07</td>            
+        <td>0,51</td>            
+        <td>14,21</td>                             
+      </tr>
+      <tr>
+        <td>da região Sudeste</td>
+
+        <td>0,21</td>
+        <td>4,86</td>
+
+        <td>2,91</td>
+        <td>1,46</td>
+        <td>9,77</td>
+        <td>0,35</td>
+        <td>0,09</td>
+        <td>1,23</td>
+        <td>1,57</td> 
+        <td>0,11</td>            
+        <td>1,06</td>            
+        <td>23,63</td>                             
+      </tr>
+      <tr>
+        <td>do estado (MG)</td>
+
+        <td>0,05</td>
+        <td>1,76</td>
+
+        <td>1,07</td>
+        <td>0,42</td>
+        <td>3,67</td>
+        <td>0,13</td>
+        <td>0,02</td>
+        <td>0,77</td>
+        <td>0,49</td> 
+        <td>0,05</td>            
+        <td>0,08</td>            
+        <td>8,5</td>                             
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+
+        <td>0</td>
+        <td>0,2</td>
+
+        <td>0,04</td>
+        <td>0,01</td>
+        <td>0,25</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0,32</td>
+        <td>0,05</td> 
+        <td>0,01</td>            
+        <td>0,05</td>            
+        <td>0,94</td>                             
+      </tr>
+    </table>
+    </div> 
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: DataSUS - CNES - maio de 2020.</div>
+
+    
+
+  <!-- Vacinação -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Vacinação no município</p>
+    <p class="lead my-3">De acordo com dados de <font class="font-weight-bold">2019</font> do <a href="http://www.saude.gov.br/saude-de-a-z/vacinacao/sobre-o-programa" target="_blank">Programa Nacional de Imunização</a>, 69% da população de Dores do Turvo está imunizada de acordo com o Calendário Nacional de Vacinação.</p> 
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Cobertura vacinal</th>
+      </thead>
+      <thead>
+        <th>Dores do Turvo</th>
+        <th><div class="text-success">69%</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>57,32%</td>
+      </tr>
+      <tr>
+        <td>da região Sudeste</td>
+        <td>60,52%</td>
+      </tr>
+      <tr>
+        <td>do estado (MG)</td>
+        <td>64,49%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>58,96%</td>
+      </tr>
+    </table>
+    </div> 
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: DataSUS - Programa Nacional de Imunização - 2019.</div>
+    </div>
+    
+
+  <!-- Mortalidade infantil -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Mortalidade infantil</p>
+    <p class="lead my-3">De acordo com o <a href="http://atlasbrasil.org.br/" target="_blank">Atlas do Desenvolvimento Humano no Brasil</a>, o índice de mortalidade infantil de Dores do Turvo <font class="font-weight-bold">em 2010</font> foi de 15.7. O índice representa o número de crianças que não deverão sobreviver ao primeiro ano de vida em cada 1000 crianças nascidas vivas.</p> 
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Média do índice de mortalidade infantil</th>
+      </thead>
+      <thead>
+        <th>Dores do Turvo</th>
+        <th><div class="text-success">15,7</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>19,25</td>
+      </tr>
+      <tr>
+        <td>da região Sudeste</td>
+        <td>15,51</td>
+      </tr>
+      <tr>
+        <td>do estado (MG)</td>
+        <td>16,38</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>19,65</td>
+      </tr>
+    </table>
+    </div>  
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: IBGE - Censo Demográfico 2010.</div>
+    </div>
+    
+
+  <!-- Taxa de envelhecimento -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">População acima de 65 anos</p>
+    <p class="lead my-3">A taxa de envelhecimento de Dores do Turvo <font class="font-weight-bold">em 2010</font> foi de 11,27%. O índice representa a parcela da população com 65 anos ou mais de idade. Os dados são do <a href="http://atlasbrasil.org.br/" target="_blank">Atlas do Desenvolvimento Humano no Brasil</a>.</p> 
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>População com 65 anos ou mais de idade</th>
+      </thead>
+      <thead>
+        <th>Dores do Turvo</th>
+        <th><div class="text-success">11,27%</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>8,4%</td>
+      </tr>
+      <tr>
+        <td>da região Sudeste</td>
+        <td>9,08%</td>
+      </tr>
+      <tr>
+        <td>do estado (MG)</td>
+        <td>9,24%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>8,61%</td>
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: IBGE - Censo Demográfico 2010.</div>
+    </div>   
+    
+          
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Segurança -->
+<div class="rounded p-5 bg-light">
+  <div class="row  px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="seguranca" style="padding-top: 100px; margin-top: -100px;">Segurança</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+  <!-- Falta de iluminação pública -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Ruas sem iluminação pública</p>
+    <p class="lead my-3">A iluminação pública é de resposnsabilidade dos municípios e sua ausência costuma ser relacionada à insegurança.  De acordo com dados  do último Censo Demográfico, 2,77% dos habitantes de áreas urbanas de Dores do Turvo viviam em ruas sem iluminação pública.</p>
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Parcela da população urbana<br> que vive em ruas sem iluminação pública</th>
+      </thead>
+      <thead>
+        <th>Dores do Turvo</th>
+        <th><div class="text-success">2,77%</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>6,13%</td>
+      </tr>
+      <tr>
+        <td>da região Sudeste</td>
+        <td>3,49%</td>
+      </tr>
+      <tr>
+        <td>do estado (MG)</td>
+        <td>3,41%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>6,36%</td>
+      </tr>
+    </table>
+    </div>   
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: IBGE - Censo Demográfico 2010.</div>  
+    </div>        
+    
+
+  <!-- Vítimas fatais de armas de fogo -->    
+    
+                
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Orçamento -->
+<div class="rounded p-5 bg-light">
+  <div class="row px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="orcamento" style="padding-top: 100px; margin-top: -100px;">Orçamento</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+
+  <!-- Dependência FPM -->    
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Dependência em relação ao Fundo de Participação dos Municípios</p>
+    <p class="lead my-3">O Fundo de Participação dos Municípios (FPM) é uma transferência constitucional, ou seja, um rateio da receita proveniente de impostos federais entre os entes federados. O fundo recebe 22,5% do que é arrecado por meio do Imposto de Renda (IR) e do Imposto sobre Produtos Industrializados (IPI), valor que é distribuído entre os municípios de acordo com coeficiente calculado a partir do número de habitantes. Na tabela a seguir, mostramos a que parcela da receita bruta do município corresponde o montante recebido via FPM. Assim, temos uma medida de o quão dependente de repasses da União é o município.</p>
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>FPM em relação à receita</th>
+      </thead>
+      <thead>
+        <th>Dores do Turvo</th>
+        <th><div class="text-danger">54,2%</div></th>        
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>33,47%</td>
+      </tr>
+      <tr>
+        <td>da região Sudeste</td>
+        <td>33,43%</td>
+      </tr>
+      <tr>
+        <td>do estado (MG)</td>
+        <td>40,77%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>35,89%</td>
+      </tr>
+    </table>
+    </div>    
+    <div class="small font-italic text-right">Dados coletados por Leonardo Ribeiro, economista do Senado Federal, a partir dos anexos 1 e 3 dos RREOs dos municípios (Siconfi/STN) - 2019.</div>    
+    </div> 
+    
+
+  <!-- Despesas liquidadas e despesas empenhadas 2018 -->    
+    
+    
+    <p class="lead mt-5">Ainda não encontramos dados sobre este tema para Dores do Turvo.</p>
+          
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+
+<!-- Sobre -->
+<div class="rounded p-5 bg-light">
+
+  <div class="row px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="sobre" style="padding-top: 100px; margin-top: -100px;">Sobre o Raio-X dos Municípios</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+
+  <div class="px-2 py-2 mt-3 rounded">
+    <p class="lead my-3">O <font class="font-weight-bold">Raio-X dos Municípios</font> é uma ferramenta desenvolvida pelo <font class="font-weight-bold">Insper</font> que reúne e organiza dados sobre educação, saúde, habitação, meio ambiente, mobilidade, segurança e orçamento de cada município brasileiro. Confira, a seguir, as bases de dados públicas utilizadas como fonte.</p>
+    <ul>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://datasus.saude.gov.br/cnes-estabelecimentos/&amp;sa=D&amp;ust=1593056455961000">DataSUS - Cadastro Nacional de Estabelecimentos de Sa&uacute;de - Estabelecimentos 2020</a></li>  
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://datasus.saude.gov.br/cnes-recursos-fisicos/&amp;sa=D&amp;ust=1593056455962000">DataSUS - Cadastro Nacional de Estabelecimentos de Sa&uacute;de - Recursos F&iacute;sicos 2020</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://datasus.saude.gov.br/mortalidade-1996-a-2017-pela-cid-10-2/&amp;sa=D&amp;ust=1593056455962000">DataSUS - Mortalidade 2018</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://datasus.saude.gov.br/acesso-a-informacao/imunizacoes-desde-1994/&amp;sa=D&amp;ust=1593056455963000">DataSUS - Programa Nacional de Imuniza&ccedil;&atilde;o 2019</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://sidra.ibge.gov.br/pesquisa/censo-demografico/&amp;sa=D&amp;ust=1593056455963000">IBGE - Censo Demogr&aacute;fico 2010</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://www.ibge.gov.br/geociencias/cartas-e-mapas/redes-geograficas/15798-regioes-de-influencia-das-cidades.html?%3D%26t%3Do-que-e&amp;sa=D&amp;ust=1593056455964000">IBGE - Regi&otilde;es de Influ&ecirc;ncia das Cidades 2018</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=http://ideb.inep.gov.br/&amp;sa=D&amp;ust=1593056455964000">Inep - &Iacute;ndice de Desenvolvimento da Educa&ccedil;&atilde;o B&aacute;sica 2017</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=http://inep.gov.br/sinopses-estatisticas-da-educacao-basica&amp;sa=D&amp;ust=1593056455965000">Inep - Sinopse Estat&iacute;stica da Educa&ccedil;&atilde;o B&aacute;sica 2019</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=http://portal.inep.gov.br/web/guest/indicadores-educacionais&amp;sa=D&amp;ust=1593056455965000">Inep - Taxas de distor&ccedil;&atilde;o idade-s&eacute;rie 2019</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=http://portal.inep.gov.br/web/guest/indicadores-educacionais&amp;sa=D&amp;ust=1593056455966000">Inep - Taxas de Transi&ccedil;&atilde;o 2016-2017</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=http://www.snis.gov.br/diagnostico-anual-residuos-solidos/diagnostico-do-manejo-de-residuos-solidos-urbanos-2018&amp;sa=D&amp;ust=1593056455966000">MDR - Diagn&oacute;stico do Manejo de Res&iacute;duos S&oacute;lidos Urbanos 2018</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://plataforma.mobilidados.org.br/database&amp;sa=D&amp;ust=1593056455967000">Mobilidados - Taxa de motoriza&ccedil;&atilde;o 2018</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=http://atlasbrasil.org.br/&amp;sa=D&amp;ust=1593056455967000">PNUD - Atlas do Desenvolvimento Humano no Brasil 2010</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=http://www.snirh.gov.br/portal/snirh/snirh-1/atlas-esgotos&amp;sa=D&amp;ust=1593056455968000">Sistema Nacional de Informa&ccedil;&otilde;es sobre Recursos H&iacute;dricos 2013</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://siconfi.tesouro.gov.br/siconfi/pages/public/conteudo/conteudo.jsf?id%3D21503&amp;sa=D&amp;ust=1593056455968000">Tesouro Nacional - Sistema de Informa&ccedil;&otilde;es Cont&aacute;beis e Fiscais do Setor P&uacute;blico Brasileiro (API)</a></li>      
+    </ul> 
+  </div>
+
+</div>  
+
+<p class="mt-3 mb-3"></p>
+
+
+<footer style="background-color: #fff6eb; padding: 20px" class="rounded">
+  <div class="mt-5 mb-5 text-center"><a class="text_dark" href="/">Home</a> | <a class="text-dark" href="#">Voltar ao topo <i class="fas fa-angle-double-up"></i></a></div>
+</footer>
+
+
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <footer>
+    <div class="mt-5 mb-5 text-center text-muted"></div>
+  </footer>
+
+</body>	
+
+</html>

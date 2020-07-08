@@ -1,0 +1,2052 @@
+<!doctype html>
+<html lang="pt_BR">
+
+<head>
+  
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/5af416af23.js" crossorigin="anonymous"></script>
+  <!-- Bokeh -->
+  <script src="https://cdn.bokeh.org/bokeh/release/bokeh-1.4.0.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171485070-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-171485070-1');
+  </script>
+  <!-- Custom CSS -->
+  <style type="text/css">
+    @media (min-width: 1200px) {.container{max-width: 1400px;}}
+  </style>
+  
+</head>
+
+<body data-spy="scroll" data-target="#navbar1" data-offset="0" style="position: relative;" class="bg-warning">
+
+  <nav class="navbar navbar-expand-lg font-weight-bold bg-warning p-4 mx-auto shadow-sm">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerTop" aria-controls="navbarTogglerTop" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon text-dark p-2">Menu principal</span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerTop">
+    <ul class="navbar-nav mx-auto text-center">
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/">Início</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/panorama-municipal">Municípios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/politicas-publicas">Políticas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/transparencia-jornalismo-de-dados">Transparência</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/copia-impacto">Dados</a>
+      </li>      
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/as-regras-do-jogo">TSE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/integridade-noticiosa">Ética</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/checagem-e-verificacao">Checagem</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/copia-verificacao-e-checagem">Impacto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/sugestoes-de-pauta">Perguntas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/copia-impacto-1">Mais</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/sobre">Sobre</a>
+      </li>                        
+    </ul>
+    </div>
+  </nav>
+
+  
+  
+  
+  </div>
+  </div>
+  </div>
+
+  <div class="container">
+    
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Intro -->
+<div class="rounded p-5 bg-light">
+ 
+  <div class="mt-3">
+    <p><a class="text-muted" href="/"><< Retornar para selecionar outra cidade</a></p>
+    <p class="h1"><font class="font-weight-bold">Passa e Fica - RN</font></p> 
+    <p class="h2">Confira o que encontramos ao buscar dados em algumas bases públicas.</p>
+  </div>
+
+  <div class="row mt-3">
+    <div class="col-sm">
+      <div class="card mb-3">
+        <div class="card-body bg-white"><font class="font-weight-bold">População:</font> 13.277
+                               <br><div class="small text-muted">População estimada - IBGE 2019</div></div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card mb-3">
+        <div class="card-body bg-white"><font class="font-weight-bold">PIB per capita:</font> R$ 8.213,45
+                               <br><div class="small text-muted">IBGE 2017</div></div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card mb-3">
+        <div class="card-body bg-white">
+          
+          <font class="font-weight-bold">IDHM:</font> 0,606
+          
+          <br><div class="small text-muted">IBGE 2010</div>
+      </div>
+      </div>
+    </div>
+  </div>  
+  
+
+  <p class="mt-3 lead">Acima estão alguns dados gerais sobre Passa e Fica, mas podemos encontrar muito mais explorando bancos de dados públicos.</p> <p class="lead">Organizamos essas informações em categorias e, em cada uma delas, comparamos os valores dos indicadores com as <font class="font-weight-bold">respectivas médias</font> calculadas ao considerarmos municípios de mesmo porte habitacional (até 50 mil habitantes), municípios do mesmo estado (RN), municípios da mesma região (Nordeste) e todos os municípios brasileiros. Quando o valor do indicador de Passa e Fica for melhor do que o valor médio dos municípios de todo o país, o número é mostrado em <font class="font-weight-bold text-success">verde</font>, quando for pior, é mostrado em <font class="font-weight-bold text-danger">vermelho</font>.</p> <p class="lead">Também comparamos alguns indicadores específicos com até outros cinco municípios com população e economia de tamanhos próximos -- confira na seção "Comparações".</p>
+
+</div>
+
+<!-- Nav tabs -->
+  <nav id="navbar1" class="navbar navbar-expand-lg navbar-light sticky-top rounded mt-3 mb-3" style="background-color: #fff6eb;">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerNav" aria-controls="navbarTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon nav-link text-dark"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerNav">
+    <nav class="nav nav-pills font-weight-bold mx-auto">
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="/">Outras cidades</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#comparacoes"><i class="fas fa-chart-bar fa-lg"></i> Comparações</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#educacao"><i class="fas fa-book-reader fa-lg"></i> Educação</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#habitacao"><i class="fas fa-home fa-lg"></i> Habitação</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#meioambiente"><i class="fas fa-leaf fa-lg"></i> Meio Ambiente</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#mobilidade"><i class="fas fa-bus fa-lg"></i> Mobilidade</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#saude"><i class="fas fa-heartbeat fa-lg"></i> Saúde</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#seguranca"><i class="fas fa-user-shield fa-lg"></i> Segurança</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#orcamento"><i class="fas fa-dollar-sign fa-lg"></i> Orçamento</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#sobre">Sobre os dados</a>
+    </nav>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+<!-- Comparações -->
+<div class="rounded p-5 bg-light">
+
+  <div class="row px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="comparacoes" style="padding-top: 100px; margin-top: -100px;">Comparações</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+
+  <div class="px-2 py-2 mt-3 rounded">
+    <p class="lead my-3">Como os indicadores de Passa e Fica se comparam aos de outras cidades com porte populacional e econômico semelhante? Confira nos gráficos a seguir.</p>
+    <div class="row mt-5">
+      
+      <div class="col-sm">
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"cbe28a7b-f8eb-4e96-80d4-65cab5b36b41":{"roots":{"references":[{"attributes":{"callback":null,"end":10},"id":"4335186","type":"Range1d"},{"attributes":{},"id":"4335193","type":"Selection"},{"attributes":{"callback":null,"factors":["Pedras de Maria da Cruz - MG","Coribe - BA","Vila Nova dos Mart\\u00edrios - MA","Alagoinha - PB","Passa e Fica - RN","S\\u00e3o Miguel do Tocantins - TO"]},"id":"4335160","type":"FactorRange"},{"attributes":{},"id":"4335192","type":"UnionRenderers"},{"attributes":{},"id":"4335189","type":"BasicTickFormatter"},{"attributes":{},"id":"4335191","type":"CategoricalTickFormatter"},{"attributes":{"dimension":1,"ticker":{"id":"4335173","type":"BasicTicker"}},"id":"4335176","type":"Grid"},{"attributes":{"callback":null,"data":{"cidades":["Pedras de Maria da Cruz - MG","Coribe - BA","Vila Nova dos Mart\\u00edrios - MA","Alagoinha - PB","Passa e Fica - RN","S\\u00e3o Miguel do Tocantins - TO"],"colors":["#08519c","#2171b5","#4292c6","#6baed6","orange","#c6dbef"],"indicador":[5.6,5.1,5.0,4.8,4.2,4.0]},"selected":{"id":"4335193","type":"Selection"},"selection_policy":{"id":"4335192","type":"UnionRenderers"}},"id":"4335180","type":"ColumnDataSource"},{"attributes":{},"id":"4335169","type":"CategoricalTicker"},{"attributes":{"formatter":{"id":"4335191","type":"CategoricalTickFormatter"},"major_label_orientation":45,"ticker":{"id":"4335169","type":"CategoricalTicker"}},"id":"4335168","type":"CategoricalAxis"},{"attributes":{"ticker":{"id":"4335169","type":"CategoricalTicker"}},"id":"4335171","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"4335183","type":"VBar"},{"attributes":{"fill_alpha":{"value":0.9},"fill_color":{"field":"colors"},"line_color":{"field":"colors"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"4335182","type":"VBar"},{"attributes":{"callback":null,"tooltips":[["Ideb 2017 - Anos Iniciais","@indicador{0.0}"]]},"id":"4335177","type":"HoverTool"},{"attributes":{},"id":"4335173","type":"BasicTicker"},{"attributes":{"data_source":{"id":"4335180","type":"ColumnDataSource"},"glyph":{"id":"4335182","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"4335183","type":"VBar"},"selection_glyph":null,"view":{"id":"4335185","type":"CDSView"}},"id":"4335184","type":"GlyphRenderer"},{"attributes":{"text":"Ideb 2017 - Anos Iniciais"},"id":"4335158","type":"Title"},{"attributes":{},"id":"4335164","type":"CategoricalScale"},{"attributes":{"below":[{"id":"4335168","type":"CategoricalAxis"}],"center":[{"id":"4335171","type":"Grid"},{"id":"4335176","type":"Grid"}],"left":[{"id":"4335172","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"4335184","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"4335158","type":"Title"},"toolbar":{"id":"4335178","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"4335160","type":"FactorRange"},"x_scale":{"id":"4335164","type":"CategoricalScale"},"y_range":{"id":"4335186","type":"Range1d"},"y_scale":{"id":"4335166","type":"LinearScale"}},"id":"4335157","subtype":"Figure","type":"Plot"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"4335177","type":"HoverTool"}]},"id":"4335178","type":"Toolbar"},{"attributes":{},"id":"4335166","type":"LinearScale"},{"attributes":{"formatter":{"id":"4335189","type":"BasicTickFormatter"},"ticker":{"id":"4335173","type":"BasicTicker"}},"id":"4335172","type":"LinearAxis"},{"attributes":{"source":{"id":"4335180","type":"ColumnDataSource"}},"id":"4335185","type":"CDSView"}],"root_ids":["4335157"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"cbe28a7b-f8eb-4e96-80d4-65cab5b36b41","roots":{"4335157":"27a26b46-8c43-43f9-89bb-5d868964dd5f"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+        
+<div class="bk-root" id="27a26b46-8c43-43f9-89bb-5d868964dd5f" data-root-id="4335157"></div> 
+        <div class="small">Elaboração: Insper. Dados: Inep - 2017.</div>
+      </div>
+      
+      
+      <div class="col-sm">
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"e1033742-870a-4d82-aaec-e06db4a95217":{"roots":{"references":[{"attributes":{"callback":null,"tooltips":[["\\u00ccndice de Desenvolvimento Humano Municipal","@indicador"]]},"id":"4335242","type":"HoverTool"},{"attributes":{},"id":"4335258","type":"Selection"},{"attributes":{},"id":"4335238","type":"BasicTicker"},{"attributes":{"ticker":{"id":"4335234","type":"CategoricalTicker"}},"id":"4335236","type":"Grid"},{"attributes":{},"id":"4335256","type":"CategoricalTickFormatter"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"4335242","type":"HoverTool"}]},"id":"4335243","type":"Toolbar"},{"attributes":{},"id":"4335234","type":"CategoricalTicker"},{"attributes":{"dimension":1,"ticker":{"id":"4335238","type":"BasicTicker"}},"id":"4335241","type":"Grid"},{"attributes":{"text":"\\u00ccndice de Desenvolvimento Humano Municipal"},"id":"4335223","type":"Title"},{"attributes":{},"id":"4335257","type":"UnionRenderers"},{"attributes":{},"id":"4335231","type":"LinearScale"},{"attributes":{"below":[{"id":"4335233","type":"CategoricalAxis"}],"center":[{"id":"4335236","type":"Grid"},{"id":"4335241","type":"Grid"}],"left":[{"id":"4335237","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"4335249","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"4335223","type":"Title"},"toolbar":{"id":"4335243","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"4335225","type":"FactorRange"},"x_scale":{"id":"4335229","type":"CategoricalScale"},"y_range":{"id":"4335251","type":"Range1d"},"y_scale":{"id":"4335231","type":"LinearScale"}},"id":"4335222","subtype":"Figure","type":"Plot"},{"attributes":{"formatter":{"id":"4335254","type":"BasicTickFormatter"},"ticker":{"id":"4335238","type":"BasicTicker"}},"id":"4335237","type":"LinearAxis"},{"attributes":{},"id":"4335254","type":"BasicTickFormatter"},{"attributes":{},"id":"4335229","type":"CategoricalScale"},{"attributes":{"formatter":{"id":"4335256","type":"CategoricalTickFormatter"},"major_label_orientation":45,"ticker":{"id":"4335234","type":"CategoricalTicker"}},"id":"4335233","type":"CategoricalAxis"},{"attributes":{"callback":null,"factors":["S\\u00e3o Miguel do Tocantins - TO","Pedras de Maria da Cruz - MG","Passa e Fica - RN","Coribe - BA","Alagoinha - PB","Vila Nova dos Mart\\u00edrios - MA"]},"id":"4335225","type":"FactorRange"},{"attributes":{"source":{"id":"4335245","type":"ColumnDataSource"}},"id":"4335250","type":"CDSView"},{"attributes":{"fill_alpha":{"value":0.9},"fill_color":{"field":"colors"},"line_color":{"field":"colors"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"4335247","type":"VBar"},{"attributes":{"callback":null,"data":{"cidades":["S\\u00e3o Miguel do Tocantins - TO","Pedras de Maria da Cruz - MG","Passa e Fica - RN","Coribe - BA","Alagoinha - PB","Vila Nova dos Mart\\u00edrios - MA"],"colors":["#08519c","#2171b5","orange","#6baed6","#9ecae1","#c6dbef"],"indicador":[0.623,0.614,0.606,0.6,0.595,0.581]},"selected":{"id":"4335258","type":"Selection"},"selection_policy":{"id":"4335257","type":"UnionRenderers"}},"id":"4335245","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"4335248","type":"VBar"},{"attributes":{"data_source":{"id":"4335245","type":"ColumnDataSource"},"glyph":{"id":"4335247","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"4335248","type":"VBar"},"selection_glyph":null,"view":{"id":"4335250","type":"CDSView"}},"id":"4335249","type":"GlyphRenderer"},{"attributes":{"callback":null},"id":"4335251","type":"Range1d"}],"root_ids":["4335222"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"e1033742-870a-4d82-aaec-e06db4a95217","roots":{"4335222":"867afff0-7b5e-4dd6-a7df-f21627afc63b"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+        
+<div class="bk-root" id="867afff0-7b5e-4dd6-a7df-f21627afc63b" data-root-id="4335222"></div>
+        <div class="small">Elaboração: Insper. Dados: PNUD - 2010.</div> 
+      </div>
+          
+    </div>
+    <div class="row mt-5">
+      
+      <div class="col-sm">
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"05a5c5ea-e469-44c3-affe-2a4186775d4e":{"roots":{"references":[{"attributes":{},"id":"4335294","type":"CategoricalScale"},{"attributes":{"formatter":{"id":"4335321","type":"CategoricalTickFormatter"},"major_label_orientation":45,"ticker":{"id":"4335299","type":"CategoricalTicker"}},"id":"4335298","type":"CategoricalAxis"},{"attributes":{"ticker":{"id":"4335299","type":"CategoricalTicker"}},"id":"4335301","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.9},"fill_color":{"field":"colors"},"line_color":{"field":"colors"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"4335312","type":"VBar"},{"attributes":{"callback":null,"tooltips":[["% da popula\\u00e7\\u00e3o com coleta e tratamento de esgoto","@indicador{0.0}%"]]},"id":"4335307","type":"HoverTool"},{"attributes":{},"id":"4335323","type":"Selection"},{"attributes":{},"id":"4335303","type":"BasicTicker"},{"attributes":{},"id":"4335322","type":"UnionRenderers"},{"attributes":{"callback":null,"end":100},"id":"4335316","type":"Range1d"},{"attributes":{"dimension":1,"ticker":{"id":"4335303","type":"BasicTicker"}},"id":"4335306","type":"Grid"},{"attributes":{},"id":"4335321","type":"CategoricalTickFormatter"},{"attributes":{"source":{"id":"4335310","type":"ColumnDataSource"}},"id":"4335315","type":"CDSView"},{"attributes":{},"id":"4335296","type":"LinearScale"},{"attributes":{"below":[{"id":"4335298","type":"CategoricalAxis"}],"center":[{"id":"4335301","type":"Grid"},{"id":"4335306","type":"Grid"}],"left":[{"id":"4335302","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"4335314","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"4335288","type":"Title"},"toolbar":{"id":"4335308","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"4335290","type":"FactorRange"},"x_scale":{"id":"4335294","type":"CategoricalScale"},"y_range":{"id":"4335316","type":"Range1d"},"y_scale":{"id":"4335296","type":"LinearScale"}},"id":"4335287","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"factors":["Passa e Fica - RN","Coribe - BA","S\\u00e3o Miguel do Tocantins - TO","Pedras de Maria da Cruz - MG","Vila Nova dos Mart\\u00edrios - MA","Alagoinha - PB"]},"id":"4335290","type":"FactorRange"},{"attributes":{"callback":null,"data":{"cidades":["Passa e Fica - RN","Coribe - BA","S\\u00e3o Miguel do Tocantins - TO","Pedras de Maria da Cruz - MG","Vila Nova dos Mart\\u00edrios - MA","Alagoinha - PB"],"colors":["orange","#2171b5","#4292c6","#6baed6","#9ecae1","#c6dbef"],"indicador":[76.5,0.0,0.0,0.0,0.0,0.0]},"selected":{"id":"4335323","type":"Selection"},"selection_policy":{"id":"4335322","type":"UnionRenderers"}},"id":"4335310","type":"ColumnDataSource"},{"attributes":{"text":"% da popula\\u00e7\\u00e3o com coleta e tratamento de esgoto"},"id":"4335288","type":"Title"},{"attributes":{"formatter":{"id":"4335319","type":"BasicTickFormatter"},"ticker":{"id":"4335303","type":"BasicTicker"}},"id":"4335302","type":"LinearAxis"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"4335307","type":"HoverTool"}]},"id":"4335308","type":"Toolbar"},{"attributes":{},"id":"4335319","type":"BasicTickFormatter"},{"attributes":{"data_source":{"id":"4335310","type":"ColumnDataSource"},"glyph":{"id":"4335312","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"4335313","type":"VBar"},"selection_glyph":null,"view":{"id":"4335315","type":"CDSView"}},"id":"4335314","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"4335313","type":"VBar"},{"attributes":{},"id":"4335299","type":"CategoricalTicker"}],"root_ids":["4335287"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"05a5c5ea-e469-44c3-affe-2a4186775d4e","roots":{"4335287":"32319758-4037-468f-a47b-78191d6e4e4a"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+        
+<div class="bk-root" id="32319758-4037-468f-a47b-78191d6e4e4a" data-root-id="4335287"></div>
+        <div class="small">Elaboração: Insper. Dados: Snirh - 2013.</div> 
+      </div>
+      
+      
+      <div class="col-sm">
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"8ce9f0fc-bfe5-41e8-af72-a398400f76d8":{"roots":{"references":[{"attributes":{"callback":null,"end":100},"id":"4335381","type":"Range1d"},{"attributes":{},"id":"4335384","type":"BasicTickFormatter"},{"attributes":{"dimension":1,"ticker":{"id":"4335368","type":"BasicTicker"}},"id":"4335371","type":"Grid"},{"attributes":{},"id":"4335386","type":"CategoricalTickFormatter"},{"attributes":{"below":[{"id":"4335363","type":"CategoricalAxis"}],"center":[{"id":"4335366","type":"Grid"},{"id":"4335371","type":"Grid"}],"left":[{"id":"4335367","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"4335379","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"4335353","type":"Title"},"toolbar":{"id":"4335373","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"4335355","type":"FactorRange"},"x_scale":{"id":"4335359","type":"CategoricalScale"},"y_range":{"id":"4335381","type":"Range1d"},"y_scale":{"id":"4335361","type":"LinearScale"}},"id":"4335352","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"data":{"cidades":["S\\u00e3o Miguel do Tocantins - TO","Passa e Fica - RN","Alagoinha - PB","Coribe - BA","Vila Nova dos Mart\\u00edrios - MA","Pedras de Maria da Cruz - MG"],"colors":["#08519c","orange","#4292c6","#6baed6","#9ecae1","#c6dbef"],"indicador":[86.49,82.55,66.91,63.86,47.93,45.45]},"selected":{"id":"4335388","type":"Selection"},"selection_policy":{"id":"4335387","type":"UnionRenderers"}},"id":"4335375","type":"ColumnDataSource"},{"attributes":{},"id":"4335359","type":"CategoricalScale"},{"attributes":{},"id":"4335361","type":"LinearScale"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"4335378","type":"VBar"},{"attributes":{"text":"% da popula\\u00e7\\u00e3o que vive em ruas pavimentadas"},"id":"4335353","type":"Title"},{"attributes":{"fill_alpha":{"value":0.9},"fill_color":{"field":"colors"},"line_color":{"field":"colors"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"4335377","type":"VBar"},{"attributes":{"callback":null,"factors":["S\\u00e3o Miguel do Tocantins - TO","Passa e Fica - RN","Alagoinha - PB","Coribe - BA","Vila Nova dos Mart\\u00edrios - MA","Pedras de Maria da Cruz - MG"]},"id":"4335355","type":"FactorRange"},{"attributes":{},"id":"4335388","type":"Selection"},{"attributes":{},"id":"4335368","type":"BasicTicker"},{"attributes":{"data_source":{"id":"4335375","type":"ColumnDataSource"},"glyph":{"id":"4335377","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"4335378","type":"VBar"},"selection_glyph":null,"view":{"id":"4335380","type":"CDSView"}},"id":"4335379","type":"GlyphRenderer"},{"attributes":{},"id":"4335364","type":"CategoricalTicker"},{"attributes":{},"id":"4335387","type":"UnionRenderers"},{"attributes":{"ticker":{"id":"4335364","type":"CategoricalTicker"}},"id":"4335366","type":"Grid"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"4335372","type":"HoverTool"}]},"id":"4335373","type":"Toolbar"},{"attributes":{"formatter":{"id":"4335384","type":"BasicTickFormatter"},"ticker":{"id":"4335368","type":"BasicTicker"}},"id":"4335367","type":"LinearAxis"},{"attributes":{"source":{"id":"4335375","type":"ColumnDataSource"}},"id":"4335380","type":"CDSView"},{"attributes":{"callback":null,"tooltips":[["% da popula\\u00e7\\u00e3o que vive em ruas pavimentadas","@indicador{0.0}%"]]},"id":"4335372","type":"HoverTool"},{"attributes":{"formatter":{"id":"4335386","type":"CategoricalTickFormatter"},"major_label_orientation":45,"ticker":{"id":"4335364","type":"CategoricalTicker"}},"id":"4335363","type":"CategoricalAxis"}],"root_ids":["4335352"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"8ce9f0fc-bfe5-41e8-af72-a398400f76d8","roots":{"4335352":"b0bed70b-7f91-45a3-8e4e-edc6ea4f710c"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+        
+<div class="bk-root" id="b0bed70b-7f91-45a3-8e4e-edc6ea4f710c" data-root-id="4335352"></div>
+        <div class="small">Elaboração: Insper. Dados: Ibge - 2017.</div> 
+      </div>    
+      
+    </div>
+  </div>
+
+  
+  <div class="px-2 py-2 mt-5 rounded ">
+    <p class="h3 font-weight-bold">Regiões de Influência das Cidades - REGIC</p>
+    <p class="lead my-3">Realizada pelo Ibge, a pesquisa <a href='https://www.ibge.gov.br/geociencias/cartas-e-mapas/redes-geograficas/15798-regioes-de-influencia-das-cidades.html' target='_blank'>Regiões de Influência das Cidades - REGIC</a> "define a hierarquia dos centros urbanos brasileiros e delimita as regiões de influência a eles associados". Além disso, a pesquisa identifica os fluxos de bens e serviços entre os municípios, permitindo identificar, por exemplo, se a população encontra atendimento médico em sua cidade ou se precisa se deslocar até outro centro urbano.</p>
+    <div class="table-responsive">
+      <table class="table table-striped mt-3">
+        
+        <thead>
+          <th>Atendimento em Saúde</th>
+          <th>Baixa e Média Complexidade</th>
+          <th>Alta Complexidade</th>
+        </thead>
+        <tr>
+          <td></td>
+          <td>Nova Cruz</td>
+          <td>Arranjo Populacional de Natal/RN</td>
+        </tr>
+        <thead>
+          <th>Região de comércio</th>
+          <th>Vestuário e calçados</th>
+          <th>Móveis, eletrodomésticos, aparelhos eletrônicos e de informática</th>
+        </thead>
+        <tr>
+          <td></td>
+          <td>Passa e Fica</td>
+          <td>Nova Cruz</td>
+        </tr>        
+      </table>
+    </div>
+    <div class="small font-italic text-right">Elaboração: Insper. Dados: Ibge - Regic - 2018.</div>
+  </div>
+  
+
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Educação -->
+<div class="rounded p-5 bg-light">
+
+  <div class="row px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="educacao" style="padding-top: 100px; margin-top: -100px;">Educação</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+
+  <!-- Ideb 2017 -->
+    
+    
+    <div class="px-2 py-2 mt-5 rounded ">
+    <p class="h3 font-weight-bold">Índice de Desenvolvimento da Educação Básica</p>
+    <p class="lead my-3">Passa e Fica alcançou, <font class="font-weight-bold">em 2017</font>, <a href="https://www.qedu.org.br/ideb#o-que-e" target="_blank">Índice de Desenvolvimento da Educação Básica</a> de 4,2 pontos nos anos iniciais (1º ao 4º ano do Ensino Fundamental) e de 3,9 nos anos finais (5º ao 9º ano do Ensino Fundamental). Esses dados são divulgados a cada dois anos pelo <a href="http://ideb.inep.gov.br/">Inep</a>.</p>
+    <div class="table-responsive">
+    <table class="table table-striped mt-3">
+      <thead>
+        <th>Municípios</th>
+        <th>Ideb - anos iniciais</th>
+        <th>Ideb - anos finais</th>
+      </thead>
+      <thead>
+        <th>Passa e Fica</th>
+        <th><div class="text-danger">4,2</div></th>
+        <th><div class="text-danger">3,9</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>5,54</td>
+        <td>4,17</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>4,76</td>
+        <td>3,76</td>
+      </tr>
+      <tr>
+        <td>do estado (RN)</td>
+        <td>4,44</td>
+        <td>3,43</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>5,52</td>
+        <td>4,12</td>
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: Inep - 2017.</div>
+
+    <div class="row mt-5">
+    <div class="col-sm">
+    <p class="h6">Evolução do Ideb - Ensino Fundamental - Anos Iniciais</p>
+    
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"6f408a9c-789d-4657-b9f6-6d20e2272da3":{"roots":{"references":[{"attributes":{"line_alpha":0.2,"line_color":"green","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_br"}},"id":"4334175","type":"Line"},{"attributes":{},"id":"4334128","type":"LinearScale"},{"attributes":{},"id":"4334184","type":"UnionRenderers"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","logo":null,"tools":[{"id":"4334142","type":"PanTool"},{"id":"4334143","type":"WheelZoomTool"},{"id":"4334144","type":"BoxZoomTool"},{"id":"4334145","type":"SaveTool"},{"id":"4334146","type":"ResetTool"},{"id":"4334147","type":"HelpTool"}]},"id":"4334148","type":"Toolbar"},{"attributes":{"source":{"id":"4334156","type":"ColumnDataSource"}},"id":"4334225","type":"CDSView"},{"attributes":{},"id":"4334138","type":"BasicTicker"},{"attributes":{"ticks":[2005,2007,2009,2011,2013,2015,2017]},"id":"4334237","type":"FixedTicker"},{"attributes":{"ticker":{"id":"4334133","type":"BasicTicker"}},"id":"4334136","type":"Grid"},{"attributes":{"click_policy":"mute","items":[{"id":"4334171","type":"LegendItem"},{"id":"4334187","type":"LegendItem"},{"id":"4334203","type":"LegendItem"},{"id":"4334219","type":"LegendItem"},{"id":"4334235","type":"LegendItem"}],"location":"top_left"},"id":"4334170","type":"Legend"},{"attributes":{"data_source":{"id":"4334156","type":"ColumnDataSource"},"glyph":{"id":"4334189","type":"Line"},"hover_glyph":null,"muted_glyph":{"id":"4334191","type":"Line"},"nonselection_glyph":{"id":"4334190","type":"Line"},"selection_glyph":null,"view":{"id":"4334193","type":"CDSView"}},"id":"4334192","type":"GlyphRenderer"},{"attributes":{"line_alpha":0.2,"line_color":"red","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_uf"}},"id":"4334207","type":"Line"},{"attributes":{},"id":"4334147","type":"HelpTool"},{"attributes":{"below":[{"id":"4334132","type":"LinearAxis"}],"center":[{"id":"4334136","type":"Grid"},{"id":"4334141","type":"Grid"},{"id":"4334170","type":"Legend"}],"left":[{"id":"4334137","type":"LinearAxis"}],"plot_height":500,"plot_width":500,"renderers":[{"id":"4334161","type":"GlyphRenderer"},{"id":"4334176","type":"GlyphRenderer"},{"id":"4334192","type":"GlyphRenderer"},{"id":"4334208","type":"GlyphRenderer"},{"id":"4334224","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"4334163","type":"Title"},"toolbar":{"id":"4334148","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"4334124","type":"DataRange1d"},"x_scale":{"id":"4334128","type":"LinearScale"},"y_range":{"id":"4334236","type":"Range1d"},"y_scale":{"id":"4334130","type":"LinearScale"}},"id":"4334123","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"4334143","type":"WheelZoomTool"},{"attributes":{"source":{"id":"4334156","type":"ColumnDataSource"}},"id":"4334193","type":"CDSView"},{"attributes":{"overlay":{"id":"4334169","type":"BoxAnnotation"}},"id":"4334144","type":"BoxZoomTool"},{"attributes":{"line_alpha":0.8,"line_color":"green","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_br"}},"id":"4334173","type":"Line"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb"}},"id":"4334159","type":"Line"},{"attributes":{"data_source":{"id":"4334156","type":"ColumnDataSource"},"glyph":{"id":"4334158","type":"Line"},"hover_glyph":null,"muted_glyph":{"id":"4334160","type":"Line"},"nonselection_glyph":{"id":"4334159","type":"Line"},"selection_glyph":null,"view":{"id":"4334162","type":"CDSView"}},"id":"4334161","type":"GlyphRenderer"},{"attributes":{"source":{"id":"4334156","type":"ColumnDataSource"}},"id":"4334162","type":"CDSView"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_br"}},"id":"4334174","type":"Line"},{"attributes":{"data_source":{"id":"4334156","type":"ColumnDataSource"},"glyph":{"id":"4334173","type":"Line"},"hover_glyph":null,"muted_glyph":{"id":"4334175","type":"Line"},"nonselection_glyph":{"id":"4334174","type":"Line"},"selection_glyph":null,"view":{"id":"4334177","type":"CDSView"}},"id":"4334176","type":"GlyphRenderer"},{"attributes":{"label":{"value":"Passa e Fica"},"renderers":[{"id":"4334161","type":"GlyphRenderer"}]},"id":"4334171","type":"LegendItem"},{"attributes":{"label":{"value":"at\\u00e9 50 mil habitantes"},"renderers":[{"id":"4334224","type":"GlyphRenderer"}]},"id":"4334235","type":"LegendItem"},{"attributes":{},"id":"4334142","type":"PanTool"},{"attributes":{"callback":null,"end":10},"id":"4334236","type":"Range1d"},{"attributes":{"line_alpha":0.2,"line_color":"purple","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_reg"}},"id":"4334191","type":"Line"},{"attributes":{"callback":null},"id":"4334124","type":"DataRange1d"},{"attributes":{"line_alpha":0.2,"line_color":"orange","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_porte"}},"id":"4334223","type":"Line"},{"attributes":{},"id":"4334185","type":"Selection"},{"attributes":{"line_alpha":0.8,"line_color":"navy","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb"}},"id":"4334158","type":"Line"},{"attributes":{"dimension":1,"ticker":{"id":"4334138","type":"BasicTicker"}},"id":"4334141","type":"Grid"},{"attributes":{"source":{"id":"4334156","type":"ColumnDataSource"}},"id":"4334177","type":"CDSView"},{"attributes":{"formatter":{"id":"4334166","type":"BasicTickFormatter"},"ticker":{"id":"4334138","type":"BasicTicker"}},"id":"4334137","type":"LinearAxis"},{"attributes":{},"id":"4334133","type":"BasicTicker"},{"attributes":{"line_alpha":0.8,"line_color":"red","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_uf"}},"id":"4334205","type":"Line"},{"attributes":{},"id":"4334168","type":"BasicTickFormatter"},{"attributes":{"source":{"id":"4334156","type":"ColumnDataSource"}},"id":"4334209","type":"CDSView"},{"attributes":{"line_alpha":0.2,"line_color":"navy","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb"}},"id":"4334160","type":"Line"},{"attributes":{"label":{"value":"RN"},"renderers":[{"id":"4334208","type":"GlyphRenderer"}]},"id":"4334219","type":"LegendItem"},{"attributes":{"data_source":{"id":"4334156","type":"ColumnDataSource"},"glyph":{"id":"4334205","type":"Line"},"hover_glyph":null,"muted_glyph":{"id":"4334207","type":"Line"},"nonselection_glyph":{"id":"4334206","type":"Line"},"selection_glyph":null,"view":{"id":"4334209","type":"CDSView"}},"id":"4334208","type":"GlyphRenderer"},{"attributes":{"line_alpha":0.8,"line_color":"purple","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_reg"}},"id":"4334189","type":"Line"},{"attributes":{"label":{"value":"Nordeste"},"renderers":[{"id":"4334192","type":"GlyphRenderer"}]},"id":"4334203","type":"LegendItem"},{"attributes":{"formatter":{"id":"4334168","type":"BasicTickFormatter"},"ticker":{"id":"4334237","type":"FixedTicker"}},"id":"4334132","type":"LinearAxis"},{"attributes":{},"id":"4334145","type":"SaveTool"},{"attributes":{"text":""},"id":"4334163","type":"Title"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_reg"}},"id":"4334190","type":"Line"},{"attributes":{"callback":null,"data":{"ano":["2005","2007","2009","2011","2013","2015","2017"],"ideb":{"__ndarray__":"MzMzMzMzB0BmZmZmZmYKQAAAAAAAAAxAMzMzMzMzC0AzMzMzMzMLQDMzMzMzMw9AzczMzMzMEEA=","dtype":"float64","shape":[7]},"ideb_br":{"__ndarray__":"RIIaW3QuDEBvg/ZVd3oPQF2zvKvtwRFAoZpTMUwpE0CcUGZkt9UTQBQ/q7ndNxVAMphWR4UoFkA=","dtype":"float64","shape":[7]},"ideb_porte":{"__ndarray__":"6qAO6qDaC0BQV3pnwEEPQKxS/jpOrRFAkLIpwoMbE0DaySLWkcQTQOBUy7W5IRVAgBW1xSwSFkA=","dtype":"float64","shape":[7]},"ideb_reg":{"__ndarray__":"Vsqb4fjVBUDQIrH/vmwJQHmVqqKFcAxA4EghkCZOD0BamiE3PS4QQLjox2VMIhJA8vgJHlENE0A=","dtype":"float64","shape":[7]},"ideb_uf":{"__ndarray__":"hjjWxW00BEALYDAbZ2wJQJLUDn6vUwtAEiNGjBgxDkC7MJ5ApXwPQFuwBVuwJRFAb0CZuNK9EUA=","dtype":"float64","shape":[7]},"index":[0,1,2,3,4,5,6]},"selected":{"id":"4334185","type":"Selection"},"selection_policy":{"id":"4334184","type":"UnionRenderers"}},"id":"4334156","type":"ColumnDataSource"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_uf"}},"id":"4334206","type":"Line"},{"attributes":{},"id":"4334130","type":"LinearScale"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_porte"}},"id":"4334222","type":"Line"},{"attributes":{},"id":"4334166","type":"BasicTickFormatter"},{"attributes":{},"id":"4334146","type":"ResetTool"},{"attributes":{"data_source":{"id":"4334156","type":"ColumnDataSource"},"glyph":{"id":"4334221","type":"Line"},"hover_glyph":null,"muted_glyph":{"id":"4334223","type":"Line"},"nonselection_glyph":{"id":"4334222","type":"Line"},"selection_glyph":null,"view":{"id":"4334225","type":"CDSView"}},"id":"4334224","type":"GlyphRenderer"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"4334169","type":"BoxAnnotation"},{"attributes":{"line_alpha":0.8,"line_color":"orange","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_porte"}},"id":"4334221","type":"Line"},{"attributes":{"label":{"value":"Brasil"},"renderers":[{"id":"4334176","type":"GlyphRenderer"}]},"id":"4334187","type":"LegendItem"}],"root_ids":["4334123"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"6f408a9c-789d-4657-b9f6-6d20e2272da3","roots":{"4334123":"53a11181-39a6-4987-80db-d40ff3c9f08a"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+    
+<div class="bk-root" id="53a11181-39a6-4987-80db-d40ff3c9f08a" data-root-id="4334123"></div>
+    <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2017.</div>
+    </div>
+    <div class="col-sm">
+    <p class="h6">Evolução do Ideb - Ensino Fundamental - Anos Finais</p>
+    
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"38c580ea-5a77-4096-9401-ea1b2fb87ac9":{"roots":{"references":[{"attributes":{"ticker":{"id":"4334289","type":"BasicTicker"}},"id":"4334292","type":"Grid"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb"}},"id":"4334315","type":"Line"},{"attributes":{"label":{"value":"Brasil"},"renderers":[{"id":"4334332","type":"GlyphRenderer"}]},"id":"4334343","type":"LegendItem"},{"attributes":{"label":{"value":"at\\u00e9 50 mil habitantes"},"renderers":[{"id":"4334380","type":"GlyphRenderer"}]},"id":"4334391","type":"LegendItem"},{"attributes":{"formatter":{"id":"4334324","type":"BasicTickFormatter"},"ticker":{"id":"4334393","type":"FixedTicker"}},"id":"4334288","type":"LinearAxis"},{"attributes":{"data_source":{"id":"4334312","type":"ColumnDataSource"},"glyph":{"id":"4334377","type":"Line"},"hover_glyph":null,"muted_glyph":{"id":"4334379","type":"Line"},"nonselection_glyph":{"id":"4334378","type":"Line"},"selection_glyph":null,"view":{"id":"4334381","type":"CDSView"}},"id":"4334380","type":"GlyphRenderer"},{"attributes":{},"id":"4334299","type":"WheelZoomTool"},{"attributes":{"line_alpha":0.8,"line_color":"navy","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb"}},"id":"4334314","type":"Line"},{"attributes":{},"id":"4334301","type":"SaveTool"},{"attributes":{},"id":"4334298","type":"PanTool"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"4334325","type":"BoxAnnotation"},{"attributes":{"below":[{"id":"4334288","type":"LinearAxis"}],"center":[{"id":"4334292","type":"Grid"},{"id":"4334297","type":"Grid"},{"id":"4334326","type":"Legend"}],"left":[{"id":"4334293","type":"LinearAxis"}],"plot_height":500,"plot_width":500,"renderers":[{"id":"4334317","type":"GlyphRenderer"},{"id":"4334332","type":"GlyphRenderer"},{"id":"4334348","type":"GlyphRenderer"},{"id":"4334364","type":"GlyphRenderer"},{"id":"4334380","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"4334319","type":"Title"},"toolbar":{"id":"4334304","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"4334280","type":"DataRange1d"},"x_scale":{"id":"4334284","type":"LinearScale"},"y_range":{"id":"4334392","type":"Range1d"},"y_scale":{"id":"4334286","type":"LinearScale"}},"id":"4334279","subtype":"Figure","type":"Plot"},{"attributes":{"dimension":1,"ticker":{"id":"4334294","type":"BasicTicker"}},"id":"4334297","type":"Grid"},{"attributes":{},"id":"4334303","type":"HelpTool"},{"attributes":{"data_source":{"id":"4334312","type":"ColumnDataSource"},"glyph":{"id":"4334361","type":"Line"},"hover_glyph":null,"muted_glyph":{"id":"4334363","type":"Line"},"nonselection_glyph":{"id":"4334362","type":"Line"},"selection_glyph":null,"view":{"id":"4334365","type":"CDSView"}},"id":"4334364","type":"GlyphRenderer"},{"attributes":{},"id":"4334340","type":"UnionRenderers"},{"attributes":{},"id":"4334284","type":"LinearScale"},{"attributes":{"data_source":{"id":"4334312","type":"ColumnDataSource"},"glyph":{"id":"4334314","type":"Line"},"hover_glyph":null,"muted_glyph":{"id":"4334316","type":"Line"},"nonselection_glyph":{"id":"4334315","type":"Line"},"selection_glyph":null,"view":{"id":"4334318","type":"CDSView"}},"id":"4334317","type":"GlyphRenderer"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_uf"}},"id":"4334362","type":"Line"},{"attributes":{"callback":null,"end":10},"id":"4334392","type":"Range1d"},{"attributes":{"line_alpha":0.2,"line_color":"red","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_uf"}},"id":"4334363","type":"Line"},{"attributes":{"line_alpha":0.2,"line_color":"green","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_br"}},"id":"4334331","type":"Line"},{"attributes":{"source":{"id":"4334312","type":"ColumnDataSource"}},"id":"4334333","type":"CDSView"},{"attributes":{},"id":"4334302","type":"ResetTool"},{"attributes":{"label":{"value":"RN"},"renderers":[{"id":"4334364","type":"GlyphRenderer"}]},"id":"4334375","type":"LegendItem"},{"attributes":{"source":{"id":"4334312","type":"ColumnDataSource"}},"id":"4334381","type":"CDSView"},{"attributes":{"line_alpha":0.8,"line_color":"red","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_uf"}},"id":"4334361","type":"Line"},{"attributes":{"label":{"value":"Nordeste"},"renderers":[{"id":"4334348","type":"GlyphRenderer"}]},"id":"4334359","type":"LegendItem"},{"attributes":{"source":{"id":"4334312","type":"ColumnDataSource"}},"id":"4334349","type":"CDSView"},{"attributes":{"formatter":{"id":"4334322","type":"BasicTickFormatter"},"ticker":{"id":"4334294","type":"BasicTicker"}},"id":"4334293","type":"LinearAxis"},{"attributes":{"ticks":[2005,2007,2009,2011,2013,2015,2017]},"id":"4334393","type":"FixedTicker"},{"attributes":{"line_alpha":0.8,"line_color":"green","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_br"}},"id":"4334329","type":"Line"},{"attributes":{"click_policy":"mute","items":[{"id":"4334327","type":"LegendItem"},{"id":"4334343","type":"LegendItem"},{"id":"4334359","type":"LegendItem"},{"id":"4334375","type":"LegendItem"},{"id":"4334391","type":"LegendItem"}],"location":"top_left"},"id":"4334326","type":"Legend"},{"attributes":{"callback":null,"data":{"ano":["2005","2007","2009","2011","2013","2015","2017"],"ideb":{"__ndarray__":"AAAAAAAA+H8AAAAAAAAEQM3MzMzMzARAAAAAAAAACEBmZmZmZmYKQAAAAAAAAAxAMzMzMzMzD0A=","dtype":"float64","shape":[7]},"ideb_br":{"__ndarray__":"kcUD5xpZCEAtgAmd87EKQDiZZqL9dAxAdPCVckOvDUDRAbs91jIOQO/eHmrMERBAD+fmBEmqEEA=","dtype":"float64","shape":[7]},"ideb_porte":{"__ndarray__":"Y6NznMTNB0Ap/Uibc1QKQLXaz0b/GAxAsTOrg4ZCDUCZy8auNt4NQLXCPE0ztg9AyGHQ2q14EEA=","dtype":"float64","shape":[7]},"ideb_reg":{"__ndarray__":"Cd2L0L0IBUCgwOY9TuEGQDeJQWDlsAhA/O8yYlaZCUD5OExKl48KQL7dH8Z24gxAQXa/5H4eDkA=","dtype":"float64","shape":[7]},"ideb_uf":{"__ndarray__":"QeOfJhk0BEAUbTV4jkAFQH8aYgpJHAdAnSLwcbbhB0A0BkxjwDQJQEMWspCFLAxAE6d+zy1xC0A=","dtype":"float64","shape":[7]},"index":[0,1,2,3,4,5,6]},"selected":{"id":"4334341","type":"Selection"},"selection_policy":{"id":"4334340","type":"UnionRenderers"}},"id":"4334312","type":"ColumnDataSource"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_br"}},"id":"4334330","type":"Line"},{"attributes":{"data_source":{"id":"4334312","type":"ColumnDataSource"},"glyph":{"id":"4334345","type":"Line"},"hover_glyph":null,"muted_glyph":{"id":"4334347","type":"Line"},"nonselection_glyph":{"id":"4334346","type":"Line"},"selection_glyph":null,"view":{"id":"4334349","type":"CDSView"}},"id":"4334348","type":"GlyphRenderer"},{"attributes":{},"id":"4334286","type":"LinearScale"},{"attributes":{},"id":"4334294","type":"BasicTicker"},{"attributes":{},"id":"4334324","type":"BasicTickFormatter"},{"attributes":{"line_alpha":0.2,"line_color":"purple","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_reg"}},"id":"4334347","type":"Line"},{"attributes":{},"id":"4334322","type":"BasicTickFormatter"},{"attributes":{"line_alpha":0.8,"line_color":"purple","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_reg"}},"id":"4334345","type":"Line"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_reg"}},"id":"4334346","type":"Line"},{"attributes":{"line_alpha":0.2,"line_color":"orange","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_porte"}},"id":"4334379","type":"Line"},{"attributes":{},"id":"4334289","type":"BasicTicker"},{"attributes":{"callback":null},"id":"4334280","type":"DataRange1d"},{"attributes":{"data_source":{"id":"4334312","type":"ColumnDataSource"},"glyph":{"id":"4334329","type":"Line"},"hover_glyph":null,"muted_glyph":{"id":"4334331","type":"Line"},"nonselection_glyph":{"id":"4334330","type":"Line"},"selection_glyph":null,"view":{"id":"4334333","type":"CDSView"}},"id":"4334332","type":"GlyphRenderer"},{"attributes":{"source":{"id":"4334312","type":"ColumnDataSource"}},"id":"4334365","type":"CDSView"},{"attributes":{"label":{"value":"Passa e Fica"},"renderers":[{"id":"4334317","type":"GlyphRenderer"}]},"id":"4334327","type":"LegendItem"},{"attributes":{},"id":"4334341","type":"Selection"},{"attributes":{"text":""},"id":"4334319","type":"Title"},{"attributes":{"overlay":{"id":"4334325","type":"BoxAnnotation"}},"id":"4334300","type":"BoxZoomTool"},{"attributes":{"source":{"id":"4334312","type":"ColumnDataSource"}},"id":"4334318","type":"CDSView"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","logo":null,"tools":[{"id":"4334298","type":"PanTool"},{"id":"4334299","type":"WheelZoomTool"},{"id":"4334300","type":"BoxZoomTool"},{"id":"4334301","type":"SaveTool"},{"id":"4334302","type":"ResetTool"},{"id":"4334303","type":"HelpTool"}]},"id":"4334304","type":"Toolbar"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_porte"}},"id":"4334378","type":"Line"},{"attributes":{"line_alpha":0.2,"line_color":"navy","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb"}},"id":"4334316","type":"Line"},{"attributes":{"line_alpha":0.8,"line_color":"orange","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_porte"}},"id":"4334377","type":"Line"}],"root_ids":["4334279"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"38c580ea-5a77-4096-9401-ea1b2fb87ac9","roots":{"4334279":"8d94e826-8a10-4e1e-aba6-ce7783e7cc9b"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+    
+<div class="bk-root" id="8d94e826-8a10-4e1e-aba6-ce7783e7cc9b" data-root-id="4334279"></div>
+    <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2017.</div>
+    </div>
+    </div>
+    </div>
+    
+
+  <!-- Sinopse Estatística 2019 -->
+    
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Distribuição das redes de educação no município</p>
+    <p class="lead my-3">A partir da <a href="http://inep.gov.br/sinopses-estatisticas-da-educacao-basica">Sinopse Estatística da Educação Básica de 2019</a>, divulgada pelo Inep, é possível saber quantas matrículas, quantos docentes e quantas escolas há em Passa e Fica nas redes de ensino públicas - municipal, estadual e federal - e na rede privada.</p>
+
+    
+    <p class="h5 mt-5 font-weight-bold">Número de matrículas por etapa e rede de ensino</p>
+    <div class="row">
+      <div class="col-sm">
+        <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead>
+            <th></th>
+            <th>municipal</th>
+            <th>estadual</th>
+            <th>federal</th>
+            <th>privada</th>
+            <th>total</th>
+          </thead>
+          <tr>
+            <td>Creche</td>
+            <td>355</td>
+            <td>0</td>
+            <td>0</td>
+            <td>13</td>
+            <td>368</td>
+          </tr>
+          <tr>
+            <td>Pré-Escola</td>
+            <td>441</td>
+            <td>0</td>
+            <td>0</td>
+            <td>22</td>
+            <td>463</td>
+          </tr>            
+          <tr>
+            <td>Fund I</td>
+            <td>749</td>
+            <td>167</td>
+            <td>0</td>
+            <td>116</td>
+            <td>1.032</td>
+          </tr>            
+          <tr>
+            <td>Fund II</td>
+            <td>519</td>
+            <td>161</td>
+            <td>0</td>
+            <td>114</td>
+            <td>794</td>
+          </tr>                                    
+        </table>
+        </div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2019.</div>
+      </div>
+      <div class="col-sm">
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"3baa4211-34b5-4217-82e4-c7201526b0fd":{"roots":{"references":[{"attributes":{"callback":null,"start":0},"id":"4334438","type":"DataRange1d"},{"attributes":{"fields":["Municipal","Estadual"]},"id":"4334462","type":"Stack"},{"attributes":{"items":[{"id":"4334478","type":"LegendItem"},{"id":"4334492","type":"LegendItem"},{"id":"4334508","type":"LegendItem"},{"id":"4334526","type":"LegendItem"}],"orientation":"horizontal"},"id":"4334477","type":"Legend"},{"attributes":{"label":{"value":"Estadual"},"renderers":[{"id":"4334483","type":"GlyphRenderer"}]},"id":"4334492","type":"LegendItem"},{"attributes":{"fields":["Municipal","Estadual","Federal","Privada"]},"id":"4334465","type":"Stack"},{"attributes":{"source":{"id":"4334493","type":"ColumnDataSource"}},"id":"4334498","type":"CDSView"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,167,161],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[355,441,749,519],"Privada":[13,22,116,114]},"selected":{"id":"4334540","type":"Selection"},"selection_policy":{"id":"4334539","type":"UnionRenderers"}},"id":"4334509","type":"ColumnDataSource"},{"attributes":{},"id":"4334491","type":"Selection"},{"attributes":{"below":[{"id":"4334446","type":"LinearAxis"}],"center":[{"id":"4334450","type":"Grid"},{"id":"4334454","type":"Grid"},{"id":"4334477","type":"Legend"}],"left":[{"id":"4334451","type":"CategoricalAxis"}],"outline_line_color":{"value":null},"plot_height":400,"renderers":[{"id":"4334470","type":"GlyphRenderer"},{"id":"4334483","type":"GlyphRenderer"},{"id":"4334497","type":"GlyphRenderer"},{"id":"4334513","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"4334436","type":"Title"},"toolbar":{"id":"4334456","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"4334438","type":"DataRange1d"},"x_scale":{"id":"4334442","type":"LinearScale"},"y_range":{"id":"4334440","type":"FactorRange"},"y_scale":{"id":"4334444","type":"CategoricalScale"}},"id":"4334435","subtype":"Figure","type":"Plot"},{"attributes":{"fields":["Municipal","Estadual"]},"id":"4334461","type":"Stack"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,167,161],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[355,441,749,519],"Privada":[13,22,116,114]},"selected":{"id":"4334525","type":"Selection"},"selection_policy":{"id":"4334524","type":"UnionRenderers"}},"id":"4334493","type":"ColumnDataSource"},{"attributes":{"fields":["Municipal"]},"id":"4334459","type":"Stack"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"navy"},"height":{"value":0.8},"left":{"expr":{"id":"4334458","type":"Stack"}},"line_color":{"value":"navy"},"right":{"expr":{"id":"4334459","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334468","type":"HBar"},{"attributes":{},"id":"4334525","type":"Selection"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,167,161],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[355,441,749,519],"Privada":[13,22,116,114]},"selected":{"id":"4334491","type":"Selection"},"selection_policy":{"id":"4334490","type":"UnionRenderers"}},"id":"4334466","type":"ColumnDataSource"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"4334455","type":"HoverTool"}]},"id":"4334456","type":"Toolbar"},{"attributes":{"source":{"id":"4334509","type":"ColumnDataSource"}},"id":"4334514","type":"CDSView"},{"attributes":{"label":{"value":"Federal"},"renderers":[{"id":"4334497","type":"GlyphRenderer"}]},"id":"4334508","type":"LegendItem"},{"attributes":{"formatter":{"id":"4334474","type":"CategoricalTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"4334452","type":"CategoricalTicker"}},"id":"4334451","type":"CategoricalAxis"},{"attributes":{"label":{"value":"Municipal"},"renderers":[{"id":"4334470","type":"GlyphRenderer"}]},"id":"4334478","type":"LegendItem"},{"attributes":{"dimension":1,"grid_line_color":null,"ticker":{"id":"4334452","type":"CategoricalTicker"}},"id":"4334454","type":"Grid"},{"attributes":{},"id":"4334444","type":"CategoricalScale"},{"attributes":{"formatter":{"id":"4334527","type":"NumeralTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"4334447","type":"BasicTicker"}},"id":"4334446","type":"LinearAxis"},{"attributes":{"text":"Matr\\u00edculas - Educa\\u00e7\\u00e3o Infantil e Ensino Fundamental"},"id":"4334436","type":"Title"},{"attributes":{"data_source":{"id":"4334479","type":"ColumnDataSource"},"glyph":{"id":"4334481","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Estadual","nonselection_glyph":{"id":"4334482","type":"HBar"},"selection_glyph":null,"view":{"id":"4334484","type":"CDSView"}},"id":"4334483","type":"GlyphRenderer"},{"attributes":{},"id":"4334507","type":"Selection"},{"attributes":{},"id":"4334506","type":"UnionRenderers"},{"attributes":{"fields":["Municipal"]},"id":"4334460","type":"Stack"},{"attributes":{"callback":null,"tooltips":"Rede $name: @$name"},"id":"4334455","type":"HoverTool"},{"attributes":{"ticker":{"id":"4334447","type":"BasicTicker"}},"id":"4334450","type":"Grid"},{"attributes":{},"id":"4334452","type":"CategoricalTicker"},{"attributes":{"fields":[]},"id":"4334458","type":"Stack"},{"attributes":{},"id":"4334539","type":"UnionRenderers"},{"attributes":{"data_source":{"id":"4334466","type":"ColumnDataSource"},"glyph":{"id":"4334468","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Municipal","nonselection_glyph":{"id":"4334469","type":"HBar"},"selection_glyph":null,"view":{"id":"4334471","type":"CDSView"}},"id":"4334470","type":"GlyphRenderer"},{"attributes":{},"id":"4334474","type":"CategoricalTickFormatter"},{"attributes":{},"id":"4334540","type":"Selection"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"4334464","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"4334465","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334512","type":"HBar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"4334462","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"4334463","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334496","type":"HBar"},{"attributes":{},"id":"4334524","type":"UnionRenderers"},{"attributes":{"source":{"id":"4334466","type":"ColumnDataSource"}},"id":"4334471","type":"CDSView"},{"attributes":{"label":{"value":"Privada"},"renderers":[{"id":"4334513","type":"GlyphRenderer"}]},"id":"4334526","type":"LegendItem"},{"attributes":{"data_source":{"id":"4334493","type":"ColumnDataSource"},"glyph":{"id":"4334495","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Federal","nonselection_glyph":{"id":"4334496","type":"HBar"},"selection_glyph":null,"view":{"id":"4334498","type":"CDSView"}},"id":"4334497","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"4334458","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"4334459","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334469","type":"HBar"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"purple"},"height":{"value":0.8},"left":{"expr":{"id":"4334462","type":"Stack"}},"line_color":{"value":"purple"},"right":{"expr":{"id":"4334463","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334495","type":"HBar"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"red"},"height":{"value":0.8},"left":{"expr":{"id":"4334464","type":"Stack"}},"line_color":{"value":"red"},"right":{"expr":{"id":"4334465","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334511","type":"HBar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"4334460","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"4334461","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334482","type":"HBar"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,167,161],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[355,441,749,519],"Privada":[13,22,116,114]},"selected":{"id":"4334507","type":"Selection"},"selection_policy":{"id":"4334506","type":"UnionRenderers"}},"id":"4334479","type":"ColumnDataSource"},{"attributes":{"fields":["Municipal","Estadual","Federal"]},"id":"4334463","type":"Stack"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"green"},"height":{"value":0.8},"left":{"expr":{"id":"4334460","type":"Stack"}},"line_color":{"value":"green"},"right":{"expr":{"id":"4334461","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334481","type":"HBar"},{"attributes":{"fields":["Municipal","Estadual","Federal"]},"id":"4334464","type":"Stack"},{"attributes":{"source":{"id":"4334479","type":"ColumnDataSource"}},"id":"4334484","type":"CDSView"},{"attributes":{"data_source":{"id":"4334509","type":"ColumnDataSource"},"glyph":{"id":"4334511","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Privada","nonselection_glyph":{"id":"4334512","type":"HBar"},"selection_glyph":null,"view":{"id":"4334514","type":"CDSView"}},"id":"4334513","type":"GlyphRenderer"},{"attributes":{},"id":"4334490","type":"UnionRenderers"},{"attributes":{},"id":"4334447","type":"BasicTicker"},{"attributes":{"callback":null,"factors":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"range_padding":1},"id":"4334440","type":"FactorRange"},{"attributes":{},"id":"4334442","type":"LinearScale"},{"attributes":{"format":"0a"},"id":"4334527","type":"NumeralTickFormatter"}],"root_ids":["4334435"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"3baa4211-34b5-4217-82e4-c7201526b0fd","roots":{"4334435":"2683882f-d96f-47f7-9a32-45e63717fbc7"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+        
+<div class="bk-root" id="2683882f-d96f-47f7-9a32-45e63717fbc7" data-root-id="4334435"></div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2019.</div>
+      </div>        
+    </div>
+    
+
+    
+    <p class="h5 mt-5 font-weight-bold">Número de docentes por matrícula em cada etapa e rede de ensino</p>
+    <p>Atenção: este número não reflete a quantidade de alunos que cada professor têm em sala, uma vez que, no Ensino Fundamental, há mais de um professor por aluno. No entanto, é um termômetro da capacidade de cada rede de atender o público.</p>      
+    <div class="row">
+      <div class="col-sm">
+        <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead>
+            <th></th>
+            <th>municipal</th>
+            <th>estadual</th>
+            <th>federal</th>
+            <th>privada</th>
+            <th>total</th>
+          </thead>
+          <tr>
+            <td>Creche</td>
+            <td>22,19</td>
+            <td>0</td>
+            <td>0</td>
+            <td>13</td>
+            <td>21,65</td>
+          </tr>
+          <tr>
+            <td>Pré-Escola</td>
+            <td>19,17</td>
+            <td>0</td>
+            <td>0</td>
+            <td>11</td>
+            <td>18,52</td>
+          </tr>            
+          <tr>
+            <td>Fund I</td>
+            <td>23,41</td>
+            <td>27,83</td>
+            <td>0</td>
+            <td>14,5</td>
+            <td>22,43</td>
+          </tr>            
+          <tr>
+            <td>Fund II</td>
+            <td>13,31</td>
+            <td>16,1</td>
+            <td>0</td>
+            <td>9,5</td>
+            <td>13,02</td>
+          </tr>                                    
+        </table>
+        </div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2019.</div>
+      </div>
+      <div class="col-sm">
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"930bc60d-c058-45e3-be09-b9a763d0bc90":{"roots":{"references":[{"attributes":{},"id":"4334601","type":"BasicTicker"},{"attributes":{"label":{"value":"Federal"},"renderers":[{"id":"4334651","type":"GlyphRenderer"}]},"id":"4334662","type":"LegendItem"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,27.83,16.1],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[22.19,19.17,23.41,13.31],"Privada":[13.0,11.0,14.5,9.5]},"selected":{"id":"4334661","type":"Selection"},"selection_policy":{"id":"4334660","type":"UnionRenderers"}},"id":"4334633","type":"ColumnDataSource"},{"attributes":{"ticker":{"id":"4334601","type":"BasicTicker"}},"id":"4334604","type":"Grid"},{"attributes":{"source":{"id":"4334647","type":"ColumnDataSource"}},"id":"4334652","type":"CDSView"},{"attributes":{},"id":"4334693","type":"UnionRenderers"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"4334618","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"4334619","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334666","type":"HBar"},{"attributes":{"items":[{"id":"4334632","type":"LegendItem"},{"id":"4334646","type":"LegendItem"},{"id":"4334662","type":"LegendItem"},{"id":"4334680","type":"LegendItem"}],"orientation":"horizontal"},"id":"4334631","type":"Legend"},{"attributes":{"fields":["Municipal","Estadual","Federal"]},"id":"4334617","type":"Stack"},{"attributes":{},"id":"4334678","type":"UnionRenderers"},{"attributes":{"label":{"value":"Privada"},"renderers":[{"id":"4334667","type":"GlyphRenderer"}]},"id":"4334680","type":"LegendItem"},{"attributes":{},"id":"4334628","type":"CategoricalTickFormatter"},{"attributes":{"source":{"id":"4334620","type":"ColumnDataSource"}},"id":"4334625","type":"CDSView"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"red"},"height":{"value":0.8},"left":{"expr":{"id":"4334618","type":"Stack"}},"line_color":{"value":"red"},"right":{"expr":{"id":"4334619","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334665","type":"HBar"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,27.83,16.1],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[22.19,19.17,23.41,13.31],"Privada":[13.0,11.0,14.5,9.5]},"selected":{"id":"4334694","type":"Selection"},"selection_policy":{"id":"4334693","type":"UnionRenderers"}},"id":"4334663","type":"ColumnDataSource"},{"attributes":{"data_source":{"id":"4334620","type":"ColumnDataSource"},"glyph":{"id":"4334622","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Municipal","nonselection_glyph":{"id":"4334623","type":"HBar"},"selection_glyph":null,"view":{"id":"4334625","type":"CDSView"}},"id":"4334624","type":"GlyphRenderer"},{"attributes":{},"id":"4334606","type":"CategoricalTicker"},{"attributes":{"callback":null,"start":0},"id":"4334592","type":"DataRange1d"},{"attributes":{},"id":"4334596","type":"LinearScale"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"4334616","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"4334617","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334650","type":"HBar"},{"attributes":{"below":[{"id":"4334600","type":"LinearAxis"}],"center":[{"id":"4334604","type":"Grid"},{"id":"4334608","type":"Grid"},{"id":"4334631","type":"Legend"}],"left":[{"id":"4334605","type":"CategoricalAxis"}],"outline_line_color":{"value":null},"plot_height":400,"renderers":[{"id":"4334624","type":"GlyphRenderer"},{"id":"4334637","type":"GlyphRenderer"},{"id":"4334651","type":"GlyphRenderer"},{"id":"4334667","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"4334590","type":"Title"},"toolbar":{"id":"4334610","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"4334592","type":"DataRange1d"},"x_scale":{"id":"4334596","type":"LinearScale"},"y_range":{"id":"4334594","type":"FactorRange"},"y_scale":{"id":"4334598","type":"CategoricalScale"}},"id":"4334589","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"tooltips":"Rede $name: @$name"},"id":"4334609","type":"HoverTool"},{"attributes":{},"id":"4334694","type":"Selection"},{"attributes":{"fields":["Municipal"]},"id":"4334613","type":"Stack"},{"attributes":{"fields":["Municipal"]},"id":"4334614","type":"Stack"},{"attributes":{},"id":"4334645","type":"Selection"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"4334609","type":"HoverTool"}]},"id":"4334610","type":"Toolbar"},{"attributes":{"format":"0a"},"id":"4334681","type":"NumeralTickFormatter"},{"attributes":{"label":{"value":"Municipal"},"renderers":[{"id":"4334624","type":"GlyphRenderer"}]},"id":"4334632","type":"LegendItem"},{"attributes":{"fields":["Municipal","Estadual"]},"id":"4334615","type":"Stack"},{"attributes":{},"id":"4334661","type":"Selection"},{"attributes":{},"id":"4334679","type":"Selection"},{"attributes":{"fields":["Municipal","Estadual","Federal"]},"id":"4334618","type":"Stack"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,27.83,16.1],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[22.19,19.17,23.41,13.31],"Privada":[13.0,11.0,14.5,9.5]},"selected":{"id":"4334679","type":"Selection"},"selection_policy":{"id":"4334678","type":"UnionRenderers"}},"id":"4334647","type":"ColumnDataSource"},{"attributes":{"fields":[]},"id":"4334612","type":"Stack"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"navy"},"height":{"value":0.8},"left":{"expr":{"id":"4334612","type":"Stack"}},"line_color":{"value":"navy"},"right":{"expr":{"id":"4334613","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334622","type":"HBar"},{"attributes":{"fields":["Municipal","Estadual","Federal","Privada"]},"id":"4334619","type":"Stack"},{"attributes":{"source":{"id":"4334633","type":"ColumnDataSource"}},"id":"4334638","type":"CDSView"},{"attributes":{"formatter":{"id":"4334628","type":"CategoricalTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"4334606","type":"CategoricalTicker"}},"id":"4334605","type":"CategoricalAxis"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"green"},"height":{"value":0.8},"left":{"expr":{"id":"4334614","type":"Stack"}},"line_color":{"value":"green"},"right":{"expr":{"id":"4334615","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334635","type":"HBar"},{"attributes":{"data_source":{"id":"4334633","type":"ColumnDataSource"},"glyph":{"id":"4334635","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Estadual","nonselection_glyph":{"id":"4334636","type":"HBar"},"selection_glyph":null,"view":{"id":"4334638","type":"CDSView"}},"id":"4334637","type":"GlyphRenderer"},{"attributes":{"data_source":{"id":"4334663","type":"ColumnDataSource"},"glyph":{"id":"4334665","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Privada","nonselection_glyph":{"id":"4334666","type":"HBar"},"selection_glyph":null,"view":{"id":"4334668","type":"CDSView"}},"id":"4334667","type":"GlyphRenderer"},{"attributes":{"source":{"id":"4334663","type":"ColumnDataSource"}},"id":"4334668","type":"CDSView"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"purple"},"height":{"value":0.8},"left":{"expr":{"id":"4334616","type":"Stack"}},"line_color":{"value":"purple"},"right":{"expr":{"id":"4334617","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334649","type":"HBar"},{"attributes":{"data_source":{"id":"4334647","type":"ColumnDataSource"},"glyph":{"id":"4334649","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Federal","nonselection_glyph":{"id":"4334650","type":"HBar"},"selection_glyph":null,"view":{"id":"4334652","type":"CDSView"}},"id":"4334651","type":"GlyphRenderer"},{"attributes":{},"id":"4334598","type":"CategoricalScale"},{"attributes":{"fields":["Municipal","Estadual"]},"id":"4334616","type":"Stack"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,27.83,16.1],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[22.19,19.17,23.41,13.31],"Privada":[13.0,11.0,14.5,9.5]},"selected":{"id":"4334645","type":"Selection"},"selection_policy":{"id":"4334644","type":"UnionRenderers"}},"id":"4334620","type":"ColumnDataSource"},{"attributes":{"formatter":{"id":"4334681","type":"NumeralTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"4334601","type":"BasicTicker"}},"id":"4334600","type":"LinearAxis"},{"attributes":{"label":{"value":"Estadual"},"renderers":[{"id":"4334637","type":"GlyphRenderer"}]},"id":"4334646","type":"LegendItem"},{"attributes":{"callback":null,"factors":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"range_padding":1},"id":"4334594","type":"FactorRange"},{"attributes":{},"id":"4334660","type":"UnionRenderers"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"4334614","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"4334615","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334636","type":"HBar"},{"attributes":{"dimension":1,"grid_line_color":null,"ticker":{"id":"4334606","type":"CategoricalTicker"}},"id":"4334608","type":"Grid"},{"attributes":{},"id":"4334644","type":"UnionRenderers"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"4334612","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"4334613","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334623","type":"HBar"},{"attributes":{"text":"Alunos por docente - Educa\\u00e7\\u00e3o Infantil e Ensino Fundamental"},"id":"4334590","type":"Title"}],"root_ids":["4334589"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"930bc60d-c058-45e3-be09-b9a763d0bc90","roots":{"4334589":"0bfbce8d-1a66-4a61-b634-56402880ed95"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+        
+<div class="bk-root" id="0bfbce8d-1a66-4a61-b634-56402880ed95" data-root-id="4334589"></div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2019.</div>
+      </div>
+    </div>
+        
+
+    
+    <p class="h5 mt-5 font-weight-bold">Número de escolas por etapa e por rede de ensino</p>
+    <div class="row">
+      <div class="col-sm">
+        <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead>
+            <th></th>
+            <th>municipal</th>
+            <th>estadual</th>
+            <th>federal</th>
+            <th>privada</th>
+            <th>total</th>
+          </thead>
+          <tr>
+            <td>Creche</td>
+            <td>8</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>Pré-Escola</td>
+            <td>8</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>9</td>
+          </tr>            
+          <tr>
+            <td>Fund I</td>
+            <td>8</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>10</td>
+          </tr>            
+          <tr>
+            <td>Fund II</td>
+            <td>3</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>5</td>
+          </tr>                                    
+        </table>   
+        </div>       
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2019.</div>
+      </div>
+      <div class="col-sm">
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"179524e2-a6a3-4dda-8bdc-c269122e844d":{"roots":{"references":[{"attributes":{},"id":"4334782","type":"CategoricalTickFormatter"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"4334770","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"4334771","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334804","type":"HBar"},{"attributes":{"data_source":{"id":"4334774","type":"ColumnDataSource"},"glyph":{"id":"4334776","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Municipal","nonselection_glyph":{"id":"4334777","type":"HBar"},"selection_glyph":null,"view":{"id":"4334779","type":"CDSView"}},"id":"4334778","type":"GlyphRenderer"},{"attributes":{},"id":"4334760","type":"CategoricalTicker"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"4334768","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"4334769","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334790","type":"HBar"},{"attributes":{"source":{"id":"4334817","type":"ColumnDataSource"}},"id":"4334822","type":"CDSView"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"4334772","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"4334773","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334820","type":"HBar"},{"attributes":{},"id":"4334814","type":"UnionRenderers"},{"attributes":{},"id":"4334750","type":"LinearScale"},{"attributes":{"items":[{"id":"4334786","type":"LegendItem"},{"id":"4334800","type":"LegendItem"},{"id":"4334816","type":"LegendItem"},{"id":"4334834","type":"LegendItem"}],"orientation":"horizontal"},"id":"4334785","type":"Legend"},{"attributes":{},"id":"4334798","type":"UnionRenderers"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"purple"},"height":{"value":0.8},"left":{"expr":{"id":"4334770","type":"Stack"}},"line_color":{"value":"purple"},"right":{"expr":{"id":"4334771","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334803","type":"HBar"},{"attributes":{},"id":"4334847","type":"UnionRenderers"},{"attributes":{"fields":["Municipal"]},"id":"4334768","type":"Stack"},{"attributes":{"format":"0a"},"id":"4334835","type":"NumeralTickFormatter"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"4334766","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"4334767","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334777","type":"HBar"},{"attributes":{"label":{"value":"Municipal"},"renderers":[{"id":"4334778","type":"GlyphRenderer"}]},"id":"4334786","type":"LegendItem"},{"attributes":{},"id":"4334833","type":"Selection"},{"attributes":{},"id":"4334848","type":"Selection"},{"attributes":{"fields":["Municipal","Estadual","Federal"]},"id":"4334772","type":"Stack"},{"attributes":{"label":{"value":"Federal"},"renderers":[{"id":"4334805","type":"GlyphRenderer"}]},"id":"4334816","type":"LegendItem"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,1,1],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[8,8,8,3],"Privada":[1,1,1,1]},"selected":{"id":"4334833","type":"Selection"},"selection_policy":{"id":"4334832","type":"UnionRenderers"}},"id":"4334801","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"green"},"height":{"value":0.8},"left":{"expr":{"id":"4334768","type":"Stack"}},"line_color":{"value":"green"},"right":{"expr":{"id":"4334769","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334789","type":"HBar"},{"attributes":{"callback":null,"start":0},"id":"4334746","type":"DataRange1d"},{"attributes":{"formatter":{"id":"4334782","type":"CategoricalTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"4334760","type":"CategoricalTicker"}},"id":"4334759","type":"CategoricalAxis"},{"attributes":{"formatter":{"id":"4334835","type":"NumeralTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"4334755","type":"BasicTicker"}},"id":"4334754","type":"LinearAxis"},{"attributes":{"source":{"id":"4334801","type":"ColumnDataSource"}},"id":"4334806","type":"CDSView"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"4334763","type":"HoverTool"}]},"id":"4334764","type":"Toolbar"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,1,1],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[8,8,8,3],"Privada":[1,1,1,1]},"selected":{"id":"4334848","type":"Selection"},"selection_policy":{"id":"4334847","type":"UnionRenderers"}},"id":"4334817","type":"ColumnDataSource"},{"attributes":{"data_source":{"id":"4334801","type":"ColumnDataSource"},"glyph":{"id":"4334803","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Federal","nonselection_glyph":{"id":"4334804","type":"HBar"},"selection_glyph":null,"view":{"id":"4334806","type":"CDSView"}},"id":"4334805","type":"GlyphRenderer"},{"attributes":{"source":{"id":"4334774","type":"ColumnDataSource"}},"id":"4334779","type":"CDSView"},{"attributes":{"source":{"id":"4334787","type":"ColumnDataSource"}},"id":"4334792","type":"CDSView"},{"attributes":{"below":[{"id":"4334754","type":"LinearAxis"}],"center":[{"id":"4334758","type":"Grid"},{"id":"4334762","type":"Grid"},{"id":"4334785","type":"Legend"}],"left":[{"id":"4334759","type":"CategoricalAxis"}],"outline_line_color":{"value":null},"plot_height":400,"renderers":[{"id":"4334778","type":"GlyphRenderer"},{"id":"4334791","type":"GlyphRenderer"},{"id":"4334805","type":"GlyphRenderer"},{"id":"4334821","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"4334744","type":"Title"},"toolbar":{"id":"4334764","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"4334746","type":"DataRange1d"},"x_scale":{"id":"4334750","type":"LinearScale"},"y_range":{"id":"4334748","type":"FactorRange"},"y_scale":{"id":"4334752","type":"CategoricalScale"}},"id":"4334743","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,1,1],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[8,8,8,3],"Privada":[1,1,1,1]},"selected":{"id":"4334799","type":"Selection"},"selection_policy":{"id":"4334798","type":"UnionRenderers"}},"id":"4334774","type":"ColumnDataSource"},{"attributes":{"fields":[]},"id":"4334766","type":"Stack"},{"attributes":{"label":{"value":"Estadual"},"renderers":[{"id":"4334791","type":"GlyphRenderer"}]},"id":"4334800","type":"LegendItem"},{"attributes":{"fields":["Municipal","Estadual","Federal","Privada"]},"id":"4334773","type":"Stack"},{"attributes":{"text":"Escolas - Educa\\u00e7\\u00e3o Infantil e Ensino Fundamental"},"id":"4334744","type":"Title"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"red"},"height":{"value":0.8},"left":{"expr":{"id":"4334772","type":"Stack"}},"line_color":{"value":"red"},"right":{"expr":{"id":"4334773","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334819","type":"HBar"},{"attributes":{"label":{"value":"Privada"},"renderers":[{"id":"4334821","type":"GlyphRenderer"}]},"id":"4334834","type":"LegendItem"},{"attributes":{"fields":["Municipal","Estadual","Federal"]},"id":"4334771","type":"Stack"},{"attributes":{},"id":"4334815","type":"Selection"},{"attributes":{"data_source":{"id":"4334787","type":"ColumnDataSource"},"glyph":{"id":"4334789","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Estadual","nonselection_glyph":{"id":"4334790","type":"HBar"},"selection_glyph":null,"view":{"id":"4334792","type":"CDSView"}},"id":"4334791","type":"GlyphRenderer"},{"attributes":{"data_source":{"id":"4334817","type":"ColumnDataSource"},"glyph":{"id":"4334819","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Privada","nonselection_glyph":{"id":"4334820","type":"HBar"},"selection_glyph":null,"view":{"id":"4334822","type":"CDSView"}},"id":"4334821","type":"GlyphRenderer"},{"attributes":{"dimension":1,"grid_line_color":null,"ticker":{"id":"4334760","type":"CategoricalTicker"}},"id":"4334762","type":"Grid"},{"attributes":{},"id":"4334755","type":"BasicTicker"},{"attributes":{},"id":"4334799","type":"Selection"},{"attributes":{"fields":["Municipal","Estadual"]},"id":"4334769","type":"Stack"},{"attributes":{"fields":["Municipal","Estadual"]},"id":"4334770","type":"Stack"},{"attributes":{"callback":null,"tooltips":"Rede $name: @$name"},"id":"4334763","type":"HoverTool"},{"attributes":{"fields":["Municipal"]},"id":"4334767","type":"Stack"},{"attributes":{},"id":"4334752","type":"CategoricalScale"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"navy"},"height":{"value":0.8},"left":{"expr":{"id":"4334766","type":"Stack"}},"line_color":{"value":"navy"},"right":{"expr":{"id":"4334767","type":"Stack"}},"y":{"field":"Etapas"}},"id":"4334776","type":"HBar"},{"attributes":{"ticker":{"id":"4334755","type":"BasicTicker"}},"id":"4334758","type":"Grid"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,1,1],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[8,8,8,3],"Privada":[1,1,1,1]},"selected":{"id":"4334815","type":"Selection"},"selection_policy":{"id":"4334814","type":"UnionRenderers"}},"id":"4334787","type":"ColumnDataSource"},{"attributes":{"callback":null,"factors":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"range_padding":1},"id":"4334748","type":"FactorRange"},{"attributes":{},"id":"4334832","type":"UnionRenderers"}],"root_ids":["4334743"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"179524e2-a6a3-4dda-8bdc-c269122e844d","roots":{"4334743":"a78742a4-e79e-4403-8dfc-ac6f4f2be238"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+        
+<div class="bk-root" id="a78742a4-e79e-4403-8dfc-ac6f4f2be238" data-root-id="4334743"></div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2019.</div>
+      </div>
+    </div>
+     
+    
+    
+    <p class="h5 mt-5 font-weight-bold">Número de escolas ao longo dos anos por etapa de ensino</p>
+    <div class="row mt-3">
+      <div class="col-sm"> 
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"5176f705-c2e9-4b1c-895e-00e46f906a23":{"roots":{"references":[{"attributes":{},"id":"4334929","type":"BasicTickFormatter"},{"attributes":{},"id":"4334906","type":"LinearScale"},{"attributes":{"ticker":{"id":"4334909","type":"CategoricalTicker"}},"id":"4334911","type":"Grid"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"4334917","type":"HoverTool"}]},"id":"4334918","type":"Toolbar"},{"attributes":{},"id":"4334909","type":"CategoricalTicker"},{"attributes":{"callback":null,"data":{"anos":["2008","2010","2012","2014","2016","2018","2019"],"escolas":[6,11,10,9,7,9,9]},"selected":{"id":"4334933","type":"Selection"},"selection_policy":{"id":"4334932","type":"UnionRenderers"}},"id":"4334920","type":"ColumnDataSource"},{"attributes":{},"id":"4334904","type":"CategoricalScale"},{"attributes":{"formatter":{"id":"4334929","type":"BasicTickFormatter"},"ticker":{"id":"4334913","type":"BasicTicker"}},"id":"4334912","type":"LinearAxis"},{"attributes":{"below":[{"id":"4334908","type":"CategoricalAxis"}],"center":[{"id":"4334911","type":"Grid"},{"id":"4334916","type":"Grid"}],"left":[{"id":"4334912","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"4334924","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"4334898","type":"Title"},"toolbar":{"id":"4334918","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"4334900","type":"FactorRange"},"x_scale":{"id":"4334904","type":"CategoricalScale"},"y_range":{"id":"4334926","type":"Range1d"},"y_scale":{"id":"4334906","type":"LinearScale"}},"id":"4334897","subtype":"Figure","type":"Plot"},{"attributes":{"line_alpha":0.8,"line_color":"navy","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"4334922","type":"Line"},{"attributes":{"formatter":{"id":"4334931","type":"CategoricalTickFormatter"},"ticker":{"id":"4334909","type":"CategoricalTicker"}},"id":"4334908","type":"CategoricalAxis"},{"attributes":{"source":{"id":"4334920","type":"ColumnDataSource"}},"id":"4334925","type":"CDSView"},{"attributes":{"callback":null,"end":16.5},"id":"4334926","type":"Range1d"},{"attributes":{"text":"N\\u00famero de escola por ano - Creche"},"id":"4334898","type":"Title"},{"attributes":{},"id":"4334931","type":"CategoricalTickFormatter"},{"attributes":{},"id":"4334932","type":"UnionRenderers"},{"attributes":{"data_source":{"id":"4334920","type":"ColumnDataSource"},"glyph":{"id":"4334922","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"4334923","type":"Line"},"selection_glyph":null,"view":{"id":"4334925","type":"CDSView"}},"id":"4334924","type":"GlyphRenderer"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"4334923","type":"Line"},{"attributes":{"callback":null,"factors":["2008","2010","2012","2014","2016","2018","2019"]},"id":"4334900","type":"FactorRange"},{"attributes":{},"id":"4334913","type":"BasicTicker"},{"attributes":{"callback":null,"tooltips":[["Escolas","@escolas"]]},"id":"4334917","type":"HoverTool"},{"attributes":{},"id":"4334933","type":"Selection"},{"attributes":{"dimension":1,"ticker":{"id":"4334913","type":"BasicTicker"}},"id":"4334916","type":"Grid"}],"root_ids":["4334897"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"5176f705-c2e9-4b1c-895e-00e46f906a23","roots":{"4334897":"be443a96-8dac-4aee-b3bd-3b37421f8cb5"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+<div class="bk-root" id="be443a96-8dac-4aee-b3bd-3b37421f8cb5" data-root-id="4334897"></div> 
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2008/2019.</div>
+      </div>
+      <div class="col-sm"> 
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"5f47250e-7e5c-4ca9-9f11-ff37fbde5e6f":{"roots":{"references":[{"attributes":{"text":"N\\u00famero de escola por ano - Pr\\u00e9-Escola"},"id":"4334963","type":"Title"},{"attributes":{"source":{"id":"4334985","type":"ColumnDataSource"}},"id":"4334990","type":"CDSView"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"4334982","type":"HoverTool"}]},"id":"4334983","type":"Toolbar"},{"attributes":{},"id":"4334994","type":"BasicTickFormatter"},{"attributes":{"callback":null,"data":{"anos":["2008","2010","2012","2014","2016","2018","2019"],"escolas":[8,7,7,10,9,8,9]},"selected":{"id":"4334998","type":"Selection"},"selection_policy":{"id":"4334997","type":"UnionRenderers"}},"id":"4334985","type":"ColumnDataSource"},{"attributes":{"data_source":{"id":"4334985","type":"ColumnDataSource"},"glyph":{"id":"4334987","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"4334988","type":"Line"},"selection_glyph":null,"view":{"id":"4334990","type":"CDSView"}},"id":"4334989","type":"GlyphRenderer"},{"attributes":{},"id":"4334971","type":"LinearScale"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"4334988","type":"Line"},{"attributes":{"callback":null,"tooltips":[["Escolas","@escolas"]]},"id":"4334982","type":"HoverTool"},{"attributes":{},"id":"4334996","type":"CategoricalTickFormatter"},{"attributes":{},"id":"4334974","type":"CategoricalTicker"},{"attributes":{},"id":"4334997","type":"UnionRenderers"},{"attributes":{"callback":null,"factors":["2008","2010","2012","2014","2016","2018","2019"]},"id":"4334965","type":"FactorRange"},{"attributes":{"formatter":{"id":"4334994","type":"BasicTickFormatter"},"ticker":{"id":"4334978","type":"BasicTicker"}},"id":"4334977","type":"LinearAxis"},{"attributes":{},"id":"4334998","type":"Selection"},{"attributes":{"ticker":{"id":"4334974","type":"CategoricalTicker"}},"id":"4334976","type":"Grid"},{"attributes":{"below":[{"id":"4334973","type":"CategoricalAxis"}],"center":[{"id":"4334976","type":"Grid"},{"id":"4334981","type":"Grid"}],"left":[{"id":"4334977","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"4334989","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"4334963","type":"Title"},"toolbar":{"id":"4334983","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"4334965","type":"FactorRange"},"x_scale":{"id":"4334969","type":"CategoricalScale"},"y_range":{"id":"4334991","type":"Range1d"},"y_scale":{"id":"4334971","type":"LinearScale"}},"id":"4334962","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"end":15.0},"id":"4334991","type":"Range1d"},{"attributes":{"line_alpha":0.8,"line_color":"navy","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"4334987","type":"Line"},{"attributes":{"formatter":{"id":"4334996","type":"CategoricalTickFormatter"},"ticker":{"id":"4334974","type":"CategoricalTicker"}},"id":"4334973","type":"CategoricalAxis"},{"attributes":{"dimension":1,"ticker":{"id":"4334978","type":"BasicTicker"}},"id":"4334981","type":"Grid"},{"attributes":{},"id":"4334978","type":"BasicTicker"},{"attributes":{},"id":"4334969","type":"CategoricalScale"}],"root_ids":["4334962"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"5f47250e-7e5c-4ca9-9f11-ff37fbde5e6f","roots":{"4334962":"0b39173d-df41-43f2-b986-dc84e60b00f3"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+<div class="bk-root" id="0b39173d-df41-43f2-b986-dc84e60b00f3" data-root-id="4334962"></div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2008/2019.</div>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-sm"> 
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"654e5267-a4f5-4781-99da-4136d2da2d2e":{"roots":{"references":[{"attributes":{"formatter":{"id":"4335061","type":"CategoricalTickFormatter"},"ticker":{"id":"4335039","type":"CategoricalTicker"}},"id":"4335038","type":"CategoricalAxis"},{"attributes":{"callback":null,"tooltips":[["Escolas","@escolas"]]},"id":"4335047","type":"HoverTool"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"4335053","type":"Line"},{"attributes":{"ticker":{"id":"4335039","type":"CategoricalTicker"}},"id":"4335041","type":"Grid"},{"attributes":{},"id":"4335063","type":"Selection"},{"attributes":{"callback":null,"data":{"anos":["2008","2010","2012","2014","2016","2018","2019"],"escolas":[13,12,11,10,10,10,10]},"selected":{"id":"4335063","type":"Selection"},"selection_policy":{"id":"4335062","type":"UnionRenderers"}},"id":"4335050","type":"ColumnDataSource"},{"attributes":{"text":"N\\u00famero de escola por ano - Fundamental I"},"id":"4335028","type":"Title"},{"attributes":{},"id":"4335059","type":"BasicTickFormatter"},{"attributes":{"data_source":{"id":"4335050","type":"ColumnDataSource"},"glyph":{"id":"4335052","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"4335053","type":"Line"},"selection_glyph":null,"view":{"id":"4335055","type":"CDSView"}},"id":"4335054","type":"GlyphRenderer"},{"attributes":{"line_alpha":0.8,"line_color":"navy","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"4335052","type":"Line"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"4335047","type":"HoverTool"}]},"id":"4335048","type":"Toolbar"},{"attributes":{"callback":null,"end":19.5},"id":"4335056","type":"Range1d"},{"attributes":{},"id":"4335061","type":"CategoricalTickFormatter"},{"attributes":{"formatter":{"id":"4335059","type":"BasicTickFormatter"},"ticker":{"id":"4335043","type":"BasicTicker"}},"id":"4335042","type":"LinearAxis"},{"attributes":{},"id":"4335043","type":"BasicTicker"},{"attributes":{},"id":"4335039","type":"CategoricalTicker"},{"attributes":{"dimension":1,"ticker":{"id":"4335043","type":"BasicTicker"}},"id":"4335046","type":"Grid"},{"attributes":{"source":{"id":"4335050","type":"ColumnDataSource"}},"id":"4335055","type":"CDSView"},{"attributes":{"below":[{"id":"4335038","type":"CategoricalAxis"}],"center":[{"id":"4335041","type":"Grid"},{"id":"4335046","type":"Grid"}],"left":[{"id":"4335042","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"4335054","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"4335028","type":"Title"},"toolbar":{"id":"4335048","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"4335030","type":"FactorRange"},"x_scale":{"id":"4335034","type":"CategoricalScale"},"y_range":{"id":"4335056","type":"Range1d"},"y_scale":{"id":"4335036","type":"LinearScale"}},"id":"4335027","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"4335062","type":"UnionRenderers"},{"attributes":{"callback":null,"factors":["2008","2010","2012","2014","2016","2018","2019"]},"id":"4335030","type":"FactorRange"},{"attributes":{},"id":"4335036","type":"LinearScale"},{"attributes":{},"id":"4335034","type":"CategoricalScale"}],"root_ids":["4335027"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"654e5267-a4f5-4781-99da-4136d2da2d2e","roots":{"4335027":"d677e92f-264e-457e-bb9d-21a7822a6093"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+<div class="bk-root" id="d677e92f-264e-457e-bb9d-21a7822a6093" data-root-id="4335027"></div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2008/2019.</div>
+      </div>
+      <div class="col-sm"> 
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"9e933b19-8934-47ad-beb0-e67197cfef5e":{"roots":{"references":[{"attributes":{"source":{"id":"4335115","type":"ColumnDataSource"}},"id":"4335120","type":"CDSView"},{"attributes":{},"id":"4335108","type":"BasicTicker"},{"attributes":{"callback":null,"end":7.5},"id":"4335121","type":"Range1d"},{"attributes":{},"id":"4335127","type":"UnionRenderers"},{"attributes":{"data_source":{"id":"4335115","type":"ColumnDataSource"},"glyph":{"id":"4335117","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"4335118","type":"Line"},"selection_glyph":null,"view":{"id":"4335120","type":"CDSView"}},"id":"4335119","type":"GlyphRenderer"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"4335118","type":"Line"},{"attributes":{},"id":"4335124","type":"BasicTickFormatter"},{"attributes":{"line_alpha":0.8,"line_color":"navy","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"4335117","type":"Line"},{"attributes":{},"id":"4335126","type":"CategoricalTickFormatter"},{"attributes":{},"id":"4335101","type":"LinearScale"},{"attributes":{"callback":null,"data":{"anos":["2008","2010","2012","2014","2016","2018","2019"],"escolas":[4,4,5,5,5,5,5]},"selected":{"id":"4335128","type":"Selection"},"selection_policy":{"id":"4335127","type":"UnionRenderers"}},"id":"4335115","type":"ColumnDataSource"},{"attributes":{"below":[{"id":"4335103","type":"CategoricalAxis"}],"center":[{"id":"4335106","type":"Grid"},{"id":"4335111","type":"Grid"}],"left":[{"id":"4335107","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"4335119","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"4335093","type":"Title"},"toolbar":{"id":"4335113","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"4335095","type":"FactorRange"},"x_scale":{"id":"4335099","type":"CategoricalScale"},"y_range":{"id":"4335121","type":"Range1d"},"y_scale":{"id":"4335101","type":"LinearScale"}},"id":"4335092","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"4335099","type":"CategoricalScale"},{"attributes":{"callback":null,"factors":["2008","2010","2012","2014","2016","2018","2019"]},"id":"4335095","type":"FactorRange"},{"attributes":{"formatter":{"id":"4335124","type":"BasicTickFormatter"},"ticker":{"id":"4335108","type":"BasicTicker"}},"id":"4335107","type":"LinearAxis"},{"attributes":{"dimension":1,"ticker":{"id":"4335108","type":"BasicTicker"}},"id":"4335111","type":"Grid"},{"attributes":{"callback":null,"tooltips":[["Escolas","@escolas"]]},"id":"4335112","type":"HoverTool"},{"attributes":{"formatter":{"id":"4335126","type":"CategoricalTickFormatter"},"ticker":{"id":"4335104","type":"CategoricalTicker"}},"id":"4335103","type":"CategoricalAxis"},{"attributes":{},"id":"4335104","type":"CategoricalTicker"},{"attributes":{"text":"N\\u00famero de escola por ano - Fundamental I"},"id":"4335093","type":"Title"},{"attributes":{},"id":"4335128","type":"Selection"},{"attributes":{"ticker":{"id":"4335104","type":"CategoricalTicker"}},"id":"4335106","type":"Grid"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"4335112","type":"HoverTool"}]},"id":"4335113","type":"Toolbar"}],"root_ids":["4335092"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"9e933b19-8934-47ad-beb0-e67197cfef5e","roots":{"4335092":"e67ac5e3-e3e4-4cd7-b0e5-bd431b404bea"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+<div class="bk-root" id="e67ac5e3-e3e4-4cd7-b0e5-bd431b404bea" data-root-id="4335092"></div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2008/2019.</div>
+      </div>
+    </div>
+    </div> 
+     
+
+    
+
+  <!-- Distorção idade-série -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Distorção idade-série</p>
+    <p class="lead my-3">Entre os alunos frequentando os anos iniciais do Ensino Fundamental na rede municipal de Passa e Fica, 10,9% apresentavam <a href="https://academia.qedu.org.br/censo-escolar/distorcao-idade-serie/" target="_blank">distorção idade-série</a> em <font class="font-weight-bold">2019</font>, ou seja, estavam mais de dois anos atrasados em relação à série adequada à sua idade. Já nos anos finais do Ensino Fundamental, 30,1% dos alunos apresentavam distorção idade-série. Os dados são do <a href="http://portal.inep.gov.br/web/guest/indicadores-educacionais" target="_blank"><b>Inep</b></a>.</p> 
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Fundamental - anos iniciais</th>
+        <th>Fundamental - anos finais</th>
+      </thead>
+      <thead>
+        <th>Passa e Fica</th>
+        <th><div class="text-success">10,9%</div></th>        
+        <th><div class="text-danger">30,1%</div></th>                          
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>10,9%</td>
+        <td>29,95%</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>16,9%</td>
+        <td>35,56%</td>          
+      </tr>
+      <tr>
+        <td>do estado (RN)</td>
+        <td>16,28%</td>
+        <td>41,38%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>10,79%</td>
+        <td>30,22%</td>          
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: Inep - 2019.</div>
+    </div>
+    
+
+  <!-- Taxas de aprovação, repetência, evasão e migração para EJA -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Taxas de transição</p>
+    <p class="lead my-3">Divulgadas pelo <a href="http://portal.inep.gov.br/web/guest/indicadores-educacionais" target="_blank"><b>Inep</b></a>, as taxas de transição indicam o percentual de alunos aprovados, reprovados, que abandonaram a escola ou que migraram para a EJA de um ano para o outro. As taxas a seguir consideram as transições dos alunos do Ensino Fundamental matrículados na rede pública de <font class="font-weight-bold">2016 para 2017</font>.</p> 
+    
+    
+    
+    
+    
+    <div class="table-responsive">
+      <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th></th>
+        <th colspan="2">Aprovação</th>
+        <th colspan="2">Repetência</th>
+        <th colspan="2">Evasão</th>
+        <th colspan="2">Migração para EJA</th>
+      </thead>
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Fund I</th>
+        <th>Fund II</th>
+        <th>Fund I</th>
+        <th>Fund II</th>
+        <th>Fund I</th>
+        <th>Fund II</th>
+        <th>Fund I</th>
+        <th>Fund II</th>
+      </thead>
+      <thead>
+        <th>Passa e Fica</th>
+        <th><div class="text-danger">89,9%</div></th>        
+        <th><div class="text-danger">73,9%</div></th>
+        <th><div class="text-danger">8,7%</div></th>        
+        <th><div class="text-danger">14%</div></th>
+        <th><div class="text-success">1%</div></th>        
+        <th><div class="text-danger">5,7%</div></th>                  
+        <th><div class="text-danger">0,4%</div></th>        
+        <th><div class="text-danger">6,4%</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>90,7%</td>
+        <td>80,99%</td>
+        <td>7,9%</td>
+        <td>11,82%</td>
+        <td>1,18%</td>
+        <td>4,52%</td>
+        <td>0,22%</td>
+        <td>2,68%</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>84,87%</td>
+        <td>73,47%</td>
+        <td>12,63%</td>
+        <td>16,33%</td>
+        <td>1,98%</td>
+        <td>5,81%</td>
+        <td>0,53%</td>
+        <td>4,39%</td>
+      </tr>
+      <tr>
+        <td>do estado (RN)</td>
+        <td>84,41%</td>
+        <td>71,17%</td>
+        <td>13,11%</td>
+        <td>18,86%</td>
+        <td>1,6%</td>
+        <td>4,76%</td>
+        <td>0,88%</td>
+        <td>5,21%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional<br> (até 50 mil habitantes)</td>
+        <td>90,66%</td>
+        <td>80,95%</td>
+        <td>7,93%</td>
+        <td>11,87%</td>
+        <td>1,18%</td>
+        <td>4,53%</td>
+        <td>0,23%</td>
+        <td>2,64%</td>
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: Inep - 2016-2017.</div>
+    </div>
+    
+
+    
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Habitação -->
+<div class="rounded p-5 bg-light">
+
+  <div class="row  px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="habitacao" style="padding-top: 100px; margin-top: -100px;">Habitação</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+
+  <!-- Aglomerados subnormais -->    
+    
+
+  <!-- Energia elétrica -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">População que vive em domicílios com energia elétrica</p>
+    <p class="lead my-3">Em Passa e Fica, 98,64% da população vivia em domicílios com energia elétrica <font class="font-weight-bold">em 2010</font>. Os dados são do <a href="http://atlasbrasil.org.br/" target="_blank">Atlas do Desenvolvimento Humano no Brasil</a>.</p> 
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Vive em domicílio com energia elétrica</th>
+      </thead>
+      <thead>
+        <th>Passa e Fica</th>
+        <th><div class="text-success">98,64%</div></th>        
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>97,19%</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>95,79%</td>
+      </tr>
+      <tr>
+        <td>do estado (RN)</td>
+        <td>99,03%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>97,01%</td>
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: IBGE - Censo Demográfico 2010.</div>
+    </div>
+    
+
+          
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Meio Ambiente -->
+<div class="rounded p-5 bg-light">
+  <div class="row  px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="meioambiente" style="padding-top: 100px; margin-top: -100px;">Meio Ambiente</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+
+  <!-- Incremento de área desmatada-->
+    
+
+  <!-- Esgotamento sanitário -->
+
+    
+
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Esgotamento sanitário</p>
+    <p class="lead my-3">O <a href="http://www.snis.gov.br/diagnosticos/agua-e-esgotos">Diagnóstico dos Serviços de Água e Esgotos</a>, organizado anualmente pela Secretaria Nacional de Saneamento, reúne informações sobre a cobertura da rede de coleta e tratamento de esgoto de diversas cidades do país. Com isso, podemos saber, proporcionalmente, quantas pessoas têm esgoto coletado e quanto desse esgoto coletado é tratado antes de retornar ao meio ambiente. Os dados são fornecidos pelas respectivas empresas prestadoras de serviços de água e esgoto e foram coletados ao longo de 2019, tendo <font class="font-weight-bold">2018</font> como ano de referência.</p> 
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>População atendida por serviço de coleta de esgoto</th>
+        <th>População urbana atendida por serviço de coleta de esgoto</th>
+        <th>Proporção do esgoto coletado que é tratado</th>
+      </thead>
+      <thead>
+        <th>Passa e Fica</th>
+        <th><div class="text-danger">53,95%</div></th>
+        <th><div class="text-success">88,65%</div></th>
+        <th><div class="text-success">100%</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>67,07%</td>
+        <td>80,83%</td>
+        <td>44,96%</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>48,28%</td>
+        <td>65,24%</td>
+        <td>32,3%</td>
+      </tr>
+      <tr>
+        <td>do estado (RN)</td>
+        <td>44,32%</td>
+        <td>63,23%</td>
+        <td>57,92%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>66,73%</td>
+        <td>82,6%</td>
+        <td>40,59%</td>
+      </tr>
+    </table>
+    </div>  
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: SNIS - Diagnóstico dos Serviços de Água e Esgotos 2018.</div>
+    </div>
+
+        
+
+  <!-- Coleta de lixo -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Coleta de lixo domiciliar</p>
+    <p class="lead my-3">O <a href='http://www.snis.gov.br/diagnostico-anual-residuos-solidos/diagnostico-do-manejo-de-residuos-solidos-urbanos-2018' target="_blank">Diagnóstico do Manejo de Resíduos Sólidos Urbanos</a>, publicado pela Secretaria Nacional de Saneamento do Ministério do Desenvolvimento Regional, traz informações como, por exemplo, cobertura da coleta de resíduos sólidos domiciliares, quantidade de resíduos coletados e sua destinação. Os dados são fornecidos pelas empresas prestadoras de serviços de limpeza urbana e coleta de resíduos. A edição mais recente reuniu dados ao longo de <font class="font-weight-bold">2019</font>, tendo <font class="font-weight-bold">2018</font> como ano de referência.</p> 
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Taxa de coleta de resíduos sólidos - população total</th>
+        <th>Taxa de coleta de resíduos sólidos - população urbana</th>
+        <th>Taxa de coleta seletiva - população urbana</th>
+      </thead>
+      <thead>
+        <th>Passa e Fica</th>
+        <th><div class="text-danger">60,86%</div></th> 
+        <th><div class="text-success">100%</div></th>
+        <th><div class="text-danger">0%</div></th>      
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>75,57%</td>
+        <td>97,68%</td>
+        <td>24,78%</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>66,47%</td>
+        <td>95,59%</td>
+        <td>2,69%</td>
+      </tr>
+      <tr>
+        <td>do estado (RN)</td>
+        <td>75,46%</td>
+        <td>97,56%</td>
+        <td>1,92%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>72,54%</td>
+        <td>97,5%</td>
+        <td>23,06%</td>
+      </tr>
+    </table>
+    </div>  
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: SNIS - Diagnóstico do Manejo de Resíduos Sólidos Urbanos 2018.</div>
+    </div>
+      
+
+                
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Mobilidade -->
+<div class="rounded p-5 bg-light">
+  <div class="row  px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="mobilidade" style="padding-top: 100px; margin-top: -100px;">Mobilidade</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+  <!-- Tempo de deslocamento -->    
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Deslocamento médio</p>
+    <p class="lead my-3">Em Passa e Fica, uma pessoa leva, em média, 17 minutos para se deslocar de casa para o trabalho. Dessas viagens, 1,3% duram mais de uma hora. Os dados são do último Censo do IBGE, realizado <font class="font-weight-bold">em 2010</font>.</p>  
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Tempo médio de deslocamento (minutos)</th>
+        <th>Deslocamentos que duram mais de 1h</th>
+      </thead>
+      <thead>
+        <th>Passa e Fica</th>
+        <th><div class="text-success">17</div></th>
+        <th>1,3%</th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>22 minutos</td>
+        <td>5,22%</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>22 minutos</td>
+        <td>5,38%</td>        
+      </tr>
+      <tr>
+        <td>do estado (RN)</td>
+        <td>18 minutos</td>
+        <td>3,54%</td>       
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>21 minutos</td>
+        <td>4,8%</td> 
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: IBGE - Censo Demográfico 2010.</div>
+    </div>
+    
+
+  <!-- Taxa de motorização -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Veículos motorizados</p>
+    <p class="lead my-3">A frota de veículos motorizados de Passa e Fica, de acordo com dados do Denatran de <font class="font-weight-bold">2018</font>, é formada por 3.211 carros, motos e demais automotivos. Isso equivale a uma taxa de motorização de 0,25 veículo por habitante.</p>  
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Frota</th>
+        <th>Taxa de motorização</th>
+      </thead>
+      <thead>
+        <th>Passa e Fica</th>
+        <th>3.211</th>
+        <th>0,25</th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>16.744</td>
+        <td>0,37</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>9.011</td>
+        <td>0,21</td> 
+      </tr>
+      <tr>
+        <td>do estado (RN)</td>
+        <td>7.162</td>
+        <td>0,26</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>4.687</td>
+        <td>0,36</td>        
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: Mobilidados - Denatram - 2018.</div>
+    </div>
+       
+
+  <!-- Pavimentação -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Pavimentação de ruas, calçadas e rampas para cadeirantes</p>
+    <p class="lead my-3">Em Passa e Fica, 82,55% da população mora em ruas pavimentadas, 82,22% da população mora em ruas com calçadas e 7,4% da população conta com rampas para cadeirantes próximas de suas casas. Os dados são do último Censo do IBGE, realizado <font class="font-weight-bold">em 2010</font>.</p>  
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Vive em ruas pavimentadas</th>
+        <th>Tem calçadas diante de suas casas</th>
+        <th>Conta com rampas para cadeirantes</th>
+      </thead>
+      <thead>
+        <th>Passa e Fica</th>
+        <th><div class="text-success">82,55%</div></th>
+        <th><div class="text-success">82,22%</div></th>
+        <th><div class="text-success">7,4%</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>72,35%</td>
+        <td>50,5%</td>
+        <td>3,16%</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>68,34%</td>
+        <td>54,51%</td>
+        <td>1,58%</td>
+      </tr>
+      <tr>
+        <td>do estado (RN)</td>
+        <td>78,59%</td>
+        <td>66,29%</td>
+        <td>2,23%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>72,15%</td>
+        <td>49,15%</td>
+        <td>3,29%</td>
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: IBGE - Censo Demográfico 2010.</div>
+    </div>
+     
+
+                
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Saúde -->
+<div class="rounded p-5 bg-light">
+  <div class="row  px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="saude" style="padding-top: 100px; margin-top: -100px;">Saúde</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+
+  <!-- Quantidade de UBSs -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Número de Unidades Básicas de Saúde municipais</p>
+    <p class="lead my-3">Por meio do DataSUS, podemos consultar os dados do <a href="http://cnes.datasus.gov.br/" target=_blank>Cadastro Nacional de Estabelecimentos de Saúde - CNES</a> para verificar o número de Unidades Básicas de Saúde mantidas pela gestão municipal de Passa e Fica. Os dados são de <font class="font-weight-bold">maio de 2020</font>.</p> 
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Quantidade de UBSs</th>
+      </thead>
+      <thead>
+        <th>Passa e Fica</th>
+        <th><div class="text-danger">6</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>6,94</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>8,06</td>
+      </tr>
+      <tr>
+        <td>do estado (RN)</td>
+        <td>5,69</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>4,34</td>
+      </tr>
+    </table>
+    </div> 
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: DataSUS - CNES - maio de 2020.</div>
+    </div>
+    
+
+
+  <!-- Leitos hospitalares -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Número de leitos hospitalares</p>
+    <p class="lead my-3">Consultando o DataSUS, sabemos quantos leitos hospitalares estão disponíveis em Passa e Fica nas redes SUS e não SUS e quais os tipos de leitos disponíveis.  Os dados são de <font class="font-weight-bold">maio de 2020</font>.</p> 
+    <p class="h5 font-weight-bold">Número de leitos hospitalares por rede</p>
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Leitos de internação SUS</th>
+        <th>Leitos de internação não SUS</th>
+        <th>Leitos complementares SUS</th>
+        <th>Leitos complementares não SUS</th>
+      </thead>
+      <thead>
+        <th>Passa e Fica</th>
+        <th><div class="text-danger">30</div></th>
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">0</div></th>                                            
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>56,5</td>
+        <td>23,66</td>
+        <td>7,27</td>
+        <td>6,94</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>54,78</td>
+        <td>12,7</td>
+        <td>5,54</td>
+        <td>4,1</td>
+      </tr>
+      <tr>
+        <td>do estado (RN)</td>
+        <td>37,69</td>
+        <td>8,33</td>
+        <td>3,75</td>
+        <td>3,36</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>18,84</td>
+        <td>3,39</td>
+        <td>0,63</td>
+        <td>0,31</td>
+      </tr>
+    </table>
+    </div> 
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: DataSUS - CNES - maio de 2020.</div>
+    </div>
+    
+    <p class="h5 font-weight-bold">Número de leitos hospitalares por tipo</p>
+    <p class="h6 font-weight-bold">Número de leitos de internação</p>
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Cirúrgicos</th>
+        <th>Clínicos</th>
+        <th>Obstétricos</th>
+        <th>Pediátricos</th>
+        <th>Outras especialidades</th>
+        <th>Hospital-dia</th>
+        <th>Total</th>
+      </thead>
+      <thead>
+        <th>Passa e Fica</th>
+        <th><div class="text-danger">8</div></th>
+        <th><div class="text-danger">8</div></th>
+        <th><div class="text-danger">7</div></th>
+        <th><div class="text-danger">7</div></th>        
+        <th><div class="text-danger">0</div></th>        
+        <th><div class="text-danger">0</div></th>        
+        <th><div class="text-danger">30</div></th>                                                                                                  
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>20,1</td>
+        <td>31,78</td>
+        <td>9,23</td>
+        <td>8,62</td>
+        <td>8,52</td>
+        <td>1,91</td>
+        <td>80,16</td>            
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>16,42</td>
+        <td>26,56</td>
+        <td>9,04</td>
+        <td>8,91</td>
+        <td>5,05</td>
+        <td>1,5</td>
+        <td>67,48</td>
+      </tr>
+      <tr>
+        <td>do estado (RN)</td>
+        <td>11,38</td>
+        <td>17,83</td>
+        <td>6,79</td>
+        <td>5,14</td>
+        <td>3,99</td>
+        <td>0,88</td>
+        <td>46,02</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>3,58</td>
+        <td>10,08</td>
+        <td>3,43</td>
+        <td>3,48</td>
+        <td>1,54</td>
+        <td>0,11</td>
+        <td>22,23</td>
+      </tr>
+    </table>
+    </div> 
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: DataSUS - CNES - maio de 2020.</div>
+
+    <p class="h6 font-weight-bold">Número de leitos complementares</p>
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>UTI - COVID - Pediátrica</th>
+        <th>UTI - COVID - Adulto</th>
+        <th>UTI - Neonatal</th>
+        <th>UTI - Pediátrica</th>
+        <th>UTI - Adulto</th>
+        <th>UTI - Coronariana</th>
+        <th>UTI - Queimados</th>
+        <th>Unid. de isolamento</th>
+        <th>UCI - Neonatal</th>
+        <th>UCI - Pediátrica</th>
+        <th>UCI - Adulto</th>
+        <th>Total</th>
+      </thead>
+      <thead>
+        <th>Passa e Fica</th>
+
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">0</div></th>                  
+
+
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">0</div></th>        
+        <th><div class="text-danger">0</div></th>        
+        <th><div class="text-danger">0</div></th>       
+        <th><div class="text-danger">0</div></th>       
+        <th><div class="text-danger">0</div></th>       
+        <th><div class="text-danger">0</div></th>                                                                                
+        <th><div class="text-danger">0</div></th>                                                                                                  
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+
+        <td>0,14</td>
+        <td>2,91</td>
+
+        <td>1,65</td>
+        <td>0,88</td>
+        <td>5,63</td>
+        <td>0,19</td>
+        <td>0,04</td>
+        <td>1,01</td>
+        <td>1,17</td> 
+        <td>0,07</td>            
+        <td>0,51</td>            
+        <td>14,21</td>                             
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+
+        <td>0,11</td>
+        <td>2,47</td>
+
+        <td>0,92</td>
+        <td>0,49</td>
+        <td>3,23</td>
+        <td>0,13</td>
+        <td>0,01</td>
+        <td>0,8</td>
+        <td>1,1</td> 
+        <td>0,04</td>            
+        <td>0,33</td>            
+        <td>9,63</td>                             
+      </tr>
+      <tr>
+        <td>do estado (RN)</td>
+
+        <td>0,09</td>
+        <td>2,36</td>
+
+        <td>0,96</td>
+        <td>0,3</td>
+        <td>2,34</td>
+        <td>0,09</td>
+        <td>0</td>
+        <td>0,28</td>
+        <td>0,45</td> 
+        <td>0</td>            
+        <td>0,24</td>            
+        <td>7,11</td>                             
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+
+        <td>0</td>
+        <td>0,2</td>
+
+        <td>0,04</td>
+        <td>0,01</td>
+        <td>0,25</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0,32</td>
+        <td>0,05</td> 
+        <td>0,01</td>            
+        <td>0,05</td>            
+        <td>0,94</td>                             
+      </tr>
+    </table>
+    </div> 
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: DataSUS - CNES - maio de 2020.</div>
+
+    
+
+  <!-- Vacinação -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Vacinação no município</p>
+    <p class="lead my-3">De acordo com dados de <font class="font-weight-bold">2019</font> do <a href="http://www.saude.gov.br/saude-de-a-z/vacinacao/sobre-o-programa" target="_blank">Programa Nacional de Imunização</a>, 52% da população de Passa e Fica está imunizada de acordo com o Calendário Nacional de Vacinação.</p> 
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Cobertura vacinal</th>
+      </thead>
+      <thead>
+        <th>Passa e Fica</th>
+        <th><div class="text-danger">52%</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>57,32%</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>48,47%</td>
+      </tr>
+      <tr>
+        <td>do estado (RN)</td>
+        <td>49,63%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>58,96%</td>
+      </tr>
+    </table>
+    </div> 
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: DataSUS - Programa Nacional de Imunização - 2019.</div>
+    </div>
+    
+
+  <!-- Mortalidade infantil -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Mortalidade infantil</p>
+    <p class="lead my-3">De acordo com o <a href="http://atlasbrasil.org.br/" target="_blank">Atlas do Desenvolvimento Humano no Brasil</a>, o índice de mortalidade infantil de Passa e Fica <font class="font-weight-bold">em 2010</font> foi de 24.4. O índice representa o número de crianças que não deverão sobreviver ao primeiro ano de vida em cada 1000 crianças nascidas vivas.</p> 
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Média do índice de mortalidade infantil</th>
+      </thead>
+      <thead>
+        <th>Passa e Fica</th>
+        <th><div class="text-danger">24,4</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>19,25</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>27,19</td>
+      </tr>
+      <tr>
+        <td>do estado (RN)</td>
+        <td>24,74</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>19,65</td>
+      </tr>
+    </table>
+    </div>  
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: IBGE - Censo Demográfico 2010.</div>
+    </div>
+    
+
+  <!-- Taxa de envelhecimento -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">População acima de 65 anos</p>
+    <p class="lead my-3">A taxa de envelhecimento de Passa e Fica <font class="font-weight-bold">em 2010</font> foi de 9,68%. O índice representa a parcela da população com 65 anos ou mais de idade. Os dados são do <a href="http://atlasbrasil.org.br/" target="_blank">Atlas do Desenvolvimento Humano no Brasil</a>.</p> 
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>População com 65 anos ou mais de idade</th>
+      </thead>
+      <thead>
+        <th>Passa e Fica</th>
+        <th><div class="text-success">9,68%</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>8,4%</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>8,09%</td>
+      </tr>
+      <tr>
+        <td>do estado (RN)</td>
+        <td>8,76%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>8,61%</td>
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: IBGE - Censo Demográfico 2010.</div>
+    </div>   
+    
+          
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Segurança -->
+<div class="rounded p-5 bg-light">
+  <div class="row  px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="seguranca" style="padding-top: 100px; margin-top: -100px;">Segurança</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+  <!-- Falta de iluminação pública -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Ruas sem iluminação pública</p>
+    <p class="lead my-3">A iluminação pública é de resposnsabilidade dos municípios e sua ausência costuma ser relacionada à insegurança.  De acordo com dados  do último Censo Demográfico, 4,6% dos habitantes de áreas urbanas de Passa e Fica viviam em ruas sem iluminação pública.</p>
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Parcela da população urbana<br> que vive em ruas sem iluminação pública</th>
+      </thead>
+      <thead>
+        <th>Passa e Fica</th>
+        <th><div class="text-success">4,6%</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>6,13%</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>7,56%</td>
+      </tr>
+      <tr>
+        <td>do estado (RN)</td>
+        <td>5,49%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>6,36%</td>
+      </tr>
+    </table>
+    </div>   
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: IBGE - Censo Demográfico 2010.</div>  
+    </div>        
+    
+
+  <!-- Vítimas fatais de armas de fogo -->    
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Vítimas fatais de disparos de armas de fogo</p>
+    <p class="lead my-3">De acordo com dados disponíveis no <a href="http://datasus.saude.gov.br/" target='_blank'>DataSUS</a>, 6 pessoas foram vítimas fatais de disparos de armas de fogo em Passa e Fica <font class="font-weight-bold">em 2018</font>.</p>
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Média do número de mortes por armas de fogo</th>
+      </thead>
+      <thead>
+        <th>Passa e Fica</th>
+        <th><div class="text-success">6</div></th>        
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>14,03</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>15,49</td>
+      </tr>
+      <tr>
+        <td>do estado (RN)</td>
+        <td>14,88</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>4,2</td>
+      </tr>
+    </table>
+    </div>    
+    <div class="small font-italic text-right">DataSUS - Mortalidade 2018.</div>    
+    </div>
+    
+                
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Orçamento -->
+<div class="rounded p-5 bg-light">
+  <div class="row px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="orcamento" style="padding-top: 100px; margin-top: -100px;">Orçamento</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+
+  <!-- Dependência FPM -->    
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Dependência em relação ao Fundo de Participação dos Municípios</p>
+    <p class="lead my-3">O Fundo de Participação dos Municípios (FPM) é uma transferência constitucional, ou seja, um rateio da receita proveniente de impostos federais entre os entes federados. O fundo recebe 22,5% do que é arrecado por meio do Imposto de Renda (IR) e do Imposto sobre Produtos Industrializados (IPI), valor que é distribuído entre os municípios de acordo com coeficiente calculado a partir do número de habitantes. Na tabela a seguir, mostramos a que parcela da receita bruta do município corresponde o montante recebido via FPM. Assim, temos uma medida de o quão dependente de repasses da União é o município.</p>
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>FPM em relação à receita</th>
+      </thead>
+      <thead>
+        <th>Passa e Fica</th>
+        <th><div class="text-danger">36,5%</div></th>        
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>33,47%</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>36,56%</td>
+      </tr>
+      <tr>
+        <td>do estado (RN)</td>
+        <td>42,49%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>35,89%</td>
+      </tr>
+    </table>
+    </div>    
+    <div class="small font-italic text-right">Dados coletados por Leonardo Ribeiro, economista do Senado Federal, a partir dos anexos 1 e 3 dos RREOs dos municípios (Siconfi/STN) - 2019.</div>    
+    </div> 
+    
+
+  <!-- Despesas liquidadas e despesas empenhadas 2018 -->    
+    
+    
+    <p class="lead mt-5">Ainda não encontramos dados sobre este tema para Passa e Fica.</p>
+          
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+
+<!-- Sobre -->
+<div class="rounded p-5 bg-light">
+
+  <div class="row px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="sobre" style="padding-top: 100px; margin-top: -100px;">Sobre o Raio-X dos Municípios</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+
+  <div class="px-2 py-2 mt-3 rounded">
+    <p class="lead my-3">O <font class="font-weight-bold">Raio-X dos Municípios</font> é uma ferramenta desenvolvida pelo <font class="font-weight-bold">Insper</font> que reúne e organiza dados sobre educação, saúde, habitação, meio ambiente, mobilidade, segurança e orçamento de cada município brasileiro. Confira, a seguir, as bases de dados públicas utilizadas como fonte.</p>
+    <ul>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://datasus.saude.gov.br/cnes-estabelecimentos/&amp;sa=D&amp;ust=1593056455961000">DataSUS - Cadastro Nacional de Estabelecimentos de Sa&uacute;de - Estabelecimentos 2020</a></li>  
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://datasus.saude.gov.br/cnes-recursos-fisicos/&amp;sa=D&amp;ust=1593056455962000">DataSUS - Cadastro Nacional de Estabelecimentos de Sa&uacute;de - Recursos F&iacute;sicos 2020</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://datasus.saude.gov.br/mortalidade-1996-a-2017-pela-cid-10-2/&amp;sa=D&amp;ust=1593056455962000">DataSUS - Mortalidade 2018</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://datasus.saude.gov.br/acesso-a-informacao/imunizacoes-desde-1994/&amp;sa=D&amp;ust=1593056455963000">DataSUS - Programa Nacional de Imuniza&ccedil;&atilde;o 2019</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://sidra.ibge.gov.br/pesquisa/censo-demografico/&amp;sa=D&amp;ust=1593056455963000">IBGE - Censo Demogr&aacute;fico 2010</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://www.ibge.gov.br/geociencias/cartas-e-mapas/redes-geograficas/15798-regioes-de-influencia-das-cidades.html?%3D%26t%3Do-que-e&amp;sa=D&amp;ust=1593056455964000">IBGE - Regi&otilde;es de Influ&ecirc;ncia das Cidades 2018</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=http://ideb.inep.gov.br/&amp;sa=D&amp;ust=1593056455964000">Inep - &Iacute;ndice de Desenvolvimento da Educa&ccedil;&atilde;o B&aacute;sica 2017</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=http://inep.gov.br/sinopses-estatisticas-da-educacao-basica&amp;sa=D&amp;ust=1593056455965000">Inep - Sinopse Estat&iacute;stica da Educa&ccedil;&atilde;o B&aacute;sica 2019</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=http://portal.inep.gov.br/web/guest/indicadores-educacionais&amp;sa=D&amp;ust=1593056455965000">Inep - Taxas de distor&ccedil;&atilde;o idade-s&eacute;rie 2019</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=http://portal.inep.gov.br/web/guest/indicadores-educacionais&amp;sa=D&amp;ust=1593056455966000">Inep - Taxas de Transi&ccedil;&atilde;o 2016-2017</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=http://www.snis.gov.br/diagnostico-anual-residuos-solidos/diagnostico-do-manejo-de-residuos-solidos-urbanos-2018&amp;sa=D&amp;ust=1593056455966000">MDR - Diagn&oacute;stico do Manejo de Res&iacute;duos S&oacute;lidos Urbanos 2018</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://plataforma.mobilidados.org.br/database&amp;sa=D&amp;ust=1593056455967000">Mobilidados - Taxa de motoriza&ccedil;&atilde;o 2018</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=http://atlasbrasil.org.br/&amp;sa=D&amp;ust=1593056455967000">PNUD - Atlas do Desenvolvimento Humano no Brasil 2010</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=http://www.snirh.gov.br/portal/snirh/snirh-1/atlas-esgotos&amp;sa=D&amp;ust=1593056455968000">Sistema Nacional de Informa&ccedil;&otilde;es sobre Recursos H&iacute;dricos 2013</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://siconfi.tesouro.gov.br/siconfi/pages/public/conteudo/conteudo.jsf?id%3D21503&amp;sa=D&amp;ust=1593056455968000">Tesouro Nacional - Sistema de Informa&ccedil;&otilde;es Cont&aacute;beis e Fiscais do Setor P&uacute;blico Brasileiro (API)</a></li>      
+    </ul> 
+  </div>
+
+</div>  
+
+<p class="mt-3 mb-3"></p>
+
+
+<footer style="background-color: #fff6eb; padding: 20px" class="rounded">
+  <div class="mt-5 mb-5 text-center"><a class="text_dark" href="/">Home</a> | <a class="text-dark" href="#">Voltar ao topo <i class="fas fa-angle-double-up"></i></a></div>
+</footer>
+
+
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <footer>
+    <div class="mt-5 mb-5 text-center text-muted"></div>
+  </footer>
+
+</body>	
+
+</html>

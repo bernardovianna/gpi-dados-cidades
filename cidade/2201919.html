@@ -1,0 +1,1940 @@
+<!doctype html>
+<html lang="pt_BR">
+
+<head>
+  
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/5af416af23.js" crossorigin="anonymous"></script>
+  <!-- Bokeh -->
+  <script src="https://cdn.bokeh.org/bokeh/release/bokeh-1.4.0.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171485070-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-171485070-1');
+  </script>
+  <!-- Custom CSS -->
+  <style type="text/css">
+    @media (min-width: 1200px) {.container{max-width: 1400px;}}
+  </style>
+  
+</head>
+
+<body data-spy="scroll" data-target="#navbar1" data-offset="0" style="position: relative;" class="bg-warning">
+
+  <nav class="navbar navbar-expand-lg font-weight-bold bg-warning p-4 mx-auto shadow-sm">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerTop" aria-controls="navbarTogglerTop" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon text-dark p-2">Menu principal</span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerTop">
+    <ul class="navbar-nav mx-auto text-center">
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/">Início</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/panorama-municipal">Municípios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/politicas-publicas">Políticas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/transparencia-jornalismo-de-dados">Transparência</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/copia-impacto">Dados</a>
+      </li>      
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/as-regras-do-jogo">TSE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/integridade-noticiosa">Ética</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/checagem-e-verificacao">Checagem</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/copia-verificacao-e-checagem">Impacto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/sugestoes-de-pauta">Perguntas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/copia-impacto-1">Mais</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://www.manual2020.com.br/sobre">Sobre</a>
+      </li>                        
+    </ul>
+    </div>
+  </nav>
+
+  
+  
+  
+  </div>
+  </div>
+  </div>
+
+  <div class="container">
+    
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Intro -->
+<div class="rounded p-5 bg-light">
+ 
+  <div class="mt-3">
+    <p><a class="text-muted" href="/"><< Retornar para selecionar outra cidade</a></p>
+    <p class="h1"><font class="font-weight-bold">Bom Princípio do Piauí - PI</font></p> 
+    <p class="h2">Confira o que encontramos ao buscar dados em algumas bases públicas.</p>
+  </div>
+
+  <div class="row mt-3">
+    <div class="col-sm">
+      <div class="card mb-3">
+        <div class="card-body bg-white"><font class="font-weight-bold">População:</font> 5.630
+                               <br><div class="small text-muted">População estimada - IBGE 2019</div></div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card mb-3">
+        <div class="card-body bg-white"><font class="font-weight-bold">PIB per capita:</font> R$ 8.872,45
+                               <br><div class="small text-muted">IBGE 2017</div></div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card mb-3">
+        <div class="card-body bg-white">
+          
+          <font class="font-weight-bold">IDHM:</font> 0,532
+          
+          <br><div class="small text-muted">IBGE 2010</div>
+      </div>
+      </div>
+    </div>
+  </div>  
+  
+
+  <p class="mt-3 lead">Acima estão alguns dados gerais sobre Bom Princípio do Piauí, mas podemos encontrar muito mais explorando bancos de dados públicos.</p> <p class="lead">Organizamos essas informações em categorias e, em cada uma delas, comparamos os valores dos indicadores com as <font class="font-weight-bold">respectivas médias</font> calculadas ao considerarmos municípios de mesmo porte habitacional (até 50 mil habitantes), municípios do mesmo estado (PI), municípios da mesma região (Nordeste) e todos os municípios brasileiros. Quando o valor do indicador de Bom Princípio do Piauí for melhor do que o valor médio dos municípios de todo o país, o número é mostrado em <font class="font-weight-bold text-success">verde</font>, quando for pior, é mostrado em <font class="font-weight-bold text-danger">vermelho</font>.</p> <p class="lead">Também comparamos alguns indicadores específicos com até outros cinco municípios com população e economia de tamanhos próximos -- confira na seção "Comparações".</p>
+
+</div>
+
+<!-- Nav tabs -->
+  <nav id="navbar1" class="navbar navbar-expand-lg navbar-light sticky-top rounded mt-3 mb-3" style="background-color: #fff6eb;">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerNav" aria-controls="navbarTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon nav-link text-dark"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerNav">
+    <nav class="nav nav-pills font-weight-bold mx-auto">
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="/">Outras cidades</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#comparacoes"><i class="fas fa-chart-bar fa-lg"></i> Comparações</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#educacao"><i class="fas fa-book-reader fa-lg"></i> Educação</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#habitacao"><i class="fas fa-home fa-lg"></i> Habitação</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#meioambiente"><i class="fas fa-leaf fa-lg"></i> Meio Ambiente</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#mobilidade"><i class="fas fa-bus fa-lg"></i> Mobilidade</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#saude"><i class="fas fa-heartbeat fa-lg"></i> Saúde</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#seguranca"><i class="fas fa-user-shield fa-lg"></i> Segurança</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#orcamento"><i class="fas fa-dollar-sign fa-lg"></i> Orçamento</a>
+      <a class="nav-link btn-warning ml-1 py-3 px-2" href="#sobre">Sobre os dados</a>
+    </nav>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+<!-- Comparações -->
+<div class="rounded p-5 bg-light">
+
+  <div class="row px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="comparacoes" style="padding-top: 100px; margin-top: -100px;">Comparações</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+
+  <div class="px-2 py-2 mt-3 rounded">
+    <p class="lead my-3">Como os indicadores de Bom Princípio do Piauí se comparam aos de outras cidades com porte populacional e econômico semelhante? Confira nos gráficos a seguir.</p>
+    <div class="row mt-5">
+      
+      <div class="col-sm">
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"5206abf2-e601-424d-b6c0-9ecd0b2393b4":{"roots":{"references":[{"attributes":{"ticker":{"id":"803128","type":"CategoricalTicker"}},"id":"803130","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.9},"fill_color":{"field":"colors"},"line_color":{"field":"colors"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"803141","type":"VBar"},{"attributes":{"formatter":{"id":"803148","type":"BasicTickFormatter"},"ticker":{"id":"803132","type":"BasicTicker"}},"id":"803131","type":"LinearAxis"},{"attributes":{},"id":"803128","type":"CategoricalTicker"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"803142","type":"VBar"},{"attributes":{"text":"Ideb 2017 - Anos Iniciais"},"id":"803117","type":"Title"},{"attributes":{"callback":null,"factors":["Datas - MG","S\\u00e3o Bento do Tocantins - TO","Soledade de Minas - MG","Caldeir\\u00e3o Grande do Piau\\u00ed - PI","Bernardo do Mearim - MA","Bom Princ\\u00edpio do Piau\\u00ed - PI"]},"id":"803119","type":"FactorRange"},{"attributes":{"data_source":{"id":"803139","type":"ColumnDataSource"},"glyph":{"id":"803141","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"803142","type":"VBar"},"selection_glyph":null,"view":{"id":"803144","type":"CDSView"}},"id":"803143","type":"GlyphRenderer"},{"attributes":{"source":{"id":"803139","type":"ColumnDataSource"}},"id":"803144","type":"CDSView"},{"attributes":{"callback":null,"end":10},"id":"803145","type":"Range1d"},{"attributes":{},"id":"803123","type":"CategoricalScale"},{"attributes":{},"id":"803152","type":"Selection"},{"attributes":{},"id":"803125","type":"LinearScale"},{"attributes":{"dimension":1,"ticker":{"id":"803132","type":"BasicTicker"}},"id":"803135","type":"Grid"},{"attributes":{"formatter":{"id":"803150","type":"CategoricalTickFormatter"},"major_label_orientation":45,"ticker":{"id":"803128","type":"CategoricalTicker"}},"id":"803127","type":"CategoricalAxis"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"803136","type":"HoverTool"}]},"id":"803137","type":"Toolbar"},{"attributes":{"below":[{"id":"803127","type":"CategoricalAxis"}],"center":[{"id":"803130","type":"Grid"},{"id":"803135","type":"Grid"}],"left":[{"id":"803131","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"803143","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"803117","type":"Title"},"toolbar":{"id":"803137","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"803119","type":"FactorRange"},"x_scale":{"id":"803123","type":"CategoricalScale"},"y_range":{"id":"803145","type":"Range1d"},"y_scale":{"id":"803125","type":"LinearScale"}},"id":"803116","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"803148","type":"BasicTickFormatter"},{"attributes":{"callback":null,"tooltips":[["Ideb 2017 - Anos Iniciais","@indicador{0.0}"]]},"id":"803136","type":"HoverTool"},{"attributes":{},"id":"803151","type":"UnionRenderers"},{"attributes":{},"id":"803150","type":"CategoricalTickFormatter"},{"attributes":{},"id":"803132","type":"BasicTicker"},{"attributes":{"callback":null,"data":{"cidades":["Datas - MG","S\\u00e3o Bento do Tocantins - TO","Soledade de Minas - MG","Caldeir\\u00e3o Grande do Piau\\u00ed - PI","Bernardo do Mearim - MA","Bom Princ\\u00edpio do Piau\\u00ed - PI"],"colors":["#08519c","#2171b5","#4292c6","#6baed6","#9ecae1","orange"],"indicador":[6.7,"NaN",7.0,5.9,4.5,4.5]},"selected":{"id":"803152","type":"Selection"},"selection_policy":{"id":"803151","type":"UnionRenderers"}},"id":"803139","type":"ColumnDataSource"}],"root_ids":["803116"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"5206abf2-e601-424d-b6c0-9ecd0b2393b4","roots":{"803116":"c5ef8522-5585-46fb-b9c6-c27fe0500b40"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+        
+<div class="bk-root" id="c5ef8522-5585-46fb-b9c6-c27fe0500b40" data-root-id="803116"></div> 
+        <div class="small">Elaboração: Insper. Dados: Inep - 2017.</div>
+      </div>
+      
+      
+      <div class="col-sm">
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"91ddc18b-f741-47c6-ae53-a9e30a100461":{"roots":{"references":[{"attributes":{},"id":"803216","type":"UnionRenderers"},{"attributes":{"formatter":{"id":"803215","type":"CategoricalTickFormatter"},"major_label_orientation":45,"ticker":{"id":"803193","type":"CategoricalTicker"}},"id":"803192","type":"CategoricalAxis"},{"attributes":{},"id":"803193","type":"CategoricalTicker"},{"attributes":{},"id":"803197","type":"BasicTicker"},{"attributes":{"fill_alpha":{"value":0.9},"fill_color":{"field":"colors"},"line_color":{"field":"colors"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"803206","type":"VBar"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"803201","type":"HoverTool"}]},"id":"803202","type":"Toolbar"},{"attributes":{},"id":"803213","type":"BasicTickFormatter"},{"attributes":{"below":[{"id":"803192","type":"CategoricalAxis"}],"center":[{"id":"803195","type":"Grid"},{"id":"803200","type":"Grid"}],"left":[{"id":"803196","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"803208","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"803182","type":"Title"},"toolbar":{"id":"803202","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"803184","type":"FactorRange"},"x_scale":{"id":"803188","type":"CategoricalScale"},"y_range":{"id":"803210","type":"Range1d"},"y_scale":{"id":"803190","type":"LinearScale"}},"id":"803181","subtype":"Figure","type":"Plot"},{"attributes":{"ticker":{"id":"803193","type":"CategoricalTicker"}},"id":"803195","type":"Grid"},{"attributes":{"formatter":{"id":"803213","type":"BasicTickFormatter"},"ticker":{"id":"803197","type":"BasicTicker"}},"id":"803196","type":"LinearAxis"},{"attributes":{"dimension":1,"ticker":{"id":"803197","type":"BasicTicker"}},"id":"803200","type":"Grid"},{"attributes":{"callback":null,"data":{"cidades":["Soledade de Minas - MG","Datas - MG","S\\u00e3o Bento do Tocantins - TO","Bernardo do Mearim - MA","Caldeir\\u00e3o Grande do Piau\\u00ed - PI","Bom Princ\\u00edpio do Piau\\u00ed - PI"],"colors":["#08519c","#2171b5","#4292c6","#6baed6","#9ecae1","orange"],"indicador":[0.697,0.616,0.605,0.604,0.588,0.532]},"selected":{"id":"803217","type":"Selection"},"selection_policy":{"id":"803216","type":"UnionRenderers"}},"id":"803204","type":"ColumnDataSource"},{"attributes":{"source":{"id":"803204","type":"ColumnDataSource"}},"id":"803209","type":"CDSView"},{"attributes":{"text":"\\u00ccndice de Desenvolvimento Humano Municipal"},"id":"803182","type":"Title"},{"attributes":{"data_source":{"id":"803204","type":"ColumnDataSource"},"glyph":{"id":"803206","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"803207","type":"VBar"},"selection_glyph":null,"view":{"id":"803209","type":"CDSView"}},"id":"803208","type":"GlyphRenderer"},{"attributes":{"callback":null,"factors":["Soledade de Minas - MG","Datas - MG","S\\u00e3o Bento do Tocantins - TO","Bernardo do Mearim - MA","Caldeir\\u00e3o Grande do Piau\\u00ed - PI","Bom Princ\\u00edpio do Piau\\u00ed - PI"]},"id":"803184","type":"FactorRange"},{"attributes":{},"id":"803215","type":"CategoricalTickFormatter"},{"attributes":{"callback":null,"tooltips":[["\\u00ccndice de Desenvolvimento Humano Municipal","@indicador"]]},"id":"803201","type":"HoverTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"803207","type":"VBar"},{"attributes":{},"id":"803188","type":"CategoricalScale"},{"attributes":{},"id":"803217","type":"Selection"},{"attributes":{"callback":null},"id":"803210","type":"Range1d"},{"attributes":{},"id":"803190","type":"LinearScale"}],"root_ids":["803181"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"91ddc18b-f741-47c6-ae53-a9e30a100461","roots":{"803181":"8fdccc22-dfb3-4d9a-af51-2b148f77a239"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+        
+<div class="bk-root" id="8fdccc22-dfb3-4d9a-af51-2b148f77a239" data-root-id="803181"></div>
+        <div class="small">Elaboração: Insper. Dados: PNUD - 2010.</div> 
+      </div>
+          
+    </div>
+    <div class="row mt-5">
+      
+      <div class="col-sm">
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"89222eb3-3732-411b-85b9-e869d36442f2":{"roots":{"references":[{"attributes":{"below":[{"id":"803257","type":"CategoricalAxis"}],"center":[{"id":"803260","type":"Grid"},{"id":"803265","type":"Grid"}],"left":[{"id":"803261","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"803273","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"803247","type":"Title"},"toolbar":{"id":"803267","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"803249","type":"FactorRange"},"x_scale":{"id":"803253","type":"CategoricalScale"},"y_range":{"id":"803275","type":"Range1d"},"y_scale":{"id":"803255","type":"LinearScale"}},"id":"803246","subtype":"Figure","type":"Plot"},{"attributes":{"data_source":{"id":"803269","type":"ColumnDataSource"},"glyph":{"id":"803271","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"803272","type":"VBar"},"selection_glyph":null,"view":{"id":"803274","type":"CDSView"}},"id":"803273","type":"GlyphRenderer"},{"attributes":{},"id":"803262","type":"BasicTicker"},{"attributes":{"source":{"id":"803269","type":"ColumnDataSource"}},"id":"803274","type":"CDSView"},{"attributes":{"formatter":{"id":"803278","type":"BasicTickFormatter"},"ticker":{"id":"803262","type":"BasicTicker"}},"id":"803261","type":"LinearAxis"},{"attributes":{"ticker":{"id":"803258","type":"CategoricalTicker"}},"id":"803260","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"803272","type":"VBar"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"803266","type":"HoverTool"}]},"id":"803267","type":"Toolbar"},{"attributes":{},"id":"803281","type":"UnionRenderers"},{"attributes":{},"id":"803280","type":"CategoricalTickFormatter"},{"attributes":{},"id":"803255","type":"LinearScale"},{"attributes":{},"id":"803258","type":"CategoricalTicker"},{"attributes":{"callback":null,"factors":["Datas - MG","S\\u00e3o Bento do Tocantins - TO","Soledade de Minas - MG","Bernardo do Mearim - MA","Caldeir\\u00e3o Grande do Piau\\u00ed - PI","Bom Princ\\u00edpio do Piau\\u00ed - PI"]},"id":"803249","type":"FactorRange"},{"attributes":{"callback":null,"tooltips":[["% da popula\\u00e7\\u00e3o com coleta e tratamento de esgoto","@indicador{0.0}%"]]},"id":"803266","type":"HoverTool"},{"attributes":{"callback":null,"data":{"cidades":["Datas - MG","S\\u00e3o Bento do Tocantins - TO","Soledade de Minas - MG","Bernardo do Mearim - MA","Caldeir\\u00e3o Grande do Piau\\u00ed - PI","Bom Princ\\u00edpio do Piau\\u00ed - PI"],"colors":["#08519c","#2171b5","#4292c6","#6baed6","#9ecae1","orange"],"indicador":[66.9,0.0,0.0,0.0,0.0,0.0]},"selected":{"id":"803282","type":"Selection"},"selection_policy":{"id":"803281","type":"UnionRenderers"}},"id":"803269","type":"ColumnDataSource"},{"attributes":{},"id":"803278","type":"BasicTickFormatter"},{"attributes":{"dimension":1,"ticker":{"id":"803262","type":"BasicTicker"}},"id":"803265","type":"Grid"},{"attributes":{},"id":"803253","type":"CategoricalScale"},{"attributes":{"fill_alpha":{"value":0.9},"fill_color":{"field":"colors"},"line_color":{"field":"colors"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"803271","type":"VBar"},{"attributes":{"formatter":{"id":"803280","type":"CategoricalTickFormatter"},"major_label_orientation":45,"ticker":{"id":"803258","type":"CategoricalTicker"}},"id":"803257","type":"CategoricalAxis"},{"attributes":{},"id":"803282","type":"Selection"},{"attributes":{"text":"% da popula\\u00e7\\u00e3o com coleta e tratamento de esgoto"},"id":"803247","type":"Title"},{"attributes":{"callback":null,"end":100},"id":"803275","type":"Range1d"}],"root_ids":["803246"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"89222eb3-3732-411b-85b9-e869d36442f2","roots":{"803246":"2f4d7877-f1f7-4a08-ac51-d33b306f0e8e"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+        
+<div class="bk-root" id="2f4d7877-f1f7-4a08-ac51-d33b306f0e8e" data-root-id="803246"></div>
+        <div class="small">Elaboração: Insper. Dados: Snirh - 2013.</div> 
+      </div>
+      
+      
+      <div class="col-sm">
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"249c3953-85cd-4252-a1bf-4a3f988d46c9":{"roots":{"references":[{"attributes":{},"id":"803343","type":"BasicTickFormatter"},{"attributes":{},"id":"803345","type":"CategoricalTickFormatter"},{"attributes":{"dimension":1,"ticker":{"id":"803327","type":"BasicTicker"}},"id":"803330","type":"Grid"},{"attributes":{"formatter":{"id":"803345","type":"CategoricalTickFormatter"},"major_label_orientation":45,"ticker":{"id":"803323","type":"CategoricalTicker"}},"id":"803322","type":"CategoricalAxis"},{"attributes":{"text":"% da popula\\u00e7\\u00e3o que vive em ruas pavimentadas"},"id":"803312","type":"Title"},{"attributes":{},"id":"803320","type":"LinearScale"},{"attributes":{},"id":"803347","type":"Selection"},{"attributes":{"callback":null,"end":100},"id":"803340","type":"Range1d"},{"attributes":{},"id":"803346","type":"UnionRenderers"},{"attributes":{},"id":"803327","type":"BasicTicker"},{"attributes":{"source":{"id":"803334","type":"ColumnDataSource"}},"id":"803339","type":"CDSView"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"803337","type":"VBar"},{"attributes":{},"id":"803323","type":"CategoricalTicker"},{"attributes":{"data_source":{"id":"803334","type":"ColumnDataSource"},"glyph":{"id":"803336","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"803337","type":"VBar"},"selection_glyph":null,"view":{"id":"803339","type":"CDSView"}},"id":"803338","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.9},"fill_color":{"field":"colors"},"line_color":{"field":"colors"},"top":{"field":"indicador"},"width":{"value":0.7},"x":{"field":"cidades"}},"id":"803336","type":"VBar"},{"attributes":{"below":[{"id":"803322","type":"CategoricalAxis"}],"center":[{"id":"803325","type":"Grid"},{"id":"803330","type":"Grid"}],"left":[{"id":"803326","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"803338","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"803312","type":"Title"},"toolbar":{"id":"803332","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"803314","type":"FactorRange"},"x_scale":{"id":"803318","type":"CategoricalScale"},"y_range":{"id":"803340","type":"Range1d"},"y_scale":{"id":"803320","type":"LinearScale"}},"id":"803311","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"803318","type":"CategoricalScale"},{"attributes":{"ticker":{"id":"803323","type":"CategoricalTicker"}},"id":"803325","type":"Grid"},{"attributes":{"callback":null,"tooltips":[["% da popula\\u00e7\\u00e3o que vive em ruas pavimentadas","@indicador{0.0}%"]]},"id":"803331","type":"HoverTool"},{"attributes":{"callback":null,"factors":["Caldeir\\u00e3o Grande do Piau\\u00ed - PI","Datas - MG","Soledade de Minas - MG","Bernardo do Mearim - MA","Bom Princ\\u00edpio do Piau\\u00ed - PI","S\\u00e3o Bento do Tocantins - TO"]},"id":"803314","type":"FactorRange"},{"attributes":{"formatter":{"id":"803343","type":"BasicTickFormatter"},"ticker":{"id":"803327","type":"BasicTicker"}},"id":"803326","type":"LinearAxis"},{"attributes":{"callback":null,"data":{"cidades":["Caldeir\\u00e3o Grande do Piau\\u00ed - PI","Datas - MG","Soledade de Minas - MG","Bernardo do Mearim - MA","Bom Princ\\u00edpio do Piau\\u00ed - PI","S\\u00e3o Bento do Tocantins - TO"],"colors":["#08519c","#2171b5","#4292c6","#6baed6","orange","#c6dbef"],"indicador":[94.58,94.1,92.79,92.59,92.12,57.71]},"selected":{"id":"803347","type":"Selection"},"selection_policy":{"id":"803346","type":"UnionRenderers"}},"id":"803334","type":"ColumnDataSource"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"803331","type":"HoverTool"}]},"id":"803332","type":"Toolbar"}],"root_ids":["803311"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"249c3953-85cd-4252-a1bf-4a3f988d46c9","roots":{"803311":"5f690841-33c7-4161-9239-52e5f88d281f"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+        
+<div class="bk-root" id="5f690841-33c7-4161-9239-52e5f88d281f" data-root-id="803311"></div>
+        <div class="small">Elaboração: Insper. Dados: Ibge - 2017.</div> 
+      </div>    
+      
+    </div>
+  </div>
+
+  
+  <div class="px-2 py-2 mt-5 rounded ">
+    <p class="h3 font-weight-bold">Regiões de Influência das Cidades - REGIC</p>
+    <p class="lead my-3">Realizada pelo Ibge, a pesquisa <a href='https://www.ibge.gov.br/geociencias/cartas-e-mapas/redes-geograficas/15798-regioes-de-influencia-das-cidades.html' target='_blank'>Regiões de Influência das Cidades - REGIC</a> "define a hierarquia dos centros urbanos brasileiros e delimita as regiões de influência a eles associados". Além disso, a pesquisa identifica os fluxos de bens e serviços entre os municípios, permitindo identificar, por exemplo, se a população encontra atendimento médico em sua cidade ou se precisa se deslocar até outro centro urbano.</p>
+    <div class="table-responsive">
+      <table class="table table-striped mt-3">
+        
+        <thead>
+          <th>Atendimento em Saúde</th>
+          <th>Baixa e Média Complexidade</th>
+          <th>Alta Complexidade</th>
+        </thead>
+        <tr>
+          <td></td>
+          <td>Parnaíba</td>
+          <td>Parnaíba</td>
+        </tr>
+        <thead>
+          <th>Região de comércio</th>
+          <th>Vestuário e calçados</th>
+          <th>Móveis, eletrodomésticos, aparelhos eletrônicos e de informática</th>
+        </thead>
+        <tr>
+          <td></td>
+          <td>Parnaíba</td>
+          <td>Parnaíba</td>
+        </tr>        
+      </table>
+    </div>
+    <div class="small font-italic text-right">Elaboração: Insper. Dados: Ibge - Regic - 2018.</div>
+  </div>
+  
+
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Educação -->
+<div class="rounded p-5 bg-light">
+
+  <div class="row px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="educacao" style="padding-top: 100px; margin-top: -100px;">Educação</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+
+  <!-- Ideb 2017 -->
+    
+    
+    <div class="px-2 py-2 mt-5 rounded ">
+    <p class="h3 font-weight-bold">Índice de Desenvolvimento da Educação Básica</p>
+    <p class="lead my-3">Bom Princípio do Piauí alcançou, <font class="font-weight-bold">em 2017</font>, <a href="https://www.qedu.org.br/ideb#o-que-e" target="_blank">Índice de Desenvolvimento da Educação Básica</a> de 4,5 pontos nos anos iniciais (1º ao 4º ano do Ensino Fundamental) e de 4,4 nos anos finais (5º ao 9º ano do Ensino Fundamental). Esses dados são divulgados a cada dois anos pelo <a href="http://ideb.inep.gov.br/">Inep</a>.</p>
+    <div class="table-responsive">
+    <table class="table table-striped mt-3">
+      <thead>
+        <th>Municípios</th>
+        <th>Ideb - anos iniciais</th>
+        <th>Ideb - anos finais</th>
+      </thead>
+      <thead>
+        <th>Bom Princípio do Piauí</th>
+        <th><div class="text-danger">4,5</div></th>
+        <th><div class="text-success">4,4</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>5,54</td>
+        <td>4,17</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>4,76</td>
+        <td>3,76</td>
+      </tr>
+      <tr>
+        <td>do estado (PI)</td>
+        <td>4,66</td>
+        <td>3,93</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>5,52</td>
+        <td>4,12</td>
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: Inep - 2017.</div>
+
+    <div class="row mt-5">
+    <div class="col-sm">
+    <p class="h6">Evolução do Ideb - Ensino Fundamental - Anos Iniciais</p>
+    
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"e08e5e09-f7b0-4876-8a84-f37542461cdd":{"roots":{"references":[{"attributes":{"line_alpha":0.2,"line_color":"purple","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_reg"}},"id":"802150","type":"Line"},{"attributes":{"label":{"value":"at\\u00e9 50 mil habitantes"},"renderers":[{"id":"802183","type":"GlyphRenderer"}]},"id":"802194","type":"LegendItem"},{"attributes":{"click_policy":"mute","items":[{"id":"802130","type":"LegendItem"},{"id":"802146","type":"LegendItem"},{"id":"802162","type":"LegendItem"},{"id":"802178","type":"LegendItem"},{"id":"802194","type":"LegendItem"}],"location":"top_left"},"id":"802129","type":"Legend"},{"attributes":{"source":{"id":"802115","type":"ColumnDataSource"}},"id":"802184","type":"CDSView"},{"attributes":{},"id":"802144","type":"Selection"},{"attributes":{"line_alpha":0.2,"line_color":"orange","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_porte"}},"id":"802182","type":"Line"},{"attributes":{},"id":"802125","type":"BasicTickFormatter"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","logo":null,"tools":[{"id":"802101","type":"PanTool"},{"id":"802102","type":"WheelZoomTool"},{"id":"802103","type":"BoxZoomTool"},{"id":"802104","type":"SaveTool"},{"id":"802105","type":"ResetTool"},{"id":"802106","type":"HelpTool"}]},"id":"802107","type":"Toolbar"},{"attributes":{"data_source":{"id":"802115","type":"ColumnDataSource"},"glyph":{"id":"802164","type":"Line"},"hover_glyph":null,"muted_glyph":{"id":"802166","type":"Line"},"nonselection_glyph":{"id":"802165","type":"Line"},"selection_glyph":null,"view":{"id":"802168","type":"CDSView"}},"id":"802167","type":"GlyphRenderer"},{"attributes":{},"id":"802097","type":"BasicTicker"},{"attributes":{"data_source":{"id":"802115","type":"ColumnDataSource"},"glyph":{"id":"802117","type":"Line"},"hover_glyph":null,"muted_glyph":{"id":"802119","type":"Line"},"nonselection_glyph":{"id":"802118","type":"Line"},"selection_glyph":null,"view":{"id":"802121","type":"CDSView"}},"id":"802120","type":"GlyphRenderer"},{"attributes":{"callback":null,"data":{"ano":["2005","2007","2009","2011","2013","2015","2017"],"ideb":{"__ndarray__":"AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAAEkA=","dtype":"float64","shape":[7]},"ideb_br":{"__ndarray__":"RIIaW3QuDEBvg/ZVd3oPQF2zvKvtwRFAoZpTMUwpE0CcUGZkt9UTQBQ/q7ndNxVAMphWR4UoFkA=","dtype":"float64","shape":[7]},"ideb_porte":{"__ndarray__":"6qAO6qDaC0BQV3pnwEEPQKxS/jpOrRFAkLIpwoMbE0DaySLWkcQTQOBUy7W5IRVAgBW1xSwSFkA=","dtype":"float64","shape":[7]},"ideb_reg":{"__ndarray__":"Vsqb4fjVBUDQIrH/vmwJQHmVqqKFcAxA4EghkCZOD0BamiE3PS4QQLjox2VMIhJA8vgJHlENE0A=","dtype":"float64","shape":[7]},"ideb_uf":{"__ndarray__":"eaL+jVBGBUCjk51B1McIQMIHH3zwwQtATDeJQWBlDkAb40CA24cOQIjBwpE5ARFAZ2ZmZmamEkA=","dtype":"float64","shape":[7]},"index":[0,1,2,3,4,5,6]},"selected":{"id":"802144","type":"Selection"},"selection_policy":{"id":"802143","type":"UnionRenderers"}},"id":"802115","type":"ColumnDataSource"},{"attributes":{"line_alpha":0.8,"line_color":"green","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_br"}},"id":"802132","type":"Line"},{"attributes":{},"id":"802102","type":"WheelZoomTool"},{"attributes":{"line_alpha":0.8,"line_color":"orange","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_porte"}},"id":"802180","type":"Line"},{"attributes":{"label":{"value":"PI"},"renderers":[{"id":"802167","type":"GlyphRenderer"}]},"id":"802178","type":"LegendItem"},{"attributes":{"ticker":{"id":"802092","type":"BasicTicker"}},"id":"802095","type":"Grid"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"802128","type":"BoxAnnotation"},{"attributes":{"data_source":{"id":"802115","type":"ColumnDataSource"},"glyph":{"id":"802148","type":"Line"},"hover_glyph":null,"muted_glyph":{"id":"802150","type":"Line"},"nonselection_glyph":{"id":"802149","type":"Line"},"selection_glyph":null,"view":{"id":"802152","type":"CDSView"}},"id":"802151","type":"GlyphRenderer"},{"attributes":{"label":{"value":"Brasil"},"renderers":[{"id":"802135","type":"GlyphRenderer"}]},"id":"802146","type":"LegendItem"},{"attributes":{"data_source":{"id":"802115","type":"ColumnDataSource"},"glyph":{"id":"802180","type":"Line"},"hover_glyph":null,"muted_glyph":{"id":"802182","type":"Line"},"nonselection_glyph":{"id":"802181","type":"Line"},"selection_glyph":null,"view":{"id":"802184","type":"CDSView"}},"id":"802183","type":"GlyphRenderer"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_uf"}},"id":"802165","type":"Line"},{"attributes":{"source":{"id":"802115","type":"ColumnDataSource"}},"id":"802121","type":"CDSView"},{"attributes":{},"id":"802092","type":"BasicTicker"},{"attributes":{},"id":"802143","type":"UnionRenderers"},{"attributes":{"line_alpha":0.8,"line_color":"purple","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_reg"}},"id":"802148","type":"Line"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_porte"}},"id":"802181","type":"Line"},{"attributes":{"dimension":1,"ticker":{"id":"802097","type":"BasicTicker"}},"id":"802100","type":"Grid"},{"attributes":{},"id":"802101","type":"PanTool"},{"attributes":{"line_alpha":0.8,"line_color":"navy","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb"}},"id":"802117","type":"Line"},{"attributes":{"line_alpha":0.8,"line_color":"red","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_uf"}},"id":"802164","type":"Line"},{"attributes":{"line_alpha":0.2,"line_color":"green","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_br"}},"id":"802134","type":"Line"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_reg"}},"id":"802149","type":"Line"},{"attributes":{},"id":"802105","type":"ResetTool"},{"attributes":{},"id":"802087","type":"LinearScale"},{"attributes":{"line_alpha":0.2,"line_color":"red","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_uf"}},"id":"802166","type":"Line"},{"attributes":{"label":{"value":"Nordeste"},"renderers":[{"id":"802151","type":"GlyphRenderer"}]},"id":"802162","type":"LegendItem"},{"attributes":{},"id":"802104","type":"SaveTool"},{"attributes":{"ticks":[2005,2007,2009,2011,2013,2015,2017]},"id":"802196","type":"FixedTicker"},{"attributes":{"source":{"id":"802115","type":"ColumnDataSource"}},"id":"802168","type":"CDSView"},{"attributes":{"text":""},"id":"802122","type":"Title"},{"attributes":{},"id":"802127","type":"BasicTickFormatter"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb"}},"id":"802118","type":"Line"},{"attributes":{},"id":"802106","type":"HelpTool"},{"attributes":{"data_source":{"id":"802115","type":"ColumnDataSource"},"glyph":{"id":"802132","type":"Line"},"hover_glyph":null,"muted_glyph":{"id":"802134","type":"Line"},"nonselection_glyph":{"id":"802133","type":"Line"},"selection_glyph":null,"view":{"id":"802136","type":"CDSView"}},"id":"802135","type":"GlyphRenderer"},{"attributes":{"callback":null,"end":10},"id":"802195","type":"Range1d"},{"attributes":{"line_alpha":0.2,"line_color":"navy","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb"}},"id":"802119","type":"Line"},{"attributes":{},"id":"802089","type":"LinearScale"},{"attributes":{"label":{"value":"Bom Princ\\u00edpio do Piau\\u00ed"},"renderers":[{"id":"802120","type":"GlyphRenderer"}]},"id":"802130","type":"LegendItem"},{"attributes":{"formatter":{"id":"802127","type":"BasicTickFormatter"},"ticker":{"id":"802196","type":"FixedTicker"}},"id":"802091","type":"LinearAxis"},{"attributes":{"source":{"id":"802115","type":"ColumnDataSource"}},"id":"802152","type":"CDSView"},{"attributes":{"callback":null},"id":"802083","type":"DataRange1d"},{"attributes":{"below":[{"id":"802091","type":"LinearAxis"}],"center":[{"id":"802095","type":"Grid"},{"id":"802100","type":"Grid"},{"id":"802129","type":"Legend"}],"left":[{"id":"802096","type":"LinearAxis"}],"plot_height":500,"plot_width":500,"renderers":[{"id":"802120","type":"GlyphRenderer"},{"id":"802135","type":"GlyphRenderer"},{"id":"802151","type":"GlyphRenderer"},{"id":"802167","type":"GlyphRenderer"},{"id":"802183","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"802122","type":"Title"},"toolbar":{"id":"802107","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"802083","type":"DataRange1d"},"x_scale":{"id":"802087","type":"LinearScale"},"y_range":{"id":"802195","type":"Range1d"},"y_scale":{"id":"802089","type":"LinearScale"}},"id":"802082","subtype":"Figure","type":"Plot"},{"attributes":{"source":{"id":"802115","type":"ColumnDataSource"}},"id":"802136","type":"CDSView"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_br"}},"id":"802133","type":"Line"},{"attributes":{"overlay":{"id":"802128","type":"BoxAnnotation"}},"id":"802103","type":"BoxZoomTool"},{"attributes":{"formatter":{"id":"802125","type":"BasicTickFormatter"},"ticker":{"id":"802097","type":"BasicTicker"}},"id":"802096","type":"LinearAxis"}],"root_ids":["802082"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"e08e5e09-f7b0-4876-8a84-f37542461cdd","roots":{"802082":"46f5d8db-60ee-452b-bd4b-a5e89dcb0a8e"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+    
+<div class="bk-root" id="46f5d8db-60ee-452b-bd4b-a5e89dcb0a8e" data-root-id="802082"></div>
+    <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2017.</div>
+    </div>
+    <div class="col-sm">
+    <p class="h6">Evolução do Ideb - Ensino Fundamental - Anos Finais</p>
+    
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"cde5f2e6-192f-4285-975e-8fd5b0bf44b6":{"roots":{"references":[{"attributes":{"label":{"value":"at\\u00e9 50 mil habitantes"},"renderers":[{"id":"802339","type":"GlyphRenderer"}]},"id":"802350","type":"LegendItem"},{"attributes":{"below":[{"id":"802247","type":"LinearAxis"}],"center":[{"id":"802251","type":"Grid"},{"id":"802256","type":"Grid"},{"id":"802285","type":"Legend"}],"left":[{"id":"802252","type":"LinearAxis"}],"plot_height":500,"plot_width":500,"renderers":[{"id":"802276","type":"GlyphRenderer"},{"id":"802291","type":"GlyphRenderer"},{"id":"802307","type":"GlyphRenderer"},{"id":"802323","type":"GlyphRenderer"},{"id":"802339","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"802278","type":"Title"},"toolbar":{"id":"802263","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"802239","type":"DataRange1d"},"x_scale":{"id":"802243","type":"LinearScale"},"y_range":{"id":"802351","type":"Range1d"},"y_scale":{"id":"802245","type":"LinearScale"}},"id":"802238","subtype":"Figure","type":"Plot"},{"attributes":{"line_alpha":0.8,"line_color":"purple","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_reg"}},"id":"802304","type":"Line"},{"attributes":{"ticks":[2005,2007,2009,2011,2013,2015,2017]},"id":"802352","type":"FixedTicker"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_br"}},"id":"802289","type":"Line"},{"attributes":{"label":{"value":"Brasil"},"renderers":[{"id":"802291","type":"GlyphRenderer"}]},"id":"802302","type":"LegendItem"},{"attributes":{},"id":"802258","type":"WheelZoomTool"},{"attributes":{"overlay":{"id":"802284","type":"BoxAnnotation"}},"id":"802259","type":"BoxZoomTool"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_porte"}},"id":"802337","type":"Line"},{"attributes":{},"id":"802257","type":"PanTool"},{"attributes":{},"id":"802261","type":"ResetTool"},{"attributes":{"label":{"value":"PI"},"renderers":[{"id":"802323","type":"GlyphRenderer"}]},"id":"802334","type":"LegendItem"},{"attributes":{"line_alpha":0.8,"line_color":"orange","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_porte"}},"id":"802336","type":"Line"},{"attributes":{"callback":null,"data":{"ano":["2005","2007","2009","2011","2013","2015","2017"],"ideb":{"__ndarray__":"mpmZmZmZAUAzMzMzMzMHQM3MzMzMzABAMzMzMzMzA0AAAAAAAAAMQJqZmZmZmQFAmpmZmZmZEUA=","dtype":"float64","shape":[7]},"ideb_br":{"__ndarray__":"kcUD5xpZCEAtgAmd87EKQDiZZqL9dAxAdPCVckOvDUDRAbs91jIOQO/eHmrMERBAD+fmBEmqEEA=","dtype":"float64","shape":[7]},"ideb_porte":{"__ndarray__":"Y6NznMTNB0Ap/Uibc1QKQLXaz0b/GAxAsTOrg4ZCDUCZy8auNt4NQLXCPE0ztg9AyGHQ2q14EEA=","dtype":"float64","shape":[7]},"ideb_reg":{"__ndarray__":"Cd2L0L0IBUCgwOY9TuEGQDeJQWDlsAhA/O8yYlaZCUD5OExKl48KQL7dH8Z24gxAQXa/5H4eDkA=","dtype":"float64","shape":[7]},"ideb_uf":{"__ndarray__":"gy3Ygi3YBkAOBli1F+4IQHjsQCGtWApAQuQebHqsC0CvR+F6FK4LQDeJQWDl0A1APrfEqd9zD0A=","dtype":"float64","shape":[7]},"index":[0,1,2,3,4,5,6]},"selected":{"id":"802300","type":"Selection"},"selection_policy":{"id":"802299","type":"UnionRenderers"}},"id":"802271","type":"ColumnDataSource"},{"attributes":{"line_alpha":0.2,"line_color":"orange","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_porte"}},"id":"802338","type":"Line"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","logo":null,"tools":[{"id":"802257","type":"PanTool"},{"id":"802258","type":"WheelZoomTool"},{"id":"802259","type":"BoxZoomTool"},{"id":"802260","type":"SaveTool"},{"id":"802261","type":"ResetTool"},{"id":"802262","type":"HelpTool"}]},"id":"802263","type":"Toolbar"},{"attributes":{"source":{"id":"802271","type":"ColumnDataSource"}},"id":"802340","type":"CDSView"},{"attributes":{"line_alpha":0.2,"line_color":"purple","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_reg"}},"id":"802306","type":"Line"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_uf"}},"id":"802321","type":"Line"},{"attributes":{"formatter":{"id":"802283","type":"BasicTickFormatter"},"ticker":{"id":"802352","type":"FixedTicker"}},"id":"802247","type":"LinearAxis"},{"attributes":{"source":{"id":"802271","type":"ColumnDataSource"}},"id":"802308","type":"CDSView"},{"attributes":{"ticker":{"id":"802248","type":"BasicTicker"}},"id":"802251","type":"Grid"},{"attributes":{},"id":"802300","type":"Selection"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_reg"}},"id":"802305","type":"Line"},{"attributes":{"label":{"value":"Bom Princ\\u00edpio do Piau\\u00ed"},"renderers":[{"id":"802276","type":"GlyphRenderer"}]},"id":"802286","type":"LegendItem"},{"attributes":{"data_source":{"id":"802271","type":"ColumnDataSource"},"glyph":{"id":"802304","type":"Line"},"hover_glyph":null,"muted_glyph":{"id":"802306","type":"Line"},"nonselection_glyph":{"id":"802305","type":"Line"},"selection_glyph":null,"view":{"id":"802308","type":"CDSView"}},"id":"802307","type":"GlyphRenderer"},{"attributes":{"data_source":{"id":"802271","type":"ColumnDataSource"},"glyph":{"id":"802273","type":"Line"},"hover_glyph":null,"muted_glyph":{"id":"802275","type":"Line"},"nonselection_glyph":{"id":"802274","type":"Line"},"selection_glyph":null,"view":{"id":"802277","type":"CDSView"}},"id":"802276","type":"GlyphRenderer"},{"attributes":{"line_alpha":0.2,"line_color":"green","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_br"}},"id":"802290","type":"Line"},{"attributes":{},"id":"802281","type":"BasicTickFormatter"},{"attributes":{"line_alpha":0.8,"line_color":"red","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_uf"}},"id":"802320","type":"Line"},{"attributes":{"dimension":1,"ticker":{"id":"802253","type":"BasicTicker"}},"id":"802256","type":"Grid"},{"attributes":{},"id":"802243","type":"LinearScale"},{"attributes":{"click_policy":"mute","items":[{"id":"802286","type":"LegendItem"},{"id":"802302","type":"LegendItem"},{"id":"802318","type":"LegendItem"},{"id":"802334","type":"LegendItem"},{"id":"802350","type":"LegendItem"}],"location":"top_left"},"id":"802285","type":"Legend"},{"attributes":{"label":{"value":"Nordeste"},"renderers":[{"id":"802307","type":"GlyphRenderer"}]},"id":"802318","type":"LegendItem"},{"attributes":{},"id":"802260","type":"SaveTool"},{"attributes":{"formatter":{"id":"802281","type":"BasicTickFormatter"},"ticker":{"id":"802253","type":"BasicTicker"}},"id":"802252","type":"LinearAxis"},{"attributes":{"callback":null},"id":"802239","type":"DataRange1d"},{"attributes":{"data_source":{"id":"802271","type":"ColumnDataSource"},"glyph":{"id":"802320","type":"Line"},"hover_glyph":null,"muted_glyph":{"id":"802322","type":"Line"},"nonselection_glyph":{"id":"802321","type":"Line"},"selection_glyph":null,"view":{"id":"802324","type":"CDSView"}},"id":"802323","type":"GlyphRenderer"},{"attributes":{},"id":"802253","type":"BasicTicker"},{"attributes":{"source":{"id":"802271","type":"ColumnDataSource"}},"id":"802292","type":"CDSView"},{"attributes":{"line_alpha":0.2,"line_color":"navy","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb"}},"id":"802275","type":"Line"},{"attributes":{},"id":"802248","type":"BasicTicker"},{"attributes":{"text":""},"id":"802278","type":"Title"},{"attributes":{"source":{"id":"802271","type":"ColumnDataSource"}},"id":"802324","type":"CDSView"},{"attributes":{"line_alpha":0.2,"line_color":"red","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_uf"}},"id":"802322","type":"Line"},{"attributes":{},"id":"802262","type":"HelpTool"},{"attributes":{"data_source":{"id":"802271","type":"ColumnDataSource"},"glyph":{"id":"802336","type":"Line"},"hover_glyph":null,"muted_glyph":{"id":"802338","type":"Line"},"nonselection_glyph":{"id":"802337","type":"Line"},"selection_glyph":null,"view":{"id":"802340","type":"CDSView"}},"id":"802339","type":"GlyphRenderer"},{"attributes":{},"id":"802245","type":"LinearScale"},{"attributes":{"data_source":{"id":"802271","type":"ColumnDataSource"},"glyph":{"id":"802288","type":"Line"},"hover_glyph":null,"muted_glyph":{"id":"802290","type":"Line"},"nonselection_glyph":{"id":"802289","type":"Line"},"selection_glyph":null,"view":{"id":"802292","type":"CDSView"}},"id":"802291","type":"GlyphRenderer"},{"attributes":{},"id":"802299","type":"UnionRenderers"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb"}},"id":"802274","type":"Line"},{"attributes":{"source":{"id":"802271","type":"ColumnDataSource"}},"id":"802277","type":"CDSView"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"802284","type":"BoxAnnotation"},{"attributes":{"line_alpha":0.8,"line_color":"navy","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb"}},"id":"802273","type":"Line"},{"attributes":{"line_alpha":0.8,"line_color":"green","line_width":4,"x":{"field":"ano"},"y":{"field":"ideb_br"}},"id":"802288","type":"Line"},{"attributes":{},"id":"802283","type":"BasicTickFormatter"},{"attributes":{"callback":null,"end":10},"id":"802351","type":"Range1d"}],"root_ids":["802238"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"cde5f2e6-192f-4285-975e-8fd5b0bf44b6","roots":{"802238":"f406786c-6152-48a3-b54f-a49cc4ce2580"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+    
+<div class="bk-root" id="f406786c-6152-48a3-b54f-a49cc4ce2580" data-root-id="802238"></div>
+    <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2017.</div>
+    </div>
+    </div>
+    </div>
+    
+
+  <!-- Sinopse Estatística 2019 -->
+    
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Distribuição das redes de educação no município</p>
+    <p class="lead my-3">A partir da <a href="http://inep.gov.br/sinopses-estatisticas-da-educacao-basica">Sinopse Estatística da Educação Básica de 2019</a>, divulgada pelo Inep, é possível saber quantas matrículas, quantos docentes e quantas escolas há em Bom Princípio do Piauí nas redes de ensino públicas - municipal, estadual e federal - e na rede privada.</p>
+
+    
+    <p class="h5 mt-5 font-weight-bold">Número de matrículas por etapa e rede de ensino</p>
+    <div class="row">
+      <div class="col-sm">
+        <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead>
+            <th></th>
+            <th>municipal</th>
+            <th>estadual</th>
+            <th>federal</th>
+            <th>privada</th>
+            <th>total</th>
+          </thead>
+          <tr>
+            <td>Creche</td>
+            <td>48</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>48</td>
+          </tr>
+          <tr>
+            <td>Pré-Escola</td>
+            <td>190</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>190</td>
+          </tr>            
+          <tr>
+            <td>Fund I</td>
+            <td>571</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>571</td>
+          </tr>            
+          <tr>
+            <td>Fund II</td>
+            <td>508</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>508</td>
+          </tr>                                    
+        </table>
+        </div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2019.</div>
+      </div>
+      <div class="col-sm">
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"0634f292-d5f4-4608-991d-02b58af02c43":{"roots":{"references":[{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"navy"},"height":{"value":0.8},"left":{"expr":{"id":"802417","type":"Stack"}},"line_color":{"value":"navy"},"right":{"expr":{"id":"802418","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802427","type":"HBar"},{"attributes":{"fields":["Municipal","Estadual","Federal"]},"id":"802423","type":"Stack"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"red"},"height":{"value":0.8},"left":{"expr":{"id":"802423","type":"Stack"}},"line_color":{"value":"red"},"right":{"expr":{"id":"802424","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802470","type":"HBar"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"802414","type":"HoverTool"}]},"id":"802415","type":"Toolbar"},{"attributes":{"formatter":{"id":"802433","type":"CategoricalTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"802411","type":"CategoricalTicker"}},"id":"802410","type":"CategoricalAxis"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"802423","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"802424","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802471","type":"HBar"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"green"},"height":{"value":0.8},"left":{"expr":{"id":"802419","type":"Stack"}},"line_color":{"value":"green"},"right":{"expr":{"id":"802420","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802440","type":"HBar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"802417","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"802418","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802428","type":"HBar"},{"attributes":{"source":{"id":"802425","type":"ColumnDataSource"}},"id":"802430","type":"CDSView"},{"attributes":{"fields":["Municipal"]},"id":"802418","type":"Stack"},{"attributes":{"data_source":{"id":"802425","type":"ColumnDataSource"},"glyph":{"id":"802427","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Municipal","nonselection_glyph":{"id":"802428","type":"HBar"},"selection_glyph":null,"view":{"id":"802430","type":"CDSView"}},"id":"802429","type":"GlyphRenderer"},{"attributes":{"data_source":{"id":"802468","type":"ColumnDataSource"},"glyph":{"id":"802470","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Privada","nonselection_glyph":{"id":"802471","type":"HBar"},"selection_glyph":null,"view":{"id":"802473","type":"CDSView"}},"id":"802472","type":"GlyphRenderer"},{"attributes":{},"id":"802466","type":"Selection"},{"attributes":{"ticker":{"id":"802406","type":"BasicTicker"}},"id":"802409","type":"Grid"},{"attributes":{"callback":null,"start":0},"id":"802397","type":"DataRange1d"},{"attributes":{},"id":"802449","type":"UnionRenderers"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"802419","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"802420","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802441","type":"HBar"},{"attributes":{"label":{"value":"Municipal"},"renderers":[{"id":"802429","type":"GlyphRenderer"}]},"id":"802437","type":"LegendItem"},{"attributes":{"data_source":{"id":"802438","type":"ColumnDataSource"},"glyph":{"id":"802440","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Estadual","nonselection_glyph":{"id":"802441","type":"HBar"},"selection_glyph":null,"view":{"id":"802443","type":"CDSView"}},"id":"802442","type":"GlyphRenderer"},{"attributes":{},"id":"802401","type":"LinearScale"},{"attributes":{"callback":null,"tooltips":"Rede $name: @$name"},"id":"802414","type":"HoverTool"},{"attributes":{},"id":"802406","type":"BasicTicker"},{"attributes":{},"id":"802411","type":"CategoricalTicker"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,0],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[48,190,571,508],"Privada":[0,0,0,0]},"selected":{"id":"802466","type":"Selection"},"selection_policy":{"id":"802465","type":"UnionRenderers"}},"id":"802438","type":"ColumnDataSource"},{"attributes":{},"id":"802484","type":"Selection"},{"attributes":{"fields":["Municipal","Estadual"]},"id":"802421","type":"Stack"},{"attributes":{"source":{"id":"802438","type":"ColumnDataSource"}},"id":"802443","type":"CDSView"},{"attributes":{},"id":"802499","type":"Selection"},{"attributes":{},"id":"802433","type":"CategoricalTickFormatter"},{"attributes":{"text":"Matr\\u00edculas - Educa\\u00e7\\u00e3o Infantil e Ensino Fundamental"},"id":"802395","type":"Title"},{"attributes":{"below":[{"id":"802405","type":"LinearAxis"}],"center":[{"id":"802409","type":"Grid"},{"id":"802413","type":"Grid"},{"id":"802436","type":"Legend"}],"left":[{"id":"802410","type":"CategoricalAxis"}],"outline_line_color":{"value":null},"plot_height":400,"renderers":[{"id":"802429","type":"GlyphRenderer"},{"id":"802442","type":"GlyphRenderer"},{"id":"802456","type":"GlyphRenderer"},{"id":"802472","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"802395","type":"Title"},"toolbar":{"id":"802415","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"802397","type":"DataRange1d"},"x_scale":{"id":"802401","type":"LinearScale"},"y_range":{"id":"802399","type":"FactorRange"},"y_scale":{"id":"802403","type":"CategoricalScale"}},"id":"802394","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"802483","type":"UnionRenderers"},{"attributes":{"formatter":{"id":"802486","type":"NumeralTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"802406","type":"BasicTicker"}},"id":"802405","type":"LinearAxis"},{"attributes":{"callback":null,"factors":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"range_padding":1},"id":"802399","type":"FactorRange"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"purple"},"height":{"value":0.8},"left":{"expr":{"id":"802421","type":"Stack"}},"line_color":{"value":"purple"},"right":{"expr":{"id":"802422","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802454","type":"HBar"},{"attributes":{"source":{"id":"802452","type":"ColumnDataSource"}},"id":"802457","type":"CDSView"},{"attributes":{"fields":["Municipal","Estadual"]},"id":"802420","type":"Stack"},{"attributes":{},"id":"802450","type":"Selection"},{"attributes":{"dimension":1,"grid_line_color":null,"ticker":{"id":"802411","type":"CategoricalTicker"}},"id":"802413","type":"Grid"},{"attributes":{},"id":"802498","type":"UnionRenderers"},{"attributes":{"fields":["Municipal","Estadual","Federal","Privada"]},"id":"802424","type":"Stack"},{"attributes":{"format":"0a"},"id":"802486","type":"NumeralTickFormatter"},{"attributes":{"fields":["Municipal"]},"id":"802419","type":"Stack"},{"attributes":{"label":{"value":"Estadual"},"renderers":[{"id":"802442","type":"GlyphRenderer"}]},"id":"802451","type":"LegendItem"},{"attributes":{"label":{"value":"Privada"},"renderers":[{"id":"802472","type":"GlyphRenderer"}]},"id":"802485","type":"LegendItem"},{"attributes":{"items":[{"id":"802437","type":"LegendItem"},{"id":"802451","type":"LegendItem"},{"id":"802467","type":"LegendItem"},{"id":"802485","type":"LegendItem"}],"orientation":"horizontal"},"id":"802436","type":"Legend"},{"attributes":{"label":{"value":"Federal"},"renderers":[{"id":"802456","type":"GlyphRenderer"}]},"id":"802467","type":"LegendItem"},{"attributes":{"data_source":{"id":"802452","type":"ColumnDataSource"},"glyph":{"id":"802454","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Federal","nonselection_glyph":{"id":"802455","type":"HBar"},"selection_glyph":null,"view":{"id":"802457","type":"CDSView"}},"id":"802456","type":"GlyphRenderer"},{"attributes":{"source":{"id":"802468","type":"ColumnDataSource"}},"id":"802473","type":"CDSView"},{"attributes":{"fields":[]},"id":"802417","type":"Stack"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"802421","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"802422","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802455","type":"HBar"},{"attributes":{},"id":"802465","type":"UnionRenderers"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,0],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[48,190,571,508],"Privada":[0,0,0,0]},"selected":{"id":"802484","type":"Selection"},"selection_policy":{"id":"802483","type":"UnionRenderers"}},"id":"802452","type":"ColumnDataSource"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,0],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[48,190,571,508],"Privada":[0,0,0,0]},"selected":{"id":"802450","type":"Selection"},"selection_policy":{"id":"802449","type":"UnionRenderers"}},"id":"802425","type":"ColumnDataSource"},{"attributes":{"fields":["Municipal","Estadual","Federal"]},"id":"802422","type":"Stack"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,0],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[48,190,571,508],"Privada":[0,0,0,0]},"selected":{"id":"802499","type":"Selection"},"selection_policy":{"id":"802498","type":"UnionRenderers"}},"id":"802468","type":"ColumnDataSource"},{"attributes":{},"id":"802403","type":"CategoricalScale"}],"root_ids":["802394"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"0634f292-d5f4-4608-991d-02b58af02c43","roots":{"802394":"e553a0ac-5b54-428a-a541-dc247842669c"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+        
+<div class="bk-root" id="e553a0ac-5b54-428a-a541-dc247842669c" data-root-id="802394"></div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2019.</div>
+      </div>        
+    </div>
+    
+
+    
+    <p class="h5 mt-5 font-weight-bold">Número de docentes por matrícula em cada etapa e rede de ensino</p>
+    <p>Atenção: este número não reflete a quantidade de alunos que cada professor têm em sala, uma vez que, no Ensino Fundamental, há mais de um professor por aluno. No entanto, é um termômetro da capacidade de cada rede de atender o público.</p>      
+    <div class="row">
+      <div class="col-sm">
+        <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead>
+            <th></th>
+            <th>municipal</th>
+            <th>estadual</th>
+            <th>federal</th>
+            <th>privada</th>
+            <th>total</th>
+          </thead>
+          <tr>
+            <td>Creche</td>
+            <td>16</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>16</td>
+          </tr>
+          <tr>
+            <td>Pré-Escola</td>
+            <td>15,83</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>15,83</td>
+          </tr>            
+          <tr>
+            <td>Fund I</td>
+            <td>18,42</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>18,42</td>
+          </tr>            
+          <tr>
+            <td>Fund II</td>
+            <td>10,58</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>10,58</td>
+          </tr>                                    
+        </table>
+        </div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2019.</div>
+      </div>
+      <div class="col-sm">
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"050b17a3-ab7d-4566-93cc-5bc1a6c5d877":{"roots":{"references":[{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"navy"},"height":{"value":0.8},"left":{"expr":{"id":"802571","type":"Stack"}},"line_color":{"value":"navy"},"right":{"expr":{"id":"802572","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802581","type":"HBar"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,0],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[16.0,15.83,18.42,10.58],"Privada":[0,0,0,0]},"selected":{"id":"802604","type":"Selection"},"selection_policy":{"id":"802603","type":"UnionRenderers"}},"id":"802579","type":"ColumnDataSource"},{"attributes":{"source":{"id":"802592","type":"ColumnDataSource"}},"id":"802597","type":"CDSView"},{"attributes":{"fields":["Municipal","Estadual","Federal","Privada"]},"id":"802578","type":"Stack"},{"attributes":{"below":[{"id":"802559","type":"LinearAxis"}],"center":[{"id":"802563","type":"Grid"},{"id":"802567","type":"Grid"},{"id":"802590","type":"Legend"}],"left":[{"id":"802564","type":"CategoricalAxis"}],"outline_line_color":{"value":null},"plot_height":400,"renderers":[{"id":"802583","type":"GlyphRenderer"},{"id":"802596","type":"GlyphRenderer"},{"id":"802610","type":"GlyphRenderer"},{"id":"802626","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"802549","type":"Title"},"toolbar":{"id":"802569","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"802551","type":"DataRange1d"},"x_scale":{"id":"802555","type":"LinearScale"},"y_range":{"id":"802553","type":"FactorRange"},"y_scale":{"id":"802557","type":"CategoricalScale"}},"id":"802548","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,0],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[16.0,15.83,18.42,10.58],"Privada":[0,0,0,0]},"selected":{"id":"802638","type":"Selection"},"selection_policy":{"id":"802637","type":"UnionRenderers"}},"id":"802606","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"red"},"height":{"value":0.8},"left":{"expr":{"id":"802577","type":"Stack"}},"line_color":{"value":"red"},"right":{"expr":{"id":"802578","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802624","type":"HBar"},{"attributes":{"source":{"id":"802579","type":"ColumnDataSource"}},"id":"802584","type":"CDSView"},{"attributes":{},"id":"802619","type":"UnionRenderers"},{"attributes":{},"id":"802560","type":"BasicTicker"},{"attributes":{"data_source":{"id":"802622","type":"ColumnDataSource"},"glyph":{"id":"802624","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Privada","nonselection_glyph":{"id":"802625","type":"HBar"},"selection_glyph":null,"view":{"id":"802627","type":"CDSView"}},"id":"802626","type":"GlyphRenderer"},{"attributes":{},"id":"802603","type":"UnionRenderers"},{"attributes":{"data_source":{"id":"802579","type":"ColumnDataSource"},"glyph":{"id":"802581","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Municipal","nonselection_glyph":{"id":"802582","type":"HBar"},"selection_glyph":null,"view":{"id":"802584","type":"CDSView"}},"id":"802583","type":"GlyphRenderer"},{"attributes":{},"id":"802557","type":"CategoricalScale"},{"attributes":{"text":"Alunos por docente - Educa\\u00e7\\u00e3o Infantil e Ensino Fundamental"},"id":"802549","type":"Title"},{"attributes":{"label":{"value":"Municipal"},"renderers":[{"id":"802583","type":"GlyphRenderer"}]},"id":"802591","type":"LegendItem"},{"attributes":{"label":{"value":"Estadual"},"renderers":[{"id":"802596","type":"GlyphRenderer"}]},"id":"802605","type":"LegendItem"},{"attributes":{"data_source":{"id":"802606","type":"ColumnDataSource"},"glyph":{"id":"802608","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Federal","nonselection_glyph":{"id":"802609","type":"HBar"},"selection_glyph":null,"view":{"id":"802611","type":"CDSView"}},"id":"802610","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"purple"},"height":{"value":0.8},"left":{"expr":{"id":"802575","type":"Stack"}},"line_color":{"value":"purple"},"right":{"expr":{"id":"802576","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802608","type":"HBar"},{"attributes":{"items":[{"id":"802591","type":"LegendItem"},{"id":"802605","type":"LegendItem"},{"id":"802621","type":"LegendItem"},{"id":"802639","type":"LegendItem"}],"orientation":"horizontal"},"id":"802590","type":"Legend"},{"attributes":{"label":{"value":"Federal"},"renderers":[{"id":"802610","type":"GlyphRenderer"}]},"id":"802621","type":"LegendItem"},{"attributes":{},"id":"802604","type":"Selection"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"green"},"height":{"value":0.8},"left":{"expr":{"id":"802573","type":"Stack"}},"line_color":{"value":"green"},"right":{"expr":{"id":"802574","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802594","type":"HBar"},{"attributes":{},"id":"802653","type":"Selection"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"802573","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"802574","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802595","type":"HBar"},{"attributes":{"format":"0a"},"id":"802640","type":"NumeralTickFormatter"},{"attributes":{"dimension":1,"grid_line_color":null,"ticker":{"id":"802565","type":"CategoricalTicker"}},"id":"802567","type":"Grid"},{"attributes":{"formatter":{"id":"802640","type":"NumeralTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"802560","type":"BasicTicker"}},"id":"802559","type":"LinearAxis"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"802571","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"802572","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802582","type":"HBar"},{"attributes":{"callback":null,"start":0},"id":"802551","type":"DataRange1d"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"802575","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"802576","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802609","type":"HBar"},{"attributes":{"source":{"id":"802622","type":"ColumnDataSource"}},"id":"802627","type":"CDSView"},{"attributes":{"fields":["Municipal","Estadual"]},"id":"802574","type":"Stack"},{"attributes":{},"id":"802652","type":"UnionRenderers"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,0],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[16.0,15.83,18.42,10.58],"Privada":[0,0,0,0]},"selected":{"id":"802653","type":"Selection"},"selection_policy":{"id":"802652","type":"UnionRenderers"}},"id":"802622","type":"ColumnDataSource"},{"attributes":{"fields":["Municipal","Estadual"]},"id":"802575","type":"Stack"},{"attributes":{},"id":"802555","type":"LinearScale"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"802577","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"802578","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802625","type":"HBar"},{"attributes":{"fields":["Municipal","Estadual","Federal"]},"id":"802577","type":"Stack"},{"attributes":{},"id":"802565","type":"CategoricalTicker"},{"attributes":{"ticker":{"id":"802560","type":"BasicTicker"}},"id":"802563","type":"Grid"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,0],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[16.0,15.83,18.42,10.58],"Privada":[0,0,0,0]},"selected":{"id":"802620","type":"Selection"},"selection_policy":{"id":"802619","type":"UnionRenderers"}},"id":"802592","type":"ColumnDataSource"},{"attributes":{"source":{"id":"802606","type":"ColumnDataSource"}},"id":"802611","type":"CDSView"},{"attributes":{"label":{"value":"Privada"},"renderers":[{"id":"802626","type":"GlyphRenderer"}]},"id":"802639","type":"LegendItem"},{"attributes":{"formatter":{"id":"802587","type":"CategoricalTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"802565","type":"CategoricalTicker"}},"id":"802564","type":"CategoricalAxis"},{"attributes":{},"id":"802620","type":"Selection"},{"attributes":{"fields":["Municipal"]},"id":"802573","type":"Stack"},{"attributes":{"fields":["Municipal"]},"id":"802572","type":"Stack"},{"attributes":{},"id":"802638","type":"Selection"},{"attributes":{"callback":null,"factors":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"range_padding":1},"id":"802553","type":"FactorRange"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"802568","type":"HoverTool"}]},"id":"802569","type":"Toolbar"},{"attributes":{"fields":[]},"id":"802571","type":"Stack"},{"attributes":{"data_source":{"id":"802592","type":"ColumnDataSource"},"glyph":{"id":"802594","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Estadual","nonselection_glyph":{"id":"802595","type":"HBar"},"selection_glyph":null,"view":{"id":"802597","type":"CDSView"}},"id":"802596","type":"GlyphRenderer"},{"attributes":{"callback":null,"tooltips":"Rede $name: @$name"},"id":"802568","type":"HoverTool"},{"attributes":{},"id":"802637","type":"UnionRenderers"},{"attributes":{},"id":"802587","type":"CategoricalTickFormatter"},{"attributes":{"fields":["Municipal","Estadual","Federal"]},"id":"802576","type":"Stack"}],"root_ids":["802548"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"050b17a3-ab7d-4566-93cc-5bc1a6c5d877","roots":{"802548":"79ffe543-5538-4224-9128-2c0e754c6e9e"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+        
+<div class="bk-root" id="79ffe543-5538-4224-9128-2c0e754c6e9e" data-root-id="802548"></div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2019.</div>
+      </div>
+    </div>
+        
+
+    
+    <p class="h5 mt-5 font-weight-bold">Número de escolas por etapa e por rede de ensino</p>
+    <div class="row">
+      <div class="col-sm">
+        <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead>
+            <th></th>
+            <th>municipal</th>
+            <th>estadual</th>
+            <th>federal</th>
+            <th>privada</th>
+            <th>total</th>
+          </thead>
+          <tr>
+            <td>Creche</td>
+            <td>6</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>Pré-Escola</td>
+            <td>14</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>14</td>
+          </tr>            
+          <tr>
+            <td>Fund I</td>
+            <td>15</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>15</td>
+          </tr>            
+          <tr>
+            <td>Fund II</td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>2</td>
+          </tr>                                    
+        </table>   
+        </div>       
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2019.</div>
+      </div>
+      <div class="col-sm">
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"3360a1b8-0db1-49fb-a59e-64ed75abcacf":{"roots":{"references":[{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,0],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[6,14,15,2],"Privada":[0,0,0,0]},"selected":{"id":"802807","type":"Selection"},"selection_policy":{"id":"802806","type":"UnionRenderers"}},"id":"802776","type":"ColumnDataSource"},{"attributes":{"below":[{"id":"802713","type":"LinearAxis"}],"center":[{"id":"802717","type":"Grid"},{"id":"802721","type":"Grid"},{"id":"802744","type":"Legend"}],"left":[{"id":"802718","type":"CategoricalAxis"}],"outline_line_color":{"value":null},"plot_height":400,"renderers":[{"id":"802737","type":"GlyphRenderer"},{"id":"802750","type":"GlyphRenderer"},{"id":"802764","type":"GlyphRenderer"},{"id":"802780","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"802703","type":"Title"},"toolbar":{"id":"802723","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"802705","type":"DataRange1d"},"x_scale":{"id":"802709","type":"LinearScale"},"y_range":{"id":"802707","type":"FactorRange"},"y_scale":{"id":"802711","type":"CategoricalScale"}},"id":"802702","subtype":"Figure","type":"Plot"},{"attributes":{"source":{"id":"802760","type":"ColumnDataSource"}},"id":"802765","type":"CDSView"},{"attributes":{"fields":["Municipal","Estadual"]},"id":"802729","type":"Stack"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,0],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[6,14,15,2],"Privada":[0,0,0,0]},"selected":{"id":"802774","type":"Selection"},"selection_policy":{"id":"802773","type":"UnionRenderers"}},"id":"802746","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"802731","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"802732","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802779","type":"HBar"},{"attributes":{"label":{"value":"Municipal"},"renderers":[{"id":"802737","type":"GlyphRenderer"}]},"id":"802745","type":"LegendItem"},{"attributes":{"label":{"value":"Privada"},"renderers":[{"id":"802780","type":"GlyphRenderer"}]},"id":"802793","type":"LegendItem"},{"attributes":{"fields":["Municipal","Estadual"]},"id":"802728","type":"Stack"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"navy"},"height":{"value":0.8},"left":{"expr":{"id":"802725","type":"Stack"}},"line_color":{"value":"navy"},"right":{"expr":{"id":"802726","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802735","type":"HBar"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"802722","type":"HoverTool"}]},"id":"802723","type":"Toolbar"},{"attributes":{},"id":"802792","type":"Selection"},{"attributes":{"dimension":1,"grid_line_color":null,"ticker":{"id":"802719","type":"CategoricalTicker"}},"id":"802721","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"green"},"height":{"value":0.8},"left":{"expr":{"id":"802727","type":"Stack"}},"line_color":{"value":"green"},"right":{"expr":{"id":"802728","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802748","type":"HBar"},{"attributes":{"fields":["Municipal","Estadual","Federal","Privada"]},"id":"802732","type":"Stack"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"802727","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"802728","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802749","type":"HBar"},{"attributes":{"text":"Escolas - Educa\\u00e7\\u00e3o Infantil e Ensino Fundamental"},"id":"802703","type":"Title"},{"attributes":{"source":{"id":"802776","type":"ColumnDataSource"}},"id":"802781","type":"CDSView"},{"attributes":{"format":"0a"},"id":"802794","type":"NumeralTickFormatter"},{"attributes":{"formatter":{"id":"802741","type":"CategoricalTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"802719","type":"CategoricalTicker"}},"id":"802718","type":"CategoricalAxis"},{"attributes":{"source":{"id":"802746","type":"ColumnDataSource"}},"id":"802751","type":"CDSView"},{"attributes":{"data_source":{"id":"802746","type":"ColumnDataSource"},"glyph":{"id":"802748","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Estadual","nonselection_glyph":{"id":"802749","type":"HBar"},"selection_glyph":null,"view":{"id":"802751","type":"CDSView"}},"id":"802750","type":"GlyphRenderer"},{"attributes":{"callback":null,"factors":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"range_padding":1},"id":"802707","type":"FactorRange"},{"attributes":{},"id":"802791","type":"UnionRenderers"},{"attributes":{"label":{"value":"Estadual"},"renderers":[{"id":"802750","type":"GlyphRenderer"}]},"id":"802759","type":"LegendItem"},{"attributes":{"data_source":{"id":"802760","type":"ColumnDataSource"},"glyph":{"id":"802762","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Federal","nonselection_glyph":{"id":"802763","type":"HBar"},"selection_glyph":null,"view":{"id":"802765","type":"CDSView"}},"id":"802764","type":"GlyphRenderer"},{"attributes":{},"id":"802757","type":"UnionRenderers"},{"attributes":{"fields":["Municipal"]},"id":"802726","type":"Stack"},{"attributes":{},"id":"802806","type":"UnionRenderers"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"802725","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"802726","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802736","type":"HBar"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"purple"},"height":{"value":0.8},"left":{"expr":{"id":"802729","type":"Stack"}},"line_color":{"value":"purple"},"right":{"expr":{"id":"802730","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802762","type":"HBar"},{"attributes":{"fields":[]},"id":"802725","type":"Stack"},{"attributes":{"data_source":{"id":"802776","type":"ColumnDataSource"},"glyph":{"id":"802778","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Privada","nonselection_glyph":{"id":"802779","type":"HBar"},"selection_glyph":null,"view":{"id":"802781","type":"CDSView"}},"id":"802780","type":"GlyphRenderer"},{"attributes":{"ticker":{"id":"802714","type":"BasicTicker"}},"id":"802717","type":"Grid"},{"attributes":{"callback":null,"start":0},"id":"802705","type":"DataRange1d"},{"attributes":{"items":[{"id":"802745","type":"LegendItem"},{"id":"802759","type":"LegendItem"},{"id":"802775","type":"LegendItem"},{"id":"802793","type":"LegendItem"}],"orientation":"horizontal"},"id":"802744","type":"Legend"},{"attributes":{"data_source":{"id":"802733","type":"ColumnDataSource"},"glyph":{"id":"802735","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"Municipal","nonselection_glyph":{"id":"802736","type":"HBar"},"selection_glyph":null,"view":{"id":"802738","type":"CDSView"}},"id":"802737","type":"GlyphRenderer"},{"attributes":{"source":{"id":"802733","type":"ColumnDataSource"}},"id":"802738","type":"CDSView"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,0],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[6,14,15,2],"Privada":[0,0,0,0]},"selected":{"id":"802792","type":"Selection"},"selection_policy":{"id":"802791","type":"UnionRenderers"}},"id":"802760","type":"ColumnDataSource"},{"attributes":{},"id":"802709","type":"LinearScale"},{"attributes":{},"id":"802758","type":"Selection"},{"attributes":{},"id":"802741","type":"CategoricalTickFormatter"},{"attributes":{},"id":"802714","type":"BasicTicker"},{"attributes":{"callback":null,"data":{"Estadual":[0,0,0,0],"Etapas":["Creche","Pr\\u00e9-Escola","Fundamental I","Fundamental II"],"Federal":[0,0,0,0],"Municipal":[6,14,15,2],"Privada":[0,0,0,0]},"selected":{"id":"802758","type":"Selection"},"selection_policy":{"id":"802757","type":"UnionRenderers"}},"id":"802733","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"left":{"expr":{"id":"802729","type":"Stack"}},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"expr":{"id":"802730","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802763","type":"HBar"},{"attributes":{"fields":["Municipal","Estadual","Federal"]},"id":"802731","type":"Stack"},{"attributes":{},"id":"802711","type":"CategoricalScale"},{"attributes":{"label":{"value":"Federal"},"renderers":[{"id":"802764","type":"GlyphRenderer"}]},"id":"802775","type":"LegendItem"},{"attributes":{"fields":["Municipal"]},"id":"802727","type":"Stack"},{"attributes":{},"id":"802774","type":"Selection"},{"attributes":{"formatter":{"id":"802794","type":"NumeralTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"802714","type":"BasicTicker"}},"id":"802713","type":"LinearAxis"},{"attributes":{},"id":"802807","type":"Selection"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"red"},"height":{"value":0.8},"left":{"expr":{"id":"802731","type":"Stack"}},"line_color":{"value":"red"},"right":{"expr":{"id":"802732","type":"Stack"}},"y":{"field":"Etapas"}},"id":"802778","type":"HBar"},{"attributes":{"callback":null,"tooltips":"Rede $name: @$name"},"id":"802722","type":"HoverTool"},{"attributes":{"fields":["Municipal","Estadual","Federal"]},"id":"802730","type":"Stack"},{"attributes":{},"id":"802773","type":"UnionRenderers"},{"attributes":{},"id":"802719","type":"CategoricalTicker"}],"root_ids":["802702"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"3360a1b8-0db1-49fb-a59e-64ed75abcacf","roots":{"802702":"c1766d88-5758-4bfd-9655-34ab8c7c8b59"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+        
+<div class="bk-root" id="c1766d88-5758-4bfd-9655-34ab8c7c8b59" data-root-id="802702"></div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2019.</div>
+      </div>
+    </div>
+     
+    
+    
+    <p class="h5 mt-5 font-weight-bold">Número de escolas ao longo dos anos por etapa de ensino</p>
+    <div class="row mt-3">
+      <div class="col-sm"> 
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"150fe4a1-ae8b-4d72-b442-25fb1b067283":{"roots":{"references":[{"attributes":{"dimension":1,"ticker":{"id":"802872","type":"BasicTicker"}},"id":"802875","type":"Grid"},{"attributes":{},"id":"802865","type":"LinearScale"},{"attributes":{"line_alpha":0.8,"line_color":"navy","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"802881","type":"Line"},{"attributes":{},"id":"802888","type":"BasicTickFormatter"},{"attributes":{"formatter":{"id":"802890","type":"CategoricalTickFormatter"},"ticker":{"id":"802868","type":"CategoricalTicker"}},"id":"802867","type":"CategoricalAxis"},{"attributes":{},"id":"802890","type":"CategoricalTickFormatter"},{"attributes":{},"id":"802872","type":"BasicTicker"},{"attributes":{"text":"N\\u00famero de escola por ano - Creche"},"id":"802857","type":"Title"},{"attributes":{"callback":null,"end":9.0},"id":"802885","type":"Range1d"},{"attributes":{},"id":"802863","type":"CategoricalScale"},{"attributes":{"source":{"id":"802879","type":"ColumnDataSource"}},"id":"802884","type":"CDSView"},{"attributes":{},"id":"802891","type":"UnionRenderers"},{"attributes":{"callback":null,"data":{"anos":["2008","2010","2012","2014","2016","2018","2019"],"escolas":[5,6,6,5,6,5,6]},"selected":{"id":"802892","type":"Selection"},"selection_policy":{"id":"802891","type":"UnionRenderers"}},"id":"802879","type":"ColumnDataSource"},{"attributes":{"callback":null,"factors":["2008","2010","2012","2014","2016","2018","2019"]},"id":"802859","type":"FactorRange"},{"attributes":{"below":[{"id":"802867","type":"CategoricalAxis"}],"center":[{"id":"802870","type":"Grid"},{"id":"802875","type":"Grid"}],"left":[{"id":"802871","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"802883","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"802857","type":"Title"},"toolbar":{"id":"802877","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"802859","type":"FactorRange"},"x_scale":{"id":"802863","type":"CategoricalScale"},"y_range":{"id":"802885","type":"Range1d"},"y_scale":{"id":"802865","type":"LinearScale"}},"id":"802856","subtype":"Figure","type":"Plot"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"802876","type":"HoverTool"}]},"id":"802877","type":"Toolbar"},{"attributes":{"formatter":{"id":"802888","type":"BasicTickFormatter"},"ticker":{"id":"802872","type":"BasicTicker"}},"id":"802871","type":"LinearAxis"},{"attributes":{"ticker":{"id":"802868","type":"CategoricalTicker"}},"id":"802870","type":"Grid"},{"attributes":{"callback":null,"tooltips":[["Escolas","@escolas"]]},"id":"802876","type":"HoverTool"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"802882","type":"Line"},{"attributes":{},"id":"802892","type":"Selection"},{"attributes":{},"id":"802868","type":"CategoricalTicker"},{"attributes":{"data_source":{"id":"802879","type":"ColumnDataSource"},"glyph":{"id":"802881","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"802882","type":"Line"},"selection_glyph":null,"view":{"id":"802884","type":"CDSView"}},"id":"802883","type":"GlyphRenderer"}],"root_ids":["802856"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"150fe4a1-ae8b-4d72-b442-25fb1b067283","roots":{"802856":"34548285-11ad-4729-a0de-d06dcd35b216"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+<div class="bk-root" id="34548285-11ad-4729-a0de-d06dcd35b216" data-root-id="802856"></div> 
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2008/2019.</div>
+      </div>
+      <div class="col-sm"> 
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"e0c27d54-6b4f-4fe2-878f-a58101ad81a0":{"roots":{"references":[{"attributes":{},"id":"802928","type":"CategoricalScale"},{"attributes":{"ticker":{"id":"802933","type":"CategoricalTicker"}},"id":"802935","type":"Grid"},{"attributes":{"dimension":1,"ticker":{"id":"802937","type":"BasicTicker"}},"id":"802940","type":"Grid"},{"attributes":{"line_alpha":0.8,"line_color":"navy","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"802946","type":"Line"},{"attributes":{},"id":"802956","type":"UnionRenderers"},{"attributes":{"formatter":{"id":"802953","type":"BasicTickFormatter"},"ticker":{"id":"802937","type":"BasicTicker"}},"id":"802936","type":"LinearAxis"},{"attributes":{"formatter":{"id":"802955","type":"CategoricalTickFormatter"},"ticker":{"id":"802933","type":"CategoricalTicker"}},"id":"802932","type":"CategoricalAxis"},{"attributes":{},"id":"802953","type":"BasicTickFormatter"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"802941","type":"HoverTool"}]},"id":"802942","type":"Toolbar"},{"attributes":{"below":[{"id":"802932","type":"CategoricalAxis"}],"center":[{"id":"802935","type":"Grid"},{"id":"802940","type":"Grid"}],"left":[{"id":"802936","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"802948","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"802922","type":"Title"},"toolbar":{"id":"802942","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"802924","type":"FactorRange"},"x_scale":{"id":"802928","type":"CategoricalScale"},"y_range":{"id":"802950","type":"Range1d"},"y_scale":{"id":"802930","type":"LinearScale"}},"id":"802921","subtype":"Figure","type":"Plot"},{"attributes":{"text":"N\\u00famero de escola por ano - Pr\\u00e9-Escola"},"id":"802922","type":"Title"},{"attributes":{},"id":"802955","type":"CategoricalTickFormatter"},{"attributes":{"callback":null,"data":{"anos":["2008","2010","2012","2014","2016","2018","2019"],"escolas":[10,12,12,18,16,11,14]},"selected":{"id":"802957","type":"Selection"},"selection_policy":{"id":"802956","type":"UnionRenderers"}},"id":"802944","type":"ColumnDataSource"},{"attributes":{},"id":"802957","type":"Selection"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"802947","type":"Line"},{"attributes":{"source":{"id":"802944","type":"ColumnDataSource"}},"id":"802949","type":"CDSView"},{"attributes":{"callback":null,"end":27.0},"id":"802950","type":"Range1d"},{"attributes":{"callback":null,"tooltips":[["Escolas","@escolas"]]},"id":"802941","type":"HoverTool"},{"attributes":{},"id":"802937","type":"BasicTicker"},{"attributes":{},"id":"802933","type":"CategoricalTicker"},{"attributes":{},"id":"802930","type":"LinearScale"},{"attributes":{"data_source":{"id":"802944","type":"ColumnDataSource"},"glyph":{"id":"802946","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"802947","type":"Line"},"selection_glyph":null,"view":{"id":"802949","type":"CDSView"}},"id":"802948","type":"GlyphRenderer"},{"attributes":{"callback":null,"factors":["2008","2010","2012","2014","2016","2018","2019"]},"id":"802924","type":"FactorRange"}],"root_ids":["802921"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"e0c27d54-6b4f-4fe2-878f-a58101ad81a0","roots":{"802921":"b3c4e464-694f-4ac6-ae20-1a8a8a2a1240"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+<div class="bk-root" id="b3c4e464-694f-4ac6-ae20-1a8a8a2a1240" data-root-id="802921"></div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2008/2019.</div>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-sm"> 
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"2d635aad-67e3-443c-a4a2-b413f9f73200":{"roots":{"references":[{"attributes":{"text":"N\\u00famero de escola por ano - Fundamental I"},"id":"802987","type":"Title"},{"attributes":{"callback":null,"end":42.0},"id":"803015","type":"Range1d"},{"attributes":{},"id":"803020","type":"CategoricalTickFormatter"},{"attributes":{"data_source":{"id":"803009","type":"ColumnDataSource"},"glyph":{"id":"803011","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"803012","type":"Line"},"selection_glyph":null,"view":{"id":"803014","type":"CDSView"}},"id":"803013","type":"GlyphRenderer"},{"attributes":{"below":[{"id":"802997","type":"CategoricalAxis"}],"center":[{"id":"803000","type":"Grid"},{"id":"803005","type":"Grid"}],"left":[{"id":"803001","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"803013","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"802987","type":"Title"},"toolbar":{"id":"803007","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"802989","type":"FactorRange"},"x_scale":{"id":"802993","type":"CategoricalScale"},"y_range":{"id":"803015","type":"Range1d"},"y_scale":{"id":"802995","type":"LinearScale"}},"id":"802986","subtype":"Figure","type":"Plot"},{"attributes":{"line_alpha":0.8,"line_color":"navy","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"803011","type":"Line"},{"attributes":{},"id":"802995","type":"LinearScale"},{"attributes":{"callback":null,"tooltips":[["Escolas","@escolas"]]},"id":"803006","type":"HoverTool"},{"attributes":{},"id":"802993","type":"CategoricalScale"},{"attributes":{"formatter":{"id":"803018","type":"BasicTickFormatter"},"ticker":{"id":"803002","type":"BasicTicker"}},"id":"803001","type":"LinearAxis"},{"attributes":{"callback":null,"factors":["2008","2010","2012","2014","2016","2018","2019"]},"id":"802989","type":"FactorRange"},{"attributes":{},"id":"803022","type":"Selection"},{"attributes":{"ticker":{"id":"802998","type":"CategoricalTicker"}},"id":"803000","type":"Grid"},{"attributes":{},"id":"803021","type":"UnionRenderers"},{"attributes":{"dimension":1,"ticker":{"id":"803002","type":"BasicTicker"}},"id":"803005","type":"Grid"},{"attributes":{"source":{"id":"803009","type":"ColumnDataSource"}},"id":"803014","type":"CDSView"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"803006","type":"HoverTool"}]},"id":"803007","type":"Toolbar"},{"attributes":{},"id":"803002","type":"BasicTicker"},{"attributes":{"callback":null,"data":{"anos":["2008","2010","2012","2014","2016","2018","2019"],"escolas":[28,26,25,21,19,15,15]},"selected":{"id":"803022","type":"Selection"},"selection_policy":{"id":"803021","type":"UnionRenderers"}},"id":"803009","type":"ColumnDataSource"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"803012","type":"Line"},{"attributes":{},"id":"803018","type":"BasicTickFormatter"},{"attributes":{},"id":"802998","type":"CategoricalTicker"},{"attributes":{"formatter":{"id":"803020","type":"CategoricalTickFormatter"},"ticker":{"id":"802998","type":"CategoricalTicker"}},"id":"802997","type":"CategoricalAxis"}],"root_ids":["802986"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"2d635aad-67e3-443c-a4a2-b413f9f73200","roots":{"802986":"f409a6fc-2c8a-431f-b30c-c370ee8b80b7"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+<div class="bk-root" id="f409a6fc-2c8a-431f-b30c-c370ee8b80b7" data-root-id="802986"></div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2008/2019.</div>
+      </div>
+      <div class="col-sm"> 
+        
+<script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  
+                var docs_json = '{"87743bc4-8573-460f-8ed4-6d9cafaeb768":{"roots":{"references":[{"attributes":{"line_alpha":0.8,"line_color":"navy","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"803076","type":"Line"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"anos"},"y":{"field":"escolas"}},"id":"803077","type":"Line"},{"attributes":{"callback":null,"tooltips":[["Escolas","@escolas"]]},"id":"803071","type":"HoverTool"},{"attributes":{"text":"N\\u00famero de escola por ano - Fundamental I"},"id":"803052","type":"Title"},{"attributes":{},"id":"803067","type":"BasicTicker"},{"attributes":{"ticker":{"id":"803063","type":"CategoricalTicker"}},"id":"803065","type":"Grid"},{"attributes":{"source":{"id":"803074","type":"ColumnDataSource"}},"id":"803079","type":"CDSView"},{"attributes":{},"id":"803087","type":"Selection"},{"attributes":{"callback":null,"factors":["2008","2010","2012","2014","2016","2018","2019"]},"id":"803054","type":"FactorRange"},{"attributes":{},"id":"803086","type":"UnionRenderers"},{"attributes":{"formatter":{"id":"803085","type":"CategoricalTickFormatter"},"ticker":{"id":"803063","type":"CategoricalTicker"}},"id":"803062","type":"CategoricalAxis"},{"attributes":{},"id":"803085","type":"CategoricalTickFormatter"},{"attributes":{"callback":null,"data":{"anos":["2008","2010","2012","2014","2016","2018","2019"],"escolas":[3,1,1,1,1,1,2]},"selected":{"id":"803087","type":"Selection"},"selection_policy":{"id":"803086","type":"UnionRenderers"}},"id":"803074","type":"ColumnDataSource"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"803071","type":"HoverTool"}]},"id":"803072","type":"Toolbar"},{"attributes":{"data_source":{"id":"803074","type":"ColumnDataSource"},"glyph":{"id":"803076","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"803077","type":"Line"},"selection_glyph":null,"view":{"id":"803079","type":"CDSView"}},"id":"803078","type":"GlyphRenderer"},{"attributes":{"formatter":{"id":"803083","type":"BasicTickFormatter"},"ticker":{"id":"803067","type":"BasicTicker"}},"id":"803066","type":"LinearAxis"},{"attributes":{"callback":null,"end":4.5},"id":"803080","type":"Range1d"},{"attributes":{"below":[{"id":"803062","type":"CategoricalAxis"}],"center":[{"id":"803065","type":"Grid"},{"id":"803070","type":"Grid"}],"left":[{"id":"803066","type":"LinearAxis"}],"plot_height":400,"plot_width":500,"renderers":[{"id":"803078","type":"GlyphRenderer"}],"sizing_mode":"scale_width","title":{"id":"803052","type":"Title"},"toolbar":{"id":"803072","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"803054","type":"FactorRange"},"x_scale":{"id":"803058","type":"CategoricalScale"},"y_range":{"id":"803080","type":"Range1d"},"y_scale":{"id":"803060","type":"LinearScale"}},"id":"803051","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"803058","type":"CategoricalScale"},{"attributes":{},"id":"803060","type":"LinearScale"},{"attributes":{"dimension":1,"ticker":{"id":"803067","type":"BasicTicker"}},"id":"803070","type":"Grid"},{"attributes":{},"id":"803063","type":"CategoricalTicker"},{"attributes":{},"id":"803083","type":"BasicTickFormatter"}],"root_ids":["803051"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"87743bc4-8573-460f-8ed4-6d9cafaeb768","roots":{"803051":"32bda695-592d-4691-87f0-9afe8eb35a40"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+              
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
+<div class="bk-root" id="32bda695-592d-4691-87f0-9afe8eb35a40" data-root-id="803051"></div>
+        <div class="small font-italic text-right">Elaboração: Insper. Dados: Inep - 2008/2019.</div>
+      </div>
+    </div>
+    </div> 
+     
+
+    
+
+  <!-- Distorção idade-série -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Distorção idade-série</p>
+    <p class="lead my-3">Entre os alunos frequentando os anos iniciais do Ensino Fundamental na rede municipal de Bom Princípio do Piauí, 27,3% apresentavam <a href="https://academia.qedu.org.br/censo-escolar/distorcao-idade-serie/" target="_blank">distorção idade-série</a> em <font class="font-weight-bold">2019</font>, ou seja, estavam mais de dois anos atrasados em relação à série adequada à sua idade. Já nos anos finais do Ensino Fundamental, 59,4% dos alunos apresentavam distorção idade-série. Os dados são do <a href="http://portal.inep.gov.br/web/guest/indicadores-educacionais" target="_blank"><b>Inep</b></a>.</p> 
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Fundamental - anos iniciais</th>
+        <th>Fundamental - anos finais</th>
+      </thead>
+      <thead>
+        <th>Bom Princípio do Piauí</th>
+        <th><div class="text-danger">27,3%</div></th>        
+        <th><div class="text-danger">59,4%</div></th>                          
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>10,9%</td>
+        <td>29,95%</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>16,9%</td>
+        <td>35,56%</td>          
+      </tr>
+      <tr>
+        <td>do estado (PI)</td>
+        <td>20,63%</td>
+        <td>37,25%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>10,79%</td>
+        <td>30,22%</td>          
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: Inep - 2019.</div>
+    </div>
+    
+
+  <!-- Taxas de aprovação, repetência, evasão e migração para EJA -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Taxas de transição</p>
+    <p class="lead my-3">Divulgadas pelo <a href="http://portal.inep.gov.br/web/guest/indicadores-educacionais" target="_blank"><b>Inep</b></a>, as taxas de transição indicam o percentual de alunos aprovados, reprovados, que abandonaram a escola ou que migraram para a EJA de um ano para o outro. As taxas a seguir consideram as transições dos alunos do Ensino Fundamental matrículados na rede pública de <font class="font-weight-bold">2016 para 2017</font>.</p> 
+    
+    
+    
+    
+    
+    <div class="table-responsive">
+      <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th></th>
+        <th colspan="2">Aprovação</th>
+        <th colspan="2">Repetência</th>
+        <th colspan="2">Evasão</th>
+        <th colspan="2">Migração para EJA</th>
+      </thead>
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Fund I</th>
+        <th>Fund II</th>
+        <th>Fund I</th>
+        <th>Fund II</th>
+        <th>Fund I</th>
+        <th>Fund II</th>
+        <th>Fund I</th>
+        <th>Fund II</th>
+      </thead>
+      <thead>
+        <th>Bom Princípio do Piauí</th>
+        <th><div class="text-danger">78%</div></th>        
+        <th><div class="text-danger">55,3%</div></th>
+        <th><div class="text-danger">17,5%</div></th>        
+        <th><div class="text-danger">28,3%</div></th>
+        <th><div class="text-danger">4%</div></th>        
+        <th><div class="text-danger">9,7%</div></th>                  
+        <th><div class="text-danger">0,5%</div></th>        
+        <th><div class="text-danger">6,7%</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>90,7%</td>
+        <td>80,99%</td>
+        <td>7,9%</td>
+        <td>11,82%</td>
+        <td>1,18%</td>
+        <td>4,52%</td>
+        <td>0,22%</td>
+        <td>2,68%</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>84,87%</td>
+        <td>73,47%</td>
+        <td>12,63%</td>
+        <td>16,33%</td>
+        <td>1,98%</td>
+        <td>5,81%</td>
+        <td>0,53%</td>
+        <td>4,39%</td>
+      </tr>
+      <tr>
+        <td>do estado (PI)</td>
+        <td>82,11%</td>
+        <td>74,68%</td>
+        <td>14,94%</td>
+        <td>15,18%</td>
+        <td>2,27%</td>
+        <td>5,35%</td>
+        <td>0,68%</td>
+        <td>4,79%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional<br> (até 50 mil habitantes)</td>
+        <td>90,66%</td>
+        <td>80,95%</td>
+        <td>7,93%</td>
+        <td>11,87%</td>
+        <td>1,18%</td>
+        <td>4,53%</td>
+        <td>0,23%</td>
+        <td>2,64%</td>
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: Inep - 2016-2017.</div>
+    </div>
+    
+
+    
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Habitação -->
+<div class="rounded p-5 bg-light">
+
+  <div class="row  px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="habitacao" style="padding-top: 100px; margin-top: -100px;">Habitação</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+
+  <!-- Aglomerados subnormais -->    
+    
+
+  <!-- Energia elétrica -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">População que vive em domicílios com energia elétrica</p>
+    <p class="lead my-3">Em Bom Princípio do Piauí, 92,22% da população vivia em domicílios com energia elétrica <font class="font-weight-bold">em 2010</font>. Os dados são do <a href="http://atlasbrasil.org.br/" target="_blank">Atlas do Desenvolvimento Humano no Brasil</a>.</p> 
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Vive em domicílio com energia elétrica</th>
+      </thead>
+      <thead>
+        <th>Bom Princípio do Piauí</th>
+        <th><div class="text-danger">92,22%</div></th>        
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>97,19%</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>95,79%</td>
+      </tr>
+      <tr>
+        <td>do estado (PI)</td>
+        <td>87,96%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>97,01%</td>
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: IBGE - Censo Demográfico 2010.</div>
+    </div>
+    
+
+          
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Meio Ambiente -->
+<div class="rounded p-5 bg-light">
+  <div class="row  px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="meioambiente" style="padding-top: 100px; margin-top: -100px;">Meio Ambiente</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+
+  <!-- Incremento de área desmatada-->
+    
+
+  <!-- Esgotamento sanitário -->
+
+    
+
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Esgotamento sanitário</p>
+    <p class="lead my-3">O <a href="http://www.snirh.gov.br/portal/snirh/snirh-1/atlas-esgotos">Sistema Nacional de Informações sobre Recursos Hídricos (Snirh)</a> disponibiliza informações sobre a cobertura da rede de coleta e tratamento de esgoto de cada cidade do país. Com isso, podemos saber, proporcionalmente, quantas pessoas têm esgoto coletado e tratado; quantas tem esgoto coletado, mas despejado sem tratamento no meio ambiente; quantas dependem de soluções individuais, como fossas sépticas; e quantas não são atendidas pelo serviço de esgotamento sanitário de forma alguma. Os dados mais recentes disponíveis no Snirh são de <font class="font-weight-bold">2013</font>, mas é possível que a respectiva empresa prestadora de serviços de água e esgoto de seu município tenha dados mais atualizados.</p> 
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Vive em domicílio sem coleta e sem tratamento de esgoto</th>
+        <th>Depende de solução individual</th>
+        <th>Esgoto coletado, mas não tratado</th>
+        <th>Esgoto coletado e tratado</th>
+      </thead>
+      <thead>
+        <th>Bom Princípio do Piauí</th>
+        <th><div class="text-danger">62,9%</div></th>
+        <th><div class="text-danger">35,2%</div></th>
+        <th><div class="text-success">1,9%</div></th>
+        <th><div class="text-danger">0%</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>46,61%</td>
+        <td>13,59%</td>
+        <td>20,73%</td>
+        <td>19,09%</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>62,7%</td>
+        <td>10,42%</td>
+        <td>18,44%</td>
+        <td>8,46%</td>
+      </tr>
+      <tr>
+        <td>do estado (PI)</td>
+        <td>76,55%</td>
+        <td>20,08%</td>
+        <td>2,69%</td>
+        <td>0,7%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>48,76%</td>
+        <td>13,35%</td>
+        <td>21,1%</td>
+        <td>16,81%</td>
+      </tr>
+    </table>
+    </div>  
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: Snirh - 2013.</div>
+    </div>
+        
+
+  <!-- Coleta de lixo -->
+      
+
+                
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Mobilidade -->
+<div class="rounded p-5 bg-light">
+  <div class="row  px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="mobilidade" style="padding-top: 100px; margin-top: -100px;">Mobilidade</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+  <!-- Tempo de deslocamento -->    
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Deslocamento médio</p>
+    <p class="lead my-3">Em Bom Princípio do Piauí, uma pessoa leva, em média, 22 minutos para se deslocar de casa para o trabalho. Dessas viagens, 2,77% duram mais de uma hora. Os dados são do último Censo do IBGE, realizado <font class="font-weight-bold">em 2010</font>.</p>  
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Tempo médio de deslocamento (minutos)</th>
+        <th>Deslocamentos que duram mais de 1h</th>
+      </thead>
+      <thead>
+        <th>Bom Princípio do Piauí</th>
+        <th><div class="text-success">22</div></th>
+        <th>2,77%</th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>22 minutos</td>
+        <td>5,22%</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>22 minutos</td>
+        <td>5,38%</td>        
+      </tr>
+      <tr>
+        <td>do estado (PI)</td>
+        <td>21 minutos</td>
+        <td>4,77%</td>       
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>21 minutos</td>
+        <td>4,8%</td> 
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: IBGE - Censo Demográfico 2010.</div>
+    </div>
+    
+
+  <!-- Taxa de motorização -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Veículos motorizados</p>
+    <p class="lead my-3">A frota de veículos motorizados de Bom Princípio do Piauí, de acordo com dados do Denatran de <font class="font-weight-bold">2018</font>, é formada por 957 carros, motos e demais automotivos. Isso equivale a uma taxa de motorização de 0,17 veículo por habitante.</p>  
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Frota</th>
+        <th>Taxa de motorização</th>
+      </thead>
+      <thead>
+        <th>Bom Princípio do Piauí</th>
+        <th>957</th>
+        <th>0,17</th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>16.744</td>
+        <td>0,37</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>9.011</td>
+        <td>0,21</td> 
+      </tr>
+      <tr>
+        <td>do estado (PI)</td>
+        <td>5.057</td>
+        <td>0,2</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>4.687</td>
+        <td>0,36</td>        
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: Mobilidados - Denatram - 2018.</div>
+    </div>
+       
+
+  <!-- Pavimentação -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Pavimentação de ruas, calçadas e rampas para cadeirantes</p>
+    <p class="lead my-3">Em Bom Princípio do Piauí, 92,12% da população mora em ruas pavimentadas, 49,33% da população mora em ruas com calçadas e 3,03% da população conta com rampas para cadeirantes próximas de suas casas. Os dados são do último Censo do IBGE, realizado <font class="font-weight-bold">em 2010</font>.</p>  
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Vive em ruas pavimentadas</th>
+        <th>Tem calçadas diante de suas casas</th>
+        <th>Conta com rampas para cadeirantes</th>
+      </thead>
+      <thead>
+        <th>Bom Princípio do Piauí</th>
+        <th><div class="text-success">92,12%</div></th>
+        <th><div class="text-danger">49,33%</div></th>
+        <th><div class="text-danger">3,03%</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>72,35%</td>
+        <td>50,5%</td>
+        <td>3,16%</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>68,34%</td>
+        <td>54,51%</td>
+        <td>1,58%</td>
+      </tr>
+      <tr>
+        <td>do estado (PI)</td>
+        <td>63,2%</td>
+        <td>35,56%</td>
+        <td>1,93%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>72,15%</td>
+        <td>49,15%</td>
+        <td>3,29%</td>
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: IBGE - Censo Demográfico 2010.</div>
+    </div>
+     
+
+                
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Saúde -->
+<div class="rounded p-5 bg-light">
+  <div class="row  px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="saude" style="padding-top: 100px; margin-top: -100px;">Saúde</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+
+  <!-- Quantidade de UBSs -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Número de Unidades Básicas de Saúde municipais</p>
+    <p class="lead my-3">Por meio do DataSUS, podemos consultar os dados do <a href="http://cnes.datasus.gov.br/" target=_blank>Cadastro Nacional de Estabelecimentos de Saúde - CNES</a> para verificar o número de Unidades Básicas de Saúde mantidas pela gestão municipal de Bom Princípio do Piauí. Os dados são de <font class="font-weight-bold">maio de 2020</font>.</p> 
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Quantidade de UBSs</th>
+      </thead>
+      <thead>
+        <th>Bom Princípio do Piauí</th>
+        <th><div class="text-danger">1</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>6,94</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>8,06</td>
+      </tr>
+      <tr>
+        <td>do estado (PI)</td>
+        <td>4,64</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>4,34</td>
+      </tr>
+    </table>
+    </div> 
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: DataSUS - CNES - maio de 2020.</div>
+    </div>
+    
+
+
+  <!-- Leitos hospitalares -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Número de leitos hospitalares</p>
+    <p class="lead my-3">Consultando o DataSUS, sabemos quantos leitos hospitalares estão disponíveis em Bom Princípio do Piauí nas redes SUS e não SUS e quais os tipos de leitos disponíveis.  Os dados são de <font class="font-weight-bold">maio de 2020</font>.</p> 
+    <p class="h5 font-weight-bold">Número de leitos hospitalares por rede</p>
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Leitos de internação SUS</th>
+        <th>Leitos de internação não SUS</th>
+        <th>Leitos complementares SUS</th>
+        <th>Leitos complementares não SUS</th>
+      </thead>
+      <thead>
+        <th>Bom Princípio do Piauí</th>
+        <th><div class="text-danger">6</div></th>
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">0</div></th>                                            
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>56,5</td>
+        <td>23,66</td>
+        <td>7,27</td>
+        <td>6,94</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>54,78</td>
+        <td>12,7</td>
+        <td>5,54</td>
+        <td>4,1</td>
+      </tr>
+      <tr>
+        <td>do estado (PI)</td>
+        <td>30,73</td>
+        <td>4,96</td>
+        <td>2,29</td>
+        <td>1,74</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>18,84</td>
+        <td>3,39</td>
+        <td>0,63</td>
+        <td>0,31</td>
+      </tr>
+    </table>
+    </div> 
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: DataSUS - CNES - maio de 2020.</div>
+    </div>
+    
+    <p class="h5 font-weight-bold">Número de leitos hospitalares por tipo</p>
+    <p class="h6 font-weight-bold">Número de leitos de internação</p>
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Cirúrgicos</th>
+        <th>Clínicos</th>
+        <th>Obstétricos</th>
+        <th>Pediátricos</th>
+        <th>Outras especialidades</th>
+        <th>Hospital-dia</th>
+        <th>Total</th>
+      </thead>
+      <thead>
+        <th>Bom Princípio do Piauí</th>
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">2</div></th>
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">4</div></th>        
+        <th><div class="text-danger">0</div></th>        
+        <th><div class="text-danger">0</div></th>        
+        <th><div class="text-danger">6</div></th>                                                                                                  
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>20,1</td>
+        <td>31,78</td>
+        <td>9,23</td>
+        <td>8,62</td>
+        <td>8,52</td>
+        <td>1,91</td>
+        <td>80,16</td>            
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>16,42</td>
+        <td>26,56</td>
+        <td>9,04</td>
+        <td>8,91</td>
+        <td>5,05</td>
+        <td>1,5</td>
+        <td>67,48</td>
+      </tr>
+      <tr>
+        <td>do estado (PI)</td>
+        <td>8,05</td>
+        <td>13,78</td>
+        <td>5,46</td>
+        <td>5,53</td>
+        <td>2,42</td>
+        <td>0,45</td>
+        <td>35,69</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>3,58</td>
+        <td>10,08</td>
+        <td>3,43</td>
+        <td>3,48</td>
+        <td>1,54</td>
+        <td>0,11</td>
+        <td>22,23</td>
+      </tr>
+    </table>
+    </div> 
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: DataSUS - CNES - maio de 2020.</div>
+
+    <p class="h6 font-weight-bold">Número de leitos complementares</p>
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>UTI - COVID - Pediátrica</th>
+        <th>UTI - COVID - Adulto</th>
+        <th>UTI - Neonatal</th>
+        <th>UTI - Pediátrica</th>
+        <th>UTI - Adulto</th>
+        <th>UTI - Coronariana</th>
+        <th>UTI - Queimados</th>
+        <th>Unid. de isolamento</th>
+        <th>UCI - Neonatal</th>
+        <th>UCI - Pediátrica</th>
+        <th>UCI - Adulto</th>
+        <th>Total</th>
+      </thead>
+      <thead>
+        <th>Bom Princípio do Piauí</th>
+
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">0</div></th>                  
+
+
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">0</div></th>
+        <th><div class="text-danger">0</div></th>        
+        <th><div class="text-danger">0</div></th>        
+        <th><div class="text-danger">0</div></th>       
+        <th><div class="text-danger">0</div></th>       
+        <th><div class="text-danger">0</div></th>       
+        <th><div class="text-danger">0</div></th>                                                                                
+        <th><div class="text-danger">0</div></th>                                                                                                  
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+
+        <td>0,14</td>
+        <td>2,91</td>
+
+        <td>1,65</td>
+        <td>0,88</td>
+        <td>5,63</td>
+        <td>0,19</td>
+        <td>0,04</td>
+        <td>1,01</td>
+        <td>1,17</td> 
+        <td>0,07</td>            
+        <td>0,51</td>            
+        <td>14,21</td>                             
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+
+        <td>0,11</td>
+        <td>2,47</td>
+
+        <td>0,92</td>
+        <td>0,49</td>
+        <td>3,23</td>
+        <td>0,13</td>
+        <td>0,01</td>
+        <td>0,8</td>
+        <td>1,1</td> 
+        <td>0,04</td>            
+        <td>0,33</td>            
+        <td>9,63</td>                             
+      </tr>
+      <tr>
+        <td>do estado (PI)</td>
+
+        <td>0,07</td>
+        <td>1,16</td>
+
+        <td>0,46</td>
+        <td>0,25</td>
+        <td>1,09</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0,38</td>
+        <td>0,5</td> 
+        <td>0,04</td>            
+        <td>0,07</td>            
+        <td>4,02</td>                             
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+
+        <td>0</td>
+        <td>0,2</td>
+
+        <td>0,04</td>
+        <td>0,01</td>
+        <td>0,25</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0,32</td>
+        <td>0,05</td> 
+        <td>0,01</td>            
+        <td>0,05</td>            
+        <td>0,94</td>                             
+      </tr>
+    </table>
+    </div> 
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: DataSUS - CNES - maio de 2020.</div>
+
+    
+
+  <!-- Vacinação -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Vacinação no município</p>
+    <p class="lead my-3">De acordo com dados de <font class="font-weight-bold">2019</font> do <a href="http://www.saude.gov.br/saude-de-a-z/vacinacao/sobre-o-programa" target="_blank">Programa Nacional de Imunização</a>, 45% da população de Bom Princípio do Piauí está imunizada de acordo com o Calendário Nacional de Vacinação.</p> 
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Cobertura vacinal</th>
+      </thead>
+      <thead>
+        <th>Bom Princípio do Piauí</th>
+        <th><div class="text-danger">45%</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>57,32%</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>48,47%</td>
+      </tr>
+      <tr>
+        <td>do estado (PI)</td>
+        <td>49,69%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>58,96%</td>
+      </tr>
+    </table>
+    </div> 
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: DataSUS - Programa Nacional de Imunização - 2019.</div>
+    </div>
+    
+
+  <!-- Mortalidade infantil -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Mortalidade infantil</p>
+    <p class="lead my-3">De acordo com o <a href="http://atlasbrasil.org.br/" target="_blank">Atlas do Desenvolvimento Humano no Brasil</a>, o índice de mortalidade infantil de Bom Princípio do Piauí <font class="font-weight-bold">em 2010</font> foi de 24.3. O índice representa o número de crianças que não deverão sobreviver ao primeiro ano de vida em cada 1000 crianças nascidas vivas.</p> 
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Média do índice de mortalidade infantil</th>
+      </thead>
+      <thead>
+        <th>Bom Princípio do Piauí</th>
+        <th><div class="text-danger">24,3</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>19,25</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>27,19</td>
+      </tr>
+      <tr>
+        <td>do estado (PI)</td>
+        <td>28,24</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>19,65</td>
+      </tr>
+    </table>
+    </div>  
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: IBGE - Censo Demográfico 2010.</div>
+    </div>
+    
+
+  <!-- Taxa de envelhecimento -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">População acima de 65 anos</p>
+    <p class="lead my-3">A taxa de envelhecimento de Bom Princípio do Piauí <font class="font-weight-bold">em 2010</font> foi de 7,62%. O índice representa a parcela da população com 65 anos ou mais de idade. Os dados são do <a href="http://atlasbrasil.org.br/" target="_blank">Atlas do Desenvolvimento Humano no Brasil</a>.</p> 
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>População com 65 anos ou mais de idade</th>
+      </thead>
+      <thead>
+        <th>Bom Princípio do Piauí</th>
+        <th><div class="text-danger">7,62%</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>8,4%</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>8,09%</td>
+      </tr>
+      <tr>
+        <td>do estado (PI)</td>
+        <td>8,24%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>8,61%</td>
+      </tr>
+    </table>
+    </div>
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: IBGE - Censo Demográfico 2010.</div>
+    </div>   
+    
+          
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Segurança -->
+<div class="rounded p-5 bg-light">
+  <div class="row  px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="seguranca" style="padding-top: 100px; margin-top: -100px;">Segurança</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+  <!-- Falta de iluminação pública -->
+    
+    
+    <div class=" px-2 py-2 mt-5 rounded">
+    <p class="h3 font-weight-bold">Ruas sem iluminação pública</p>
+    <p class="lead my-3">A iluminação pública é de resposnsabilidade dos municípios e sua ausência costuma ser relacionada à insegurança.  De acordo com dados  do último Censo Demográfico, 7,39% dos habitantes de áreas urbanas de Bom Princípio do Piauí viviam em ruas sem iluminação pública.</p>
+    <div class="table-responsive">
+    <table class="table table-striped my-3">
+      <thead class="table-head">
+        <th>Municípios</th>
+        <th>Parcela da população urbana<br> que vive em ruas sem iluminação pública</th>
+      </thead>
+      <thead>
+        <th>Bom Princípio do Piauí</th>
+        <th><div class="text-danger">7,39%</div></th>
+      </thead>
+      <tr>
+        <td>de todo o Brasil</td>
+        <td>6,13%</td>
+      </tr>
+      <tr>
+        <td>da região Nordeste</td>
+        <td>7,56%</td>
+      </tr>
+      <tr>
+        <td>do estado (PI)</td>
+        <td>18,43%</td>
+      </tr>
+      <tr>
+        <td>do mesmo porte populacional (até 50 mil habitantes)</td>
+        <td>6,36%</td>
+      </tr>
+    </table>
+    </div>   
+    <div class="small font-italic text-right">Atenção: números representam a média do indicador considerando os municípios de cada recorte. Indicadores em verde ou vermelho representam comparações com a média nacional.<br>Elaboração: Insper. Dados: IBGE - Censo Demográfico 2010.</div>  
+    </div>        
+    
+
+  <!-- Vítimas fatais de armas de fogo -->    
+    
+                
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+<!-- Orçamento -->
+<div class="rounded p-5 bg-light">
+  <div class="row px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="orcamento" style="padding-top: 100px; margin-top: -100px;">Orçamento</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+
+  <!-- Dependência FPM -->    
+    
+
+  <!-- Despesas liquidadas e despesas empenhadas 2018 -->    
+    
+    
+    <p class="lead mt-5">Ainda não encontramos dados sobre este tema para Bom Princípio do Piauí.</p>
+          
+</div>
+
+<p class="mt-3 mb-3"></p>
+
+
+<!-- Sobre -->
+<div class="rounded p-5 bg-light">
+
+  <div class="row px-2 py-2 mt-3 rounded">
+    <div class='col-8-sm'><h1 class="font-weight-bold" id="sobre" style="padding-top: 100px; margin-top: -100px;">Sobre o Raio-X dos Municípios</h1></div>
+    <div class='col-sm text-right'><a class="text-dark" href="#">Voltar <i class="fas fa-angle-double-up"></i></a></div>
+  </div>
+
+  <div class="px-2 py-2 mt-3 rounded">
+    <p class="lead my-3">O <font class="font-weight-bold">Raio-X dos Municípios</font> é uma ferramenta desenvolvida pelo <font class="font-weight-bold">Insper</font> que reúne e organiza dados sobre educação, saúde, habitação, meio ambiente, mobilidade, segurança e orçamento de cada município brasileiro. Confira, a seguir, as bases de dados públicas utilizadas como fonte.</p>
+    <ul>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://datasus.saude.gov.br/cnes-estabelecimentos/&amp;sa=D&amp;ust=1593056455961000">DataSUS - Cadastro Nacional de Estabelecimentos de Sa&uacute;de - Estabelecimentos 2020</a></li>  
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://datasus.saude.gov.br/cnes-recursos-fisicos/&amp;sa=D&amp;ust=1593056455962000">DataSUS - Cadastro Nacional de Estabelecimentos de Sa&uacute;de - Recursos F&iacute;sicos 2020</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://datasus.saude.gov.br/mortalidade-1996-a-2017-pela-cid-10-2/&amp;sa=D&amp;ust=1593056455962000">DataSUS - Mortalidade 2018</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://datasus.saude.gov.br/acesso-a-informacao/imunizacoes-desde-1994/&amp;sa=D&amp;ust=1593056455963000">DataSUS - Programa Nacional de Imuniza&ccedil;&atilde;o 2019</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://sidra.ibge.gov.br/pesquisa/censo-demografico/&amp;sa=D&amp;ust=1593056455963000">IBGE - Censo Demogr&aacute;fico 2010</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://www.ibge.gov.br/geociencias/cartas-e-mapas/redes-geograficas/15798-regioes-de-influencia-das-cidades.html?%3D%26t%3Do-que-e&amp;sa=D&amp;ust=1593056455964000">IBGE - Regi&otilde;es de Influ&ecirc;ncia das Cidades 2018</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=http://ideb.inep.gov.br/&amp;sa=D&amp;ust=1593056455964000">Inep - &Iacute;ndice de Desenvolvimento da Educa&ccedil;&atilde;o B&aacute;sica 2017</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=http://inep.gov.br/sinopses-estatisticas-da-educacao-basica&amp;sa=D&amp;ust=1593056455965000">Inep - Sinopse Estat&iacute;stica da Educa&ccedil;&atilde;o B&aacute;sica 2019</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=http://portal.inep.gov.br/web/guest/indicadores-educacionais&amp;sa=D&amp;ust=1593056455965000">Inep - Taxas de distor&ccedil;&atilde;o idade-s&eacute;rie 2019</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=http://portal.inep.gov.br/web/guest/indicadores-educacionais&amp;sa=D&amp;ust=1593056455966000">Inep - Taxas de Transi&ccedil;&atilde;o 2016-2017</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=http://www.snis.gov.br/diagnostico-anual-residuos-solidos/diagnostico-do-manejo-de-residuos-solidos-urbanos-2018&amp;sa=D&amp;ust=1593056455966000">MDR - Diagn&oacute;stico do Manejo de Res&iacute;duos S&oacute;lidos Urbanos 2018</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://plataforma.mobilidados.org.br/database&amp;sa=D&amp;ust=1593056455967000">Mobilidados - Taxa de motoriza&ccedil;&atilde;o 2018</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=http://atlasbrasil.org.br/&amp;sa=D&amp;ust=1593056455967000">PNUD - Atlas do Desenvolvimento Humano no Brasil 2010</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=http://www.snirh.gov.br/portal/snirh/snirh-1/atlas-esgotos&amp;sa=D&amp;ust=1593056455968000">Sistema Nacional de Informa&ccedil;&otilde;es sobre Recursos H&iacute;dricos 2013</a></li>
+      <li><a traget="_blank"  href="https://www.google.com/url?q=https://siconfi.tesouro.gov.br/siconfi/pages/public/conteudo/conteudo.jsf?id%3D21503&amp;sa=D&amp;ust=1593056455968000">Tesouro Nacional - Sistema de Informa&ccedil;&otilde;es Cont&aacute;beis e Fiscais do Setor P&uacute;blico Brasileiro (API)</a></li>      
+    </ul> 
+  </div>
+
+</div>  
+
+<p class="mt-3 mb-3"></p>
+
+
+<footer style="background-color: #fff6eb; padding: 20px" class="rounded">
+  <div class="mt-5 mb-5 text-center"><a class="text_dark" href="/">Home</a> | <a class="text-dark" href="#">Voltar ao topo <i class="fas fa-angle-double-up"></i></a></div>
+</footer>
+
+
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <footer>
+    <div class="mt-5 mb-5 text-center text-muted"></div>
+  </footer>
+
+</body>	
+
+</html>
